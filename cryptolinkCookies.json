@@ -1,0 +1,42 @@
+{
+  "app": "Nevoirs AutoStep",
+  "domain": "cryptolinkforearn.com",
+  "updatedAt": 1781268697994,
+  "updatedAtText": "2026-06-12T12:51:37.994Z",
+  "count": 3,
+  "cookies": [
+    {
+      "name": "remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d",
+      "value": "eyJpdiI6IkF1Sm4waGZtWSs2aFNVc3hWRmFTRWc9PSIsInZhbHVlIjoiNjJnaWFrakVuWXpDMDhLdWNzcGd2WlhRczl0ZDZZV0dmRW9CdWkvOHFCVjBXZVNLcEdaZXIyd05jY2I4dkdhZENOV0V4TExmcHVWbkF6aTlWUzVsTHJXZndCYmd5MlZhd1VrUkpBQnh5eU9uNDBCaDhnYzFtYlo0L0tRUHIza0FKamh5WVVocFZsSjFMYWZtQk9LTE1vNzM3YWY3SGRhQTJSWk93NVcvM1U3SzJtV21sVGhCZW5oVnExREhLdjFDR0M0dG8yWHoxMEsyd1Z3QkMzVHl3V1l5YU1ISXNMN0RqajlQRE4vb3c2Zz0iLCJtYWMiOiJhNmJiMTczZmNhMmIxNjhlNjVhMjc2ZGExMzY5NGU1YWI2MmViYWRjMGM4ODRhOGE4MWI3N2E5MmU3YmQyZmM2IiwidGFnIjoiIn0%3D",
+      "domain": ".cryptolinkforearn.com",
+      "path": "/",
+      "secure": true,
+      "httpOnly": true,
+      "sameSite": "lax",
+      "session": false,
+      "expirationDate": 1796225580.520946
+    },
+    {
+      "name": "XSRF-TOKEN",
+      "value": "eyJpdiI6IitGelEvWHlnYkxUQ2VrMndBbHJLQVE9PSIsInZhbHVlIjoiRUdwajVRWEtOSEhubC8zM004M0pxN0t6Y3kzbFl4Z1V4ZzBvbWZHQWZ6MGlXcktXTTcyL3Iwcks3SjdEY1lGdVBSbHRsN0lZNEpRZU44NFN0SzRPc1lWWFpEMjhVeGlPZFppUGdlZ2xqMnRzUmk5SlFKeWFDTEtHN3ZFVUVYd3IiLCJtYWMiOiJmMTlkZGFmZDliYmQzYTViNWYzMjJlMzMxYTUyMTU4OTA0YjFlYjg1MjI5ODg1NzYyMjRjZTQ1MzFhNmE5N2M3IiwidGFnIjoiIn0%3D",
+      "domain": "cryptolinkforearn.com",
+      "path": "/",
+      "secure": true,
+      "httpOnly": false,
+      "sameSite": "lax",
+      "session": false,
+      "expirationDate": 1781275892.44268
+    },
+    {
+      "name": "waf_what_a_faucet_session",
+      "value": "eyJpdiI6IlFUcjdvbjBxZzJnZSs2RHY1TFNnMGc9PSIsInZhbHVlIjoiNVI3T09NSnhoYWlwOUdMY1hNdzcrS25HVWFQVmwwb2FZaXhBbzN3ZXZnUktvZ0E5YmlFeVRyOE5vNWl2V2N1T0IxMFBNQm8wNTRvcDNubkt4akgxRGJMTHA1MW5RbHVNNDZ2akh6WHFqSjI1dUNKMWQ3Y09KL0h5RzRGUWZ5blUiLCJtYWMiOiJhYTM4OTVjYTNkOWVmNWUxMmY2NDA5NjA0MDRhYzcyMWQ0YjY5NmI0ZWZiYTk1NThmMTJhNmRiMmY2MzMwM2YwIiwidGFnIjoiIn0%3D",
+      "domain": "cryptolinkforearn.com",
+      "path": "/",
+      "secure": true,
+      "httpOnly": true,
+      "sameSite": "lax",
+      "session": false,
+      "expirationDate": 1781275892.442893
+    }
+  ]
+}
