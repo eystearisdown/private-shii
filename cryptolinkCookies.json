@@ -1,8 +1,8 @@
 {
   "app": "Nevoirs AutoStep",
   "domain": "cryptolinkforearn.com",
-  "updatedAt": 1782140618055,
-  "updatedAtText": "2026-06-22T15:03:38.055Z",
+  "updatedAt": 1782147998833,
+  "updatedAtText": "2026-06-22T17:06:38.833Z",
   "count": 3,
   "cookies": [
     {
@@ -18,25 +18,25 @@
     },
     {
       "name": "XSRF-TOKEN",
-      "value": "eyJpdiI6ImNzOE9MUTBPT0lkZlVlcVVEUjlPUnc9PSIsInZhbHVlIjoiUHB5YWlHYW9QcmRPQVFiMlc3VjRmTE54bCtGeVN2OTRCQ3czcjVDK1ZLa1VYWlJQb09lbXZzSW12c1FGcFd2WGM0M2RqbVZiSnQzOEF1S09qZUFlMnF0Y2VTYlhwUVdoVVExb3BoR1Y4YXdtVnhrSlJxZ1hHTFJjRVdrN0Z2NkkiLCJtYWMiOiIxMGJlZTVkZjA0Y2JiMjMxNjJjM2I2ZGM5MzFiMDQ1YjFhNmJmZjBlMzQ2MWRiYmI1ZDAzZjA4M2ZmZTdmMTUzIiwidGFnIjoiIn0%3D",
+      "value": "eyJpdiI6IlhER29kUzZJU010OUg4ZXljaURTVmc9PSIsInZhbHVlIjoiY1h0c2I3QTZZTXUvNDdCblpTSkw3SWRPM3pwKy9Sa2JFY2FsdEJJRFoxQjgvQzY3VFpGUUp0dkg4c1hCeHFaMkNpSjUwVkttUlNiVGxVV1prTEdLWld5RzREV01PV3F0cGo5dkt3WUFSZ3JnSHVyK21yd0lPd0I0QmdrOWZscTAiLCJtYWMiOiJmNTY3NDFiYzdiZWZjMjBhM2I1YTFhZDcyODBhMTIxOTdmYjkxMzUwMDFmYmFlM2RkMjMyOGI5YWRhZWMzMmJjIiwidGFnIjoiIn0%3D",
       "domain": "cryptolinkforearn.com",
       "path": "/",
       "secure": true,
       "httpOnly": false,
       "sameSite": "lax",
       "session": false,
-      "expirationDate": 1782147815.48217
+      "expirationDate": 1782155195.633618
     },
     {
       "name": "waf_what_a_faucet_session",
-      "value": "eyJpdiI6ImM5N3hEelZmLzlmRTNTY3NKeUxsbUE9PSIsInZhbHVlIjoicjVKNjhJVmhkSTJ3SlFFU0taNlkxUHRvQnVTWVhlYS9CS05teTRuaHVTTjBianozY3AyWkNXZFVnREliYitONjRBTjdEai9CTi84NXFQL0NVdUtrU2phaW45dkJTZjBrQXRPdmNpNk5lMVVtVFY1ODVNT3lvTkMzcEh5bzRYOGQiLCJtYWMiOiIxMzMyMmUwMzAxOTk0ZmUwZTNjZWFjN2QxNjE3NWY5NzA3NDJmNTBiZDI2NDY4ODE0OGIxNzQzNDRhN2Q3ZGUxIiwidGFnIjoiIn0%3D",
+      "value": "eyJpdiI6IlQ5bWgxS2IybVA4aXJ0V1BvV0dnQWc9PSIsInZhbHVlIjoicWxtT2pqaWNqSWhoZVorZ2RmV1pRc0xtY2lhMmlNVVk5Nis3OTBxMWhDSGRyeGNZWU5LZmR0MTIrYmpldk9TREYwWkNuaU1LdWFOWW8xZzloNUozbS9INkxYcW1HYXFhL0xPNzE3cUREY1RCaU9hSm1JVVI0MmlyL3loZVlaY08iLCJtYWMiOiI1ODVjM2FhMzY2ZGViOGI4ODA2MmMzMDQ5YTQzMGFiN2FiYjA3NmQ1YmFjMzE4MzQzZjEzNWFlYTM4MzA1OTI5IiwidGFnIjoiIn0%3D",
       "domain": "cryptolinkforearn.com",
       "path": "/",
       "secure": true,
       "httpOnly": true,
       "sameSite": "lax",
       "session": false,
-      "expirationDate": 1782147815.482446
+      "expirationDate": 1782155195.634026
     }
   ]
 }
