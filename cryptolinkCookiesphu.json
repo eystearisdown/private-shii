@@ -1,0 +1,31 @@
+{
+  "app": "Nevoirs AutoStep",
+  "domain": "cryptolinkforearn.com",
+  "updatedAt": 1782140512868,
+  "updatedAtText": "2026-06-22T15:01:52.868Z",
+  "count": 2,
+  "cookies": [
+    {
+      "name": "XSRF-TOKEN",
+      "value": "eyJpdiI6IjhpN0x0WDBheHp6Q3E2NEtUSnl6Vmc9PSIsInZhbHVlIjoiR25qOEpYTml6NU9jNFJxdnQvbFROSUZuTHNQTmhDalk5Uk5NUys2TUMxMFgwVm1RR1dEWHF4NElKY1d1T3FKclY5T2RwanNtY1lhNkpWNTNGWStscWliNEl1UU11N3lFY21Cejl1MWxyREwrM2IvNDdHUWVPTFp4ajVZVmdRejAiLCJtYWMiOiI4YTdmMzBhZjJiNzUxNGY5ZWZiODM2OTE5MGUzNDlmZTdjMmI4ZjA1YTBkYTdjM2E5NmFlZWRlZWIzODA3N2U3IiwidGFnIjoiIn0%3D",
+      "domain": "cryptolinkforearn.com",
+      "path": "/",
+      "secure": true,
+      "httpOnly": false,
+      "sameSite": "lax",
+      "session": false,
+      "expirationDate": 1782147708.654597
+    },
+    {
+      "name": "waf_what_a_faucet_session",
+      "value": "eyJpdiI6InVCR0M4OWwvMEpiMENIS3RwQ1pGc3c9PSIsInZhbHVlIjoiS3JZdjFJaXJPRXZEcEVHUFhZbXk4RWRtbTlkVmRRZzZtZE8yWml5UkVBSWRabUxaUTZhRlU4T2tFNlhLUEZmMWlqeTRUaTNUVFRtU2taSXRheUgyM1UrWmgwN1N5SHRheVdwZHVXQktYaW5TWVJ6b2RmcVFMSldvZVo1TVlsR3EiLCJtYWMiOiJiMzFmNDgwMTlhYjQ5N2FmYWQ4MTgyMzMwY2FiNzY5MjVkYTZkM2MyOGVlYjlhNTEwODM3NDY1Yjg5NTc5MmM1IiwidGFnIjoiIn0%3D",
+      "domain": "cryptolinkforearn.com",
+      "path": "/",
+      "secure": true,
+      "httpOnly": true,
+      "sameSite": "lax",
+      "session": false,
+      "expirationDate": 1782147708.65481
+    }
+  ]
+}
