@@ -1,42 +1,42 @@
 {
   "app": "Nevoirs AutoStep",
   "domain": "cryptolinkforearn.com",
-  "updatedAt": 1782143948929,
-  "updatedAtText": "2026-06-22T15:59:08.929Z",
+  "updatedAt": 1782144571554,
+  "updatedAtText": "2026-06-22T16:09:31.554Z",
   "count": 3,
   "cookies": [
     {
       "name": "remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d",
-      "value": "eyJpdiI6IjVSSFNOYk5MMVdINmxvMTMrY0RXakE9PSIsInZhbHVlIjoiQU5YTVRiNFBSZWFrVEdBWks3b011ODZhQjFxKzhEZU9zaWo1RWtCemJZTk5ZM2wyMEhwZE1BUEVFRE04SWhmeEFpc3QwbllwRUttNGRVTDF1WFhlSFZIcTlyZnBhbHJKYWlLY0w1MkRWbDJ0T0NkU3dEUTAzdDBUbFlBS2dpV2VhYnF6Nk9sS1BBTmFiK3dYaHo2ZnF3RCtBbXlJMlphNlNEZFAvSDBYZHdJcTAxNlhUK1ZtUlZDZ1RNb0tWeGRDWWQ5RFRtREtDRkxiM2dLU3NtV3BKM2hLaEVkSmtab3RMQ1IyV3UvN1pTVT0iLCJtYWMiOiI0NTE2N2Q2NDY2ZWE4MGFkMDFhYWVmOGYxZjAyMDY3Y2RjMjgzMjY0YjU3NTNmODczZmVlMDkzYWNjMDc0MWIzIiwidGFnIjoiIn0%3D",
+      "value": "eyJpdiI6IkF1Sm4waGZtWSs2aFNVc3hWRmFTRWc9PSIsInZhbHVlIjoiNjJnaWFrakVuWXpDMDhLdWNzcGd2WlhRczl0ZDZZV0dmRW9CdWkvOHFCVjBXZVNLcEdaZXIyd05jY2I4dkdhZENOV0V4TExmcHVWbkF6aTlWUzVsTHJXZndCYmd5MlZhd1VrUkpBQnh5eU9uNDBCaDhnYzFtYlo0L0tRUHIza0FKamh5WVVocFZsSjFMYWZtQk9LTE1vNzM3YWY3SGRhQTJSWk93NVcvM1U3SzJtV21sVGhCZW5oVnExREhLdjFDR0M0dG8yWHoxMEsyd1Z3QkMzVHl3V1l5YU1ISXNMN0RqajlQRE4vb3c2Zz0iLCJtYWMiOiJhNmJiMTczZmNhMmIxNjhlNjVhMjc2ZGExMzY5NGU1YWI2MmViYWRjMGM4ODRhOGE4MWI3N2E5MmU3YmQyZmM2IiwidGFnIjoiIn0%3D",
       "domain": ".cryptolinkforearn.com",
       "path": "/",
       "secure": true,
       "httpOnly": true,
       "sameSite": "lax",
       "session": false,
-      "expirationDate": 1797692587.807751
+      "expirationDate": 1796225580.520946
     },
     {
       "name": "XSRF-TOKEN",
-      "value": "eyJpdiI6IkVFak9oK1NkWjdIS0JBNGZCbEV0N2c9PSIsInZhbHVlIjoiTU5UaHZVZXdiMTJiODZYWTN5MXNWUHNJNnpFL2x6cVJXUmVLcUttSE83SFM3SWQ4VFlqRVkrY0toYVJmRG5ScHFpeFM4a2dManZYb0J1MmM0WU5XeDJmUml5YXlEUUtGckJDVGhqcitoZVhEQWpQWng5TmluYldXVkRQM1NBWnEiLCJtYWMiOiJkMTJiNmY3YzNiNDU2NjYzOGEzZjMwNzE1OTY4YzVhNGQyY2NjYmMwNjFlZDczMDc2ZTU2NWE4OGMyOGVhNmYzIiwidGFnIjoiIn0%3D",
+      "value": "eyJpdiI6IkFBL1BZU2UrNnJXYTVPVHI0eG5MZ2c9PSIsInZhbHVlIjoiMXZpdkdMT1RnemJNbHpQUmxBc08xeHJ5c2pUUWQ5WUFtbTNTMWpUYWRJNjR1aFRkeWp4NXBsUS81NkplMmdCdWhud2ZwN2dpM2VvVGtXdHV1N0ZZVXQxSmNYT1RSazNBWElTbDllN1RPalI3b2d3aERGNVc3RWtsT0FGZ0s4QUkiLCJtYWMiOiJlNmRhZmYzYjgyMTA0MzczMmI5YjUwZWFmMjQ2NDgzOGU3MGMxOGE4Y2E3Yzg4ZjkxNGZlMTMyMTM2ZTZiNWRlIiwidGFnIjoiIn0%3D",
       "domain": "cryptolinkforearn.com",
       "path": "/",
       "secure": true,
       "httpOnly": false,
       "sameSite": "lax",
       "session": false,
-      "expirationDate": 1782151138.966243
+      "expirationDate": 1782151756.315548
     },
     {
       "name": "waf_what_a_faucet_session",
-      "value": "eyJpdiI6IlNVcXNEaXdEeEJuTWtIemcyYjdoTkE9PSIsInZhbHVlIjoiSkRyMTU0OTBMZGczVTFUcGtpZFpZVTViQXMvMHp6ZWZvb1hGc3lTbjFYSXoyU0ErazcyWXp6RFBRODRNbnFZbDZtWW5DQnNqY3dRbE1XYityRXl6SFZjVDE5QURKVCsrYWlsTlRLcjZKbmw5MVl4VGwvZVRHTmhubmRCZ0FtckoiLCJtYWMiOiJhYzRhZjEzN2M0ZDRmMGFmYjAzYWNkMTRmMmE5ODNkYzBkMzJkNWViNjE1ZTY2ODM5MzZhNzM0ODcyYTU2NDQ3IiwidGFnIjoiIn0%3D",
+      "value": "eyJpdiI6Ikx2SE82VnJIdnFYbEloUkV4YnhySEE9PSIsInZhbHVlIjoiMG1xZlh1WmJRbzNvOW9MREVaNm1rUldvVVBiQ3YwODJLUERnd3YrelFtRTF0N1BFeDhiT3E3ajMvU2ZnbEVaUFJqbWRWUVNxTk8wUVNJZ0hlNTNMN1VQM1BuTVBraGpYUThJS1k1VlltZjdGa3paVU0yMjhXUmF5bUt3M0FkU0QiLCJtYWMiOiIyM2RjZjM0Y2ZlNTViZWJmMmVlZGI5YmUwZWRiMDFkYTQ1MDNiOTVlYTk1ZjI5OTI1M2U5ODc2ZTNjZmI2NGQxIiwidGFnIjoiIn0%3D",
       "domain": "cryptolinkforearn.com",
       "path": "/",
       "secure": true,
       "httpOnly": true,
       "sameSite": "lax",
       "session": false,
-      "expirationDate": 1782151138.967012
+      "expirationDate": 1782151756.315714
     }
   ]
 }
