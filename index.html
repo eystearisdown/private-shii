@@ -96,13 +96,15 @@ h1 {
   display: flex;
   gap: 10px;
   margin-bottom: 12px;
+  flex-wrap: wrap;
 }
 .inputRow input {
   flex: 1;
+  min-width: 140px;
   background: rgba(255,255,255,.06);
   border: 1px solid var(--line);
   color: var(--txt);
-  padding: 12px 16px;
+  padding: 14px 16px;
   border-radius: 14px;
   font-size: 15px;
   outline: none;
@@ -110,6 +112,19 @@ h1 {
 .inputRow input:focus {
   border-color: var(--cyan);
   box-shadow: 0 0 0 3px rgba(105,231,255,.1);
+}
+
+/* Mobile responsive */
+@media (max-width: 480px) {
+  body { padding: 12px; }
+  .header { flex-direction: column; align-items: flex-start; gap: 12px; }
+  .tokenBar { width: 100%; flex-wrap: wrap; }
+  .tokenBar input { width: 100%; margin-top: 6px; }
+  .inputRow { flex-direction: column; }
+  .inputRow input { width: 100%; }
+  .card { padding: 16px; }
+  .keyItem { flex-direction: column; align-items: flex-start; gap: 12px; }
+  .keyActions { width: 100%; justify-content: flex-end; }
 }
 button {
   font-family: 'Space Grotesk', sans-serif;
@@ -268,7 +283,7 @@ button {
     </div>
     <div class="tokenBar">
       <span style="color:var(--muted);font-size:12px;">Token</span>
-      <input id="tokenInput" type="password" value="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" placeholder="GitHub Token">
+      <input id="tokenInput" type="password" value="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" placeholder="GitHub Token">
       <button onclick="saveToken()" class="btn secondary" style="padding:8px 16px;font-size:13px;">Lưu</button>
     </div>
   </div>
