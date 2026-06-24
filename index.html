@@ -3,283 +3,320 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NEVOIRS • RedirectMap Control</title>
+<title>Nevoirs • RedirectMap Editor</title>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
 <style>
 :root {
-  --bg: #05020a;
-  --glass: rgba(255,255,255,.07);
-  --line: rgba(255,214,247,.15);
+  --bg: #06030d;
+  --glass: rgba(255,255,255,.08);
+  --line: rgba(255,214,247,.18);
   --pink: #ff7ac8;
-  --cyan: #5de0ff;
-  --violet: #b38cff;
-  --green: #4ade80;
+  --cyan: #69e7ff;
+  --violet: #aa88ff;
+  --green: #48ffa0;
   --red: #ff5371;
-  --txt: #f8f1ff;
-  --muted: rgba(248,241,255,.55);
+  --txt: #fff8ff;
+  --muted: rgba(255,248,255,.6);
 }
-
 * { box-sizing: border-box; margin:0; padding:0; }
 body {
-  font-family: 'Space Grotesk', system-ui, sans-serif;
-  background: #05020a;
+  font-family: 'Space Grotesk', system_ui, sans-serif;
+  background: linear-gradient(145deg, #06030d, #10071f);
   color: var(--txt);
   min-height: 100vh;
-  padding: 24px 16px;
-  position: relative;
-  overflow-x: hidden;
+  padding: 20px;
 }
-
-body::before {
-  content: '';
-  position: fixed;
-  inset: 0;
-  background-image: 
-    linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px);
-  background-size: 48px 48px;
-  pointer-events: none;
-  z-index: -1;
+.container {
+  max-width: 860px;
+  margin: 0 auto;
 }
-
-.container { max-width: 920px; margin: 0 auto; }
-
 .header {
-  display: flex; align-items: center; justify-content: space-between;
-  margin-bottom: 28px; flex-wrap: wrap; gap: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
 }
-
-.logo { display: flex; align-items: center; gap: 14px; }
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
 .logoOrb {
-  width: 58px; height: 58px; border-radius: 18px;
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
   background: linear-gradient(135deg, var(--pink), var(--violet));
-  display: grid; place-items: center;
-  font-weight: 900; font-size: 26px; color: white;
-  box-shadow: 0 0 40px rgba(255,122,200,.4), inset 0 0 20px rgba(255,255,255,.3);
-  transition: transform 0.3s ease;
+  display: grid;
+  place-items: center;
+  font-weight: 900;
+  font-size: 22px;
+  color: white;
+  box-shadow: 0 0 30px rgba(255,122,200,.3);
 }
-.logoOrb:hover { transform: rotate(8deg) scale(1.05); }
-
-h1 { font-size: 32px; font-weight: 800; letter-spacing: -.025em; line-height: 1; }
-.subtitle { font-size: 13px; color: var(--muted); margin-top: 2px; letter-spacing: .5px; }
-
-.stats {
-  display: flex; gap: 12px; align-items: center;
-  background: var(--glass); border: 1px solid var(--line);
-  padding: 8px 20px; border-radius: 999px; font-size: 13px;
+h1 {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -.02em;
 }
-.stat-value { font-weight: 700; color: var(--cyan); }
-
 .tokenBar {
-  display: flex; gap: 10px; align-items: center;
-  background: var(--glass); border: 1px solid var(--line);
-  padding: 8px 10px 8px 18px; border-radius: 999px; font-size: 13px; flex-wrap: wrap;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  background: var(--glass);
+  border: 1px solid var(--line);
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 13px;
 }
 .tokenBar input {
-  background: transparent; border: none; color: var(--txt);
-  font-family: 'JetBrains Mono', monospace; width: 240px; outline: none; font-size: 13px;
+  background: transparent;
+  border: none;
+  color: var(--txt);
+  font-family: 'JetBrains Mono', monospace;
+  width: 260px;
+  outline: none;
 }
-
 .card {
-  background: var(--glass); border: 1px solid var(--line);
-  border-radius: 22px; padding: 24px; margin-bottom: 20px;
-  box-shadow: 0 15px 50px rgba(0,0,0,.35);
-  transition: border-color 0.2s ease;
+  background: var(--glass);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 10px 40px rgba(0,0,0,.3);
 }
-.card:hover { border-color: rgba(93,224,255,.25); }
-
 .sectionTitle {
-  font-size: 12px; font-weight: 700; letter-spacing: 1.5px;
-  text-transform: uppercase; color: var(--muted); margin-bottom: 14px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 12px;
 }
-
-.inputRow { display: flex; gap: 12px; flex-wrap: wrap; }
+.inputRow {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
 .inputRow input {
-  flex: 1; min-width: 160px;
-  background: rgba(255,255,255,.055); border: 1px solid var(--line);
-  color: var(--txt); padding: 15px 18px; border-radius: 16px;
-  font-size: 15px; outline: none; transition: all 0.2s ease;
+  flex: 1;
+  min-width: 140px;
+  background: rgba(255,255,255,.06);
+  border: 1px solid var(--line);
+  color: var(--txt);
+  padding: 14px 16px;
+  border-radius: 14px;
+  font-size: 15px;
+  outline: none;
 }
 .inputRow input:focus {
   border-color: var(--cyan);
-  box-shadow: 0 0 0 4px rgba(93,224,255,.1);
-  background: rgba(255,255,255,.08);
+  box-shadow: 0 0 0 3px rgba(105,231,255,.1);
 }
 
+/* Mobile responsive */
+@media (max-width: 480px) {
+  body { padding: 12px; }
+  .header { flex-direction: column; align-items: flex-start; gap: 12px; }
+  .tokenBar { width: 100%; flex-wrap: wrap; }
+  .tokenBar input { width: 100%; margin-top: 6px; }
+  .inputRow { flex-direction: column; }
+  .inputRow input { width: 100%; }
+  .card { padding: 16px; }
+  .keyItem { flex-direction: column; align-items: flex-start; gap: 12px; }
+  .keyActions { width: 100%; justify-content: flex-end; }
+}
 button {
-  font-family: 'Space Grotesk', system-ui, sans-serif;
-  font-weight: 700; cursor: pointer; transition: all 0.15s cubic-bezier(0.23, 1, 0.32, 1);
-  border: none; display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all .15s ease;
+  border: none;
 }
-
 .btn {
   background: linear-gradient(135deg, var(--pink), var(--violet));
-  color: white; padding: 14px 26px; border-radius: 16px; font-size: 15px;
-  box-shadow: 0 6px 25px rgba(255,122,200,.3); white-space: nowrap;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 14px;
+  font-size: 15px;
+  box-shadow: 0 4px 20px rgba(255,122,200,.25);
 }
-.btn:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(255,122,200,.4); }
-
+.btn:hover { transform: translateY(-1px); }
 .btn.secondary {
-  background: rgba(255,255,255,.09); color: var(--txt);
-  border: 1px solid var(--line); box-shadow: none;
+  background: rgba(255,255,255,.08);
+  color: var(--txt);
+  border: 1px solid var(--line);
 }
-.btn.secondary:hover { background: rgba(255,255,255,.15); border-color: var(--cyan); }
-
 .btn.danger {
-  background: rgba(255,83,113,.12); color: #ffd1db;
-  border: 1px solid rgba(255,83,113,.35);
+  background: rgba(255,83,113,.15);
+  color: #ffd1db;
+  border: 1px solid rgba(255,83,113,.3);
 }
-.btn.danger:hover { background: rgba(255,83,113,.2); }
-
-.keyList { display: grid; gap: 10px; }
-
+.keyList {
+  display: grid;
+  gap: 8px;
+}
 .keyItem {
-  display: flex; align-items: center; justify-content: space-between;
-  background: rgba(255,255,255,.035); border: 1px solid var(--line);
-  border-radius: 18px; padding: 18px 22px; transition: all 0.2s ease; gap: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255,255,255,.04);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 14px 18px;
+  transition: all .1s ease;
 }
 .keyItem:hover {
-  border-color: var(--cyan); background: rgba(93,224,255,.06);
-  transform: translateY(-1px);
+  border-color: var(--cyan);
+  background: rgba(105,231,255,.06);
 }
-
-.keyInfo { display: flex; flex-direction: column; gap: 4px; min-width: 0; flex: 1; }
+.keyInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
 .key {
-  font-family: 'JetBrains Mono', monospace; font-weight: 800;
-  font-size: 17px; color: var(--cyan); word-break: break-all;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 800;
+  font-size: 16px;
+  color: var(--cyan);
 }
 .domain {
-  font-size: 14px; color: var(--muted); word-break: break-all; line-height: 1.3;
+  font-size: 13px;
+  color: var(--muted);
+  word-break: break-all;
 }
-
-.keyActions { display: flex; gap: 8px; flex-shrink: 0; }
-.keyActions button { padding: 9px 16px; border-radius: 12px; font-size: 13px; font-weight: 600; }
-
-.emptyState { text-align: center; padding: 52px 20px; color: var(--muted); }
-.emptyState .icon { font-size: 42px; margin-bottom: 12px; opacity: 0.6; }
-
+.keyActions {
+  display: flex;
+  gap: 8px;
+}
+.keyActions button {
+  padding: 8px 14px;
+  border-radius: 10px;
+  font-size: 13px;
+}
+.emptyState {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--muted);
+}
 .toast {
-  position: fixed; bottom: 28px; left: 50%; transform: translateX(-50%);
-  background: #111; color: white; padding: 15px 26px; border-radius: 999px;
-  box-shadow: 0 15px 40px rgba(0,0,0,.5); display: none; align-items: center;
-  gap: 12px; z-index: 99999; font-weight: 600; font-size: 14px; max-width: 90%;
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #111;
+  color: white;
+  padding: 14px 24px;
+  border-radius: 999px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.4);
+  display: none;
+  align-items: center;
+  gap: 10px;
+  z-index: 9999;
+  font-weight: 600;
 }
 .toast.show { display: flex; }
-.toast.success { background: #052e1f; color: #4ade80; border: 1px solid #166534; }
-.toast.error { background: #2a1218; color: #ff5371; border: 1px solid #4c1d25; }
-
+.toast.success { background: #0f2a1f; color: #48ffa0; }
+.toast.error { background: #2a1218; color: #ff5371; }
 .modal {
-  position: fixed; inset: 0; background: rgba(5,2,10,.9);
-  display: none; align-items: center; justify-content: center;
-  z-index: 99999; backdrop-filter: blur(8px);
+  position: fixed;
+  inset: 0;
+  background: rgba(6,3,13,.85);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
 }
 .modal.open { display: flex; }
-
 .modalContent {
-  background: #10071f; border: 1px solid var(--line);
-  border-radius: 24px; padding: 32px; width: 100%; max-width: 440px;
-  box-shadow: 0 25px 70px rgba(0,0,0,.6);
+  background: #10071f;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 28px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 20px 60px rgba(0,0,0,.5);
 }
-.modalContent h3 { margin-bottom: 20px; font-size: 22px; font-weight: 700; }
+.modalContent h3 {
+  margin-bottom: 16px;
+  font-size: 20px;
+}
 .modalContent input {
-  width: 100%; background: rgba(255,255,255,.06); border: 1px solid var(--line);
-  color: var(--txt); padding: 16px 18px; border-radius: 16px; font-size: 15px;
-  margin-bottom: 20px; outline: none;
+  width: 100%;
+  background: rgba(255,255,255,.06);
+  border: 1px solid var(--line);
+  color: var(--txt);
+  padding: 14px 16px;
+  border-radius: 14px;
+  font-size: 15px;
+  margin-bottom: 16px;
 }
-.modalContent input:focus { border-color: var(--cyan); }
-
-.modalActions { display: flex; gap: 12px; justify-content: flex-end; }
-
-.searchBar { margin-bottom: 18px; }
+.modalActions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+.searchBar {
+  margin-bottom: 16px;
+}
 .searchBar input {
-  width: 100%; background: rgba(255,255,255,.06); border: 1px solid var(--line);
-  padding: 15px 20px; border-radius: 999px; color: var(--txt); font-size: 15px; outline: none;
-}
-.searchBar input:focus { border-color: var(--cyan); }
-
-@media (max-width: 640px) {
-  .header { flex-direction: column; align-items: flex-start; }
-  .tokenBar { width: 100%; }
-  .tokenBar input { width: 100%; }
-  .inputRow { flex-direction: column; }
-  .keyItem { flex-direction: column; align-items: flex-start; }
-  .keyActions { width: 100%; justify-content: flex-end; }
+  width: 100%;
+  background: rgba(255,255,255,.06);
+  border: 1px solid var(--line);
+  padding: 14px 18px;
+  border-radius: 999px;
+  color: var(--txt);
+  font-size: 15px;
 }
 </style>
 </head>
 <body>
 <div class="container">
-  <!-- Header -->
   <div class="header">
     <div class="logo">
       <div class="logoOrb">N</div>
       <div>
         <h1>RedirectMap</h1>
-        <div class="subtitle">NEVOIRS • Control Panel</div>
+        <div style="font-size:13px;color:var(--muted);margin-top:-4px;">Nevoirs • GitHub Editor</div>
       </div>
     </div>
-
-    <div class="stats">
-      <div class="stat">
-        <span style="color:var(--muted)">Total</span>
-        <span id="totalCount" class="stat-value">0</span>
+    <div class="tokenBar">
+      <div style="display:flex; align-items:center; gap:8px; flex:1; min-width:0;">
+        <span style="color:var(--muted);font-size:12px; white-space:nowrap;">GitHub Token</span>
+        <input id="tokenInput" type="password" placeholder="Nhập GitHub PAT (ghp_...)" style="flex:1; min-width:120px;">
       </div>
-      <div style="width:1px;height:16px;background:var(--line)"></div>
-      <div class="stat">
-        <span style="color:var(--muted)">Loaded</span>
-        <span id="loadedCount" class="stat-value">0</span>
-      </div>
+      <button onclick="saveToken()" class="btn secondary" style="padding:8px 16px;font-size:13px; white-space:nowrap;">Lưu Token</button>
     </div>
   </div>
 
-  <!-- Token + Demo -->
-  <div class="card" style="padding:18px 24px; margin-bottom:20px;">
-    <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
-      <div style="flex:1; min-width:220px;">
-        <div style="font-size:12px; color:var(--muted); margin-bottom:4px; padding-left:4px;">GITHUB PERSONAL ACCESS TOKEN</div>
-        <input id="tokenInput" type="password" placeholder="ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" 
-               style="width:100%; background:rgba(255,255,255,.04); border:1px solid var(--line); padding:12px 16px; border-radius:12px; color:var(--txt); font-family:'JetBrains Mono',monospace; font-size:13px;">
-      </div>
-      <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
-        <button onclick="saveToken()" class="btn secondary" style="padding:11px 20px; font-size:13px;">Lưu Token</button>
-        <button onclick="useDemoMode()" class="btn secondary" style="padding:11px 20px; font-size:13px; background:rgba(93,224,255,.1); border:1px solid var(--cyan); color:var(--cyan);">Demo Mode</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Add New -->
   <div class="card">
-    <div class="sectionTitle">THÊM KEY MỚI</div>
+    <div class="sectionTitle">Thêm key mới</div>
     <div class="inputRow">
-      <input id="newKey" placeholder="Key (ví dụ: 127 hoặc home-2)" style="flex:0.55">
-      <input id="newDomain" placeholder="Domain hoặc full URL" style="flex:1">
-      <button onclick="addNewKey()" class="btn">+ Thêm Redirect</button>
+      <input id="newKey" placeholder="Key (ví dụ: 127 hoặc 216-2)" style="flex:0.6">
+      <input id="newDomain" placeholder="Domain hoặc URL (nerland.co hoặc https://...)" style="flex:1.4">
+      <button onclick="addNewKey()" class="btn">+ Thêm</button>
     </div>
   </div>
 
-  <!-- List -->
   <div class="card">
-    <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:16px; flex-wrap:wrap; gap:12px;">
-      <div class="sectionTitle" style="margin:0;">DANH SÁCH REDIRECTS</div>
-      <div style="display:flex; gap:8px; align-items:center;">
-        <button onclick="loadRepo(true)" class="btn secondary" style="padding:9px 18px; font-size:13px;">⟳ Tải lại</button>
-        <button onclick="exportJSON()" class="btn secondary" style="padding:9px 18px; font-size:13px;">Export JSON</button>
-      </div>
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;">
+      <div class="sectionTitle" style="margin:0;">Danh sách key hiện có</div>
+      <button onclick="loadRepo(true)" class="btn secondary" style="padding:8px 18px;font-size:13px;">↻ Reload</button>
     </div>
 
     <div class="searchBar">
-      <input id="searchInput" placeholder="Tìm kiếm theo key hoặc domain..." oninput="filterKeys()">
+      <input id="searchInput" placeholder="Tìm theo key hoặc domain..." oninput="filterKeys()">
     </div>
 
     <div id="keyList" class="keyList"></div>
   </div>
 </div>
 
-<!-- Edit Modal -->
 <div id="editModal" class="modal">
   <div class="modalContent">
-    <h3>Chỉnh sửa <span id="editKeyName" style="color:var(--cyan)"></span></h3>
-    <input id="editDomainInput" placeholder="Domain / URL mới">
+    <h3>Chỉnh sửa key <span id="editKeyName" style="color:var(--cyan)"></span></h3>
+    <input id="editDomainInput" placeholder="Domain mới">
     <div class="modalActions">
       <button onclick="closeEditModal()" class="btn secondary">Hủy</button>
       <button onclick="saveEdit()" class="btn">Lưu thay đổi</button>
@@ -289,16 +326,21 @@ button {
 
 <div id="toast" class="toast"></div>
 
-<div id="loadingOverlay" style="display:none; position:fixed; inset:0; background:rgba(5,2,10,0.75); z-index:99998; align-items:center; justify-content:center; backdrop-filter:blur(6px);">
-  <div style="background:var(--glass); border:1px solid var(--line); border-radius:24px; padding:28px 42px; text-align:center; box-shadow:0 20px 60px rgba(0,0,0,.5);">
-    <div style="width:32px; height:32px; border:3px solid rgba(255,255,255,.15); border-top-color:var(--cyan); border-radius:50%; animation:spin 0.9s linear infinite; margin:0 auto 16px;"></div>
-    <div style="font-weight:700; font-size:15px;">Đang xử lý với GitHub...</div>
-    <div style="font-size:12px; color:var(--muted); margin-top:6px;">Vui lòng chờ trong giây lát</div>
+<!-- Loading Overlay -->
+<div id="loadingOverlay" style="display:none; position:fixed; inset:0; background:rgba(6,3,13,0.7); z-index:99998; align-items:center; justify-content:center; backdrop-filter:blur(4px);">
+  <div style="background:var(--glass); border:1px solid var(--line); border-radius:20px; padding:24px 32px; text-align:center; box-shadow:0 10px 40px rgba(0,0,0,.4);">
+    <div style="width:28px; height:28px; border:3px solid rgba(255,255,255,.2); border-top-color:var(--cyan); border-radius:50%; animation:spin 0.8s linear infinite; margin:0 auto 12px;"></div>
+    <div style="font-weight:700; color:var(--txt);">Đang tải từ GitHub...</div>
+    <div style="font-size:12px; color:var(--muted); margin-top:4px;">Vui lòng chờ một chút</div>
   </div>
 </div>
 
+<style>
+@keyframes spin { to { transform: rotate(360deg); } }
+</style>
+
 <script>
-// Toàn bộ JavaScript logic (giữ nguyên + cải tiến nhỏ)
+// ==================== CONFIG ====================
 const GITHUB_OWNER = "eystearisdown";
 const GITHUB_REPO  = "private-shii";
 const GITHUB_PATH  = "redirectMap.json";
@@ -306,48 +348,64 @@ const GITHUB_PATH  = "redirectMap.json";
 let currentData = null;
 let currentSha = null;
 let allKeys = [];
-let isDemoMode = false;
 
+// ==================== UTIL ====================
 function showToast(msg, type = "success") {
   const t = document.getElementById("toast");
-  t.innerHTML = msg;
+  t.textContent = msg;
   t.className = `toast show ${type}`;
-  setTimeout(() => t.classList.remove("show"), 2600);
+  setTimeout(() => {
+    t.classList.remove("show");
+  }, 2400);
 }
 
 function showLoading(show = true) {
-  document.getElementById("loadingOverlay").style.display = show ? "flex" : "none";
+  const overlay = document.getElementById("loadingOverlay");
+  if (overlay) overlay.style.display = show ? "flex" : "none";
 }
 
-function updateStats() {
-  const total = allKeys.length;
-  document.getElementById("totalCount").textContent = total;
-  document.getElementById("loadedCount").textContent = total;
-}
-
-function useDemoMode() {
-  isDemoMode = true;
-  currentData = {
-    redirects: {
-      "home": "https://nevoirs.com",
-      "127": "https://nerland.co",
-      "216-2": "https://shop.nerland.co",
-      "blog": "https://blog.nevoirs.com",
-      "demo": "https://demo.nevoirs.app",
-      "status": "https://status.nevoirs.com"
-    }
+function getHeaders(token) {
+  return {
+    "Authorization": `Bearer ${token}`,
+    "Content-Type": "application/json",
+    "Accept": "application/vnd.github.v3+json"
   };
-  allKeys = Object.keys(currentData.redirects).sort();
-  renderKeyList(allKeys);
-  updateStats();
-  showToast("Đã bật Demo Mode (dữ liệu mẫu)", "success");
 }
 
-function saveToken() {
+async function loadRepo(showToastMsg = false) {
   const token = document.getElementById("tokenInput").value.trim();
-  if (token) {
-    localStorage.setItem("nevoirs_github_token", token);
-    showToast("Đã lưu GitHub Token");
+  if (!token) {
+    showToast("Thiếu GitHub token", "error");
+    return;
+  }
+
+  showLoading(true);
+  try {
+    const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${GITHUB_PATH}?t=${Date.now()}`;
+    const res = await fetch(url, { headers: getHeaders(token) });
+
+    if (!res.ok) throw new Error("Không load được repo");
+
+    const json = await res.json();
+    currentSha = json.sha;
+
+    const content = atob(json.content.replace(/\n/g, ""));
+    currentData = JSON.parse(content);
+    currentData.redirects = currentData.redirects || {};
+
+    allKeys = Object.keys(currentData.redirects).sort((a,b) => {
+      const na = parseInt(a), nb = parseInt(b);
+      if (!isNaN(na) && !isNaN(nb)) return na - nb;
+      return a.localeCompare(b);
+    });
+
+    renderKeyList(allKeys);
+    if (showToastMsg) showToast("Đã tải lại redirectMap");
+  } catch (e) {
+    console.error(e);
+    showToast("Lỗi khi tải repo. Kiểm tra token hoặc quyền.", "error");
+  } finally {
+    showLoading(false);
   }
 }
 
@@ -356,7 +414,7 @@ function renderKeyList(keysToShow) {
   container.innerHTML = "";
 
   if (!keysToShow || keysToShow.length === 0) {
-    container.innerHTML = `<div class="emptyState"><div class="icon">📭</div><div style="font-weight:600; margin-bottom:4px;">Chưa có redirect nào</div></div>`;
+    container.innerHTML = `<div class="emptyState">Chưa có key nào trong redirectMap.json</div>`;
     return;
   }
 
@@ -367,12 +425,11 @@ function renderKeyList(keysToShow) {
     item.innerHTML = `
       <div class="keyInfo">
         <div class="key">${key}</div>
-        <div class="domain">${domain || "<i style='opacity:0.5'>chưa có domain</i>"}</div>
+        <div class="domain">${domain || "<i>chưa có domain</i>"}</div>
       </div>
       <div class="keyActions">
-        <button onclick="copyToClipboard('${key}', this)" class="btn secondary copy-btn" style="padding:8px 12px; font-size:12px;" title="Copy key">⎘</button>
-        <button onclick="editKey('${key}')" class="btn secondary" style="padding:9px 16px; font-size:13px;">Sửa</button>
-        <button onclick="deleteKey('${key}')" class="btn danger" style="padding:9px 16px; font-size:13px;">Xoá</button>
+        <button onclick="editKey('${key}')" class="btn secondary" style="padding:8px 16px;font-size:13px;">Sửa</button>
+        <button onclick="deleteKey('${key}')" class="btn danger" style="padding:8px 16px;font-size:13px;">Xoá</button>
       </div>
     `;
     container.appendChild(item);
@@ -381,7 +438,10 @@ function renderKeyList(keysToShow) {
 
 function filterKeys() {
   const q = document.getElementById("searchInput").value.toLowerCase().trim();
-  if (!q) { renderKeyList(allKeys); return; }
+  if (!q) {
+    renderKeyList(allKeys);
+    return;
+  }
   const filtered = allKeys.filter(k => {
     const d = (currentData.redirects[k] || "").toLowerCase();
     return k.toLowerCase().includes(q) || d.includes(q);
@@ -392,31 +452,29 @@ function filterKeys() {
 async function addNewKey() {
   const key = document.getElementById("newKey").value.trim();
   const domain = document.getElementById("newDomain").value.trim();
-  if (!key || !domain) { showToast("Cần nhập cả Key và Domain", "error"); return; }
-  if (!currentData) { showToast("Chưa có dữ liệu", "error"); return; }
 
-  currentData.redirects[key] = domain;
-
-  if (isDemoMode) {
-    allKeys = Object.keys(currentData.redirects).sort();
-    renderKeyList(allKeys);
-    updateStats();
-    showToast(`Đã thêm key: ${key} (Demo Mode)`);
-    document.getElementById("newKey").value = "";
-    document.getElementById("newDomain").value = "";
+  if (!key || !domain) {
+    showToast("Cần nhập cả Key và Domain", "error");
     return;
   }
 
   const token = document.getElementById("tokenInput").value.trim();
-  if (!token) { showToast("Thiếu GitHub Token", "error"); return; }
+  if (!token || !currentData) {
+    showToast("Chưa load repo", "error");
+    return;
+  }
+
+  currentData.redirects[key] = domain;
 
   try {
-    await saveToGitHub(`Add redirect key: ${key}`, token);
+    await saveToGitHub(`Add key ${key}`, token);
     showToast(`Đã thêm key: ${key}`);
     document.getElementById("newKey").value = "";
     document.getElementById("newDomain").value = "";
     await loadRepo();
-  } catch (e) { showToast("Lưu thất bại", "error"); }
+  } catch (e) {
+    showToast("Lưu thất bại", "error");
+  }
 }
 
 function editKey(key) {
@@ -433,119 +491,98 @@ function closeEditModal() {
 async function saveEdit() {
   const key = window.currentEditingKey;
   const newDomain = document.getElementById("editDomainInput").value.trim();
-  if (!key || !newDomain) return;
+  const token = document.getElementById("tokenInput").value.trim();
+
+  if (!key || !newDomain || !token) return;
 
   currentData.redirects[key] = newDomain;
 
-  if (isDemoMode) {
-    renderKeyList(allKeys);
-    closeEditModal();
-    showToast(`Đã cập nhật key: ${key} (Demo)`);
-    return;
-  }
-
-  const token = document.getElementById("tokenInput").value.trim();
   try {
-    await saveToGitHub(`Update redirect key: ${key}`, token);
+    await saveToGitHub(`Update ${key}`, token);
     showToast(`Đã cập nhật key: ${key}`);
     closeEditModal();
     await loadRepo();
-  } catch (e) { showToast("Lưu thất bại", "error"); }
+  } catch (e) {
+    showToast("Lưu thất bại", "error");
+  }
 }
 
 async function deleteKey(key) {
-  if (!confirm(`Xoá key "${key}"?`)) return;
-  delete currentData.redirects[key];
-
-  if (isDemoMode) {
-    allKeys = allKeys.filter(k => k !== key);
-    renderKeyList(allKeys);
-    updateStats();
-    showToast(`Đã xoá key: ${key} (Demo Mode)`);
-    return;
-  }
+  if (!confirm(`Xoá key "${key}" khỏi redirectMap?`)) return;
 
   const token = document.getElementById("tokenInput").value.trim();
+  if (!token || !currentData) return;
+
+  delete currentData.redirects[key];
+
   try {
-    await saveToGitHub(`Delete redirect key: ${key}`, token);
+    await saveToGitHub(`Delete key ${key}`, token);
     showToast(`Đã xoá key: ${key}`);
     await loadRepo();
-  } catch (e) { showToast("Xoá thất bại", "error"); }
+  } catch (e) {
+    showToast("Xoá thất bại", "error");
+  }
 }
 
 async function saveToGitHub(message, token) {
   showLoading(true);
   try {
-    const url = `https://api.github.com/repos/\( {GITHUB_OWNER}/ \){GITHUB_REPO}/contents/${GITHUB_PATH}`;
+    const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${GITHUB_PATH}`;
+
     const content = btoa(unescape(encodeURIComponent(JSON.stringify(currentData, null, 2))));
-    const body = { message, content, sha: currentSha };
+
+    const body = {
+      message: message,
+      content: content,
+      sha: currentSha
+    };
 
     const res = await fetch(url, {
       method: "PUT",
-      headers: {
-        "Authorization": `Bearer ${token}`,
-        "Content-Type": "application/json",
-        "Accept": "application/vnd.github.v3+json"
-      },
+      headers: getHeaders(token),
       body: JSON.stringify(body)
     });
-    if (!res.ok) throw new Error(await res.text());
+
+    if (!res.ok) {
+      const err = await res.text();
+      throw new Error(err);
+    }
+
     const result = await res.json();
     currentSha = result.content.sha;
+    return result;
   } finally {
     showLoading(false);
   }
 }
 
-function copyToClipboard(text, btnElement) {
-  navigator.clipboard.writeText(text).then(() => {
-    const original = btnElement.innerHTML;
-    btnElement.innerHTML = "✓";
-    btnElement.style.color = "var(--green)";
-    setTimeout(() => {
-      btnElement.innerHTML = original;
-      btnElement.style.color = "";
-    }, 1400);
-  });
-}
-
-function exportJSON() {
-  if (!currentData) return showToast("Chưa có dữ liệu", "error");
-  const dataStr = JSON.stringify(currentData, null, 2);
-  const dataUri = 'data:application/json;charset=utf-8,' + encodeURIComponent(dataStr);
-  const link = document.createElement('a');
-  link.href = dataUri;
-  link.download = 'redirectMap.json';
-  link.click();
-  showToast("Đã export redirectMap.json");
+function saveToken() {
+  const token = document.getElementById("tokenInput").value.trim();
+  if (token) {
+    localStorage.setItem("nevoirs_github_token", token);
+    showToast("Đã lưu token vào trình duyệt");
+  }
 }
 
 function init() {
+  // Load saved token if any
   const saved = localStorage.getItem("nevoirs_github_token");
-  if (saved) document.getElementById("tokenInput").value = saved;
+  if (saved) {
+    document.getElementById("tokenInput").value = saved;
+  }
 
+  // Auto load on start
   setTimeout(() => {
-    const token = document.getElementById("tokenInput").value.trim();
-    if (token && !isDemoMode) {
-      loadRepo();
-    } else {
-      document.getElementById("keyList").innerHTML = `
-        <div class="emptyState">
-          <div class="icon">🚀</div>
-          <div style="font-weight:600; margin-bottom:4px;">Chào mừng đến RedirectMap Control</div>
-          <div style="font-size:13px;">Dùng <strong>Demo Mode</strong> để test ngay hoặc nhập Token rồi nhấn Tải lại.</div>
-        </div>`;
-    }
-  }, 800);
+    loadRepo();
+  }, 600);
 
+  // Enter key support
   document.getElementById("newKey").addEventListener("keydown", e => {
     if (e.key === "Enter") document.getElementById("newDomain").focus();
   });
   document.getElementById("newDomain").addEventListener("keydown", e => {
     if (e.key === "Enter") addNewKey();
   });
-
-  updateStats();
 }
 
 init();
