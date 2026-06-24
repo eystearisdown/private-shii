@@ -282,9 +282,11 @@ button {
       </div>
     </div>
     <div class="tokenBar">
-      <span style="color:var(--muted);font-size:12px;">Token</span>
-      <input id="tokenInput" type="password" value="" placeholder="GitHub Token">
-      <button onclick="saveToken()" class="btn secondary" style="padding:8px 16px;font-size:13px;">Lưu</button>
+      <div style="display:flex; align-items:center; gap:8px; flex:1; min-width:0;">
+        <span style="color:var(--muted);font-size:12px; white-space:nowrap;">GitHub Token</span>
+        <input id="tokenInput" type="password" placeholder="Nhập GitHub PAT (ghp_...)" style="flex:1; min-width:120px;">
+      </div>
+      <button onclick="saveToken()" class="btn secondary" style="padding:8px 16px;font-size:13px; white-space:nowrap;">Lưu Token</button>
     </div>
   </div>
 
@@ -324,6 +326,19 @@ button {
 
 <div id="toast" class="toast"></div>
 
+<!-- Loading Overlay -->
+<div id="loadingOverlay" style="display:none; position:fixed; inset:0; background:rgba(6,3,13,0.7); z-index:99998; align-items:center; justify-content:center; backdrop-filter:blur(4px);">
+  <div style="background:var(--glass); border:1px solid var(--line); border-radius:20px; padding:24px 32px; text-align:center; box-shadow:0 10px 40px rgba(0,0,0,.4);">
+    <div style="width:28px; height:28px; border:3px solid rgba(255,255,255,.2); border-top-color:var(--cyan); border-radius:50%; animation:spin 0.8s linear infinite; margin:0 auto 12px;"></div>
+    <div style="font-weight:700; color:var(--txt);">Đang tải từ GitHub...</div>
+    <div style="font-size:12px; color:var(--muted); margin-top:4px;">Vui lòng chờ một chút</div>
+  </div>
+</div>
+
+<style>
+@keyframes spin { to { transform: rotate(360deg); } }
+</style>
+
 <script>
 // ==================== CONFIG ====================
 const GITHUB_OWNER = "eystearisdown";
@@ -344,6 +359,11 @@ function showToast(msg, type = "success") {
   }, 2400);
 }
 
+function showLoading(show = true) {
+  const overlay = document.getElementById("loadingOverlay");
+  if (overlay) overlay.style.display = show ? "flex" : "none";
+}
+
 function getHeaders(token) {
   return {
     "Authorization": `Bearer ${token}`,
@@ -359,6 +379,7 @@ async function loadRepo(showToastMsg = false) {
     return;
   }
 
+  showLoading(true);
   try {
     const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${GITHUB_PATH}?t=${Date.now()}`;
     const res = await fetch(url, { headers: getHeaders(token) });
@@ -383,6 +404,8 @@ async function loadRepo(showToastMsg = false) {
   } catch (e) {
     console.error(e);
     showToast("Lỗi khi tải repo. Kiểm tra token hoặc quyền.", "error");
+  } finally {
+    showLoading(false);
   }
 }
 
@@ -502,30 +525,35 @@ async function deleteKey(key) {
 }
 
 async function saveToGitHub(message, token) {
-  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${GITHUB_PATH}`;
+  showLoading(true);
+  try {
+    const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${GITHUB_PATH}`;
 
-  const content = btoa(unescape(encodeURIComponent(JSON.stringify(currentData, null, 2))));
+    const content = btoa(unescape(encodeURIComponent(JSON.stringify(currentData, null, 2))));
 
-  const body = {
-    message: message,
-    content: content,
-    sha: currentSha
-  };
+    const body = {
+      message: message,
+      content: content,
+      sha: currentSha
+    };
 
-  const res = await fetch(url, {
-    method: "PUT",
-    headers: getHeaders(token),
-    body: JSON.stringify(body)
-  });
+    const res = await fetch(url, {
+      method: "PUT",
+      headers: getHeaders(token),
+      body: JSON.stringify(body)
+    });
 
-  if (!res.ok) {
-    const err = await res.text();
-    throw new Error(err);
+    if (!res.ok) {
+      const err = await res.text();
+      throw new Error(err);
+    }
+
+    const result = await res.json();
+    currentSha = result.content.sha;
+    return result;
+  } finally {
+    showLoading(false);
   }
-
-  const result = await res.json();
-  currentSha = result.content.sha;
-  return result;
 }
 
 function saveToken() {
