@@ -196,5 +196,23 @@
       }
     ],
     "changed_at": "27/06/2026 15:51:24"
+  },
+  "236-2": {
+    "scan_url": "https://linkhuongdan.online/236-2/?qq=complete",
+    "images": [
+      {
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/luck8X.png",
+        "sha256": "ae99e2e3cb964121077fd370ad33f3345ccec6ba8a9d146c936349aedb40e61a"
+      },
+      {
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/photo_2026-06-25_12-01-21X.jpg",
+        "sha256": "b2f2a74aa844265cca71ce312b69a88359e26d00e9aeb9855b1bff781d176e02"
+      },
+      {
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/step1.jpg",
+        "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e"
+      }
+    ],
+    "changed_at": "27/06/2026 17:10:54"
   }
 }
