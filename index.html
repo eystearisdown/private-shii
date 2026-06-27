@@ -3,368 +3,443 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nevoirs • RedirectMap Editor</title>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
+<title>Nevoirs • RedirectMap</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <style>
 :root {
   --bg: #06030d;
-  --glass: rgba(255,255,255,.08);
-  --line: rgba(255,214,247,.18);
+  --surface: #0d0820;
+  --glass: rgba(255,255,255,.07);
+  --glass2: rgba(255,255,255,.04);
+  --line: rgba(255,214,247,.14);
+  --line2: rgba(255,214,247,.08);
   --pink: #ff7ac8;
   --cyan: #69e7ff;
   --violet: #aa88ff;
   --green: #48ffa0;
   --red: #ff5371;
+  --yellow: #ffd166;
   --txt: #fff8ff;
-  --muted: rgba(255,248,255,.6);
+  --muted: rgba(255,248,255,.5);
+  --muted2: rgba(255,248,255,.3);
 }
-* { box-sizing: border-box; margin:0; padding:0; }
-body {
-  font-family: 'Space Grotesk', system_ui, sans-serif;
-  background: linear-gradient(145deg, #06030d, #10071f);
-  color: var(--txt);
-  min-height: 100vh;
-  padding: 20px;
+*{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:'Space Grotesk',system-ui,sans-serif;
+  background:var(--bg);
+  color:var(--txt);
+  min-height:100vh;
+  padding:20px 16px 80px;
+  background-image:
+    radial-gradient(ellipse 60% 40% at 70% 0%, rgba(170,136,255,.12) 0%, transparent 60%),
+    radial-gradient(ellipse 40% 30% at 0% 80%, rgba(105,231,255,.06) 0%, transparent 50%);
 }
-.container {
-  max-width: 860px;
-  margin: 0 auto;
+.container{max-width:820px;margin:0 auto;}
+
+/* ─── HEADER ─── */
+.header{
+  display:flex;align-items:center;justify-content:space-between;
+  margin-bottom:24px;gap:12px;flex-wrap:wrap;
 }
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 24px;
+.logo{display:flex;align-items:center;gap:12px;}
+.logoOrb{
+  width:48px;height:48px;border-radius:14px;flex-shrink:0;
+  background:linear-gradient(135deg,var(--pink),var(--violet));
+  display:grid;place-items:center;
+  font-weight:900;font-size:20px;color:#fff;
+  box-shadow:0 0 24px rgba(255,122,200,.35);
 }
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 12px;
+.logoTitle{font-size:24px;font-weight:800;letter-spacing:-.02em;line-height:1.1;}
+.logoSub{font-size:12px;color:var(--muted);margin-top:1px;letter-spacing:.02em;}
+
+/* ─── TOKEN BAR ─── */
+.tokenSection{
+  display:flex;align-items:center;gap:8px;
+  background:var(--glass);border:1px solid var(--line);
+  padding:8px 12px;border-radius:14px;
+  flex:1;min-width:260px;max-width:420px;
 }
-.logoOrb {
-  width: 52px;
-  height: 52px;
-  border-radius: 16px;
-  background: linear-gradient(135deg, var(--pink), var(--violet));
-  display: grid;
-  place-items: center;
-  font-weight: 900;
-  font-size: 22px;
-  color: white;
-  box-shadow: 0 0 30px rgba(255,122,200,.3);
+.tokenLabel{font-size:11px;color:var(--muted);white-space:nowrap;letter-spacing:.05em;text-transform:uppercase;}
+.tokenInput{
+  flex:1;background:transparent;border:none;
+  color:var(--txt);font-family:'JetBrains Mono',monospace;font-size:13px;
+  outline:none;min-width:0;
 }
-h1 {
-  font-size: 28px;
-  font-weight: 800;
-  letter-spacing: -.02em;
+.tokenInput::placeholder{color:var(--muted2);}
+.iconBtn{
+  background:transparent;border:none;color:var(--muted);cursor:pointer;
+  padding:4px;border-radius:6px;line-height:1;font-size:16px;
+  transition:color .15s;flex-shrink:0;
 }
-.tokenBar {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  background: var(--glass);
-  border: 1px solid var(--line);
-  padding: 8px 14px;
-  border-radius: 999px;
-  font-size: 13px;
+.iconBtn:hover{color:var(--txt);}
+.statusDot{
+  width:8px;height:8px;border-radius:50%;flex-shrink:0;
+  background:var(--muted2);transition:background .3s;
 }
-.tokenBar input {
-  background: transparent;
-  border: none;
-  color: var(--txt);
-  font-family: 'JetBrains Mono', monospace;
-  width: 260px;
-  outline: none;
+.statusDot.ok{background:var(--green);box-shadow:0 0 6px rgba(72,255,160,.5);}
+.statusDot.err{background:var(--red);}
+.statusDot.loading{background:var(--yellow);animation:pulse 1s ease infinite;}
+@keyframes pulse{0%,100%{opacity:1;}50%{opacity:.3;}}
+
+/* ─── CARDS ─── */
+.card{
+  background:var(--glass);border:1px solid var(--line);
+  border-radius:18px;padding:18px;margin-bottom:14px;
 }
-.card {
-  background: var(--glass);
-  border: 1px solid var(--line);
-  border-radius: 20px;
-  padding: 20px;
-  margin-bottom: 16px;
-  box-shadow: 0 10px 40px rgba(0,0,0,.3);
+.cardTitle{
+  font-size:11px;font-weight:700;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--muted);margin-bottom:14px;
 }
-.sectionTitle {
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: .08em;
-  text-transform: uppercase;
-  color: var(--muted);
-  margin-bottom: 12px;
-}
-.inputRow {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 12px;
-  flex-wrap: wrap;
-}
-.inputRow input {
-  flex: 1;
-  min-width: 140px;
-  background: rgba(255,255,255,.06);
-  border: 1px solid var(--line);
-  color: var(--txt);
-  padding: 14px 16px;
-  border-radius: 14px;
-  font-size: 15px;
-  outline: none;
-}
-.inputRow input:focus {
-  border-color: var(--cyan);
-  box-shadow: 0 0 0 3px rgba(105,231,255,.1);
+.cardHeader{
+  display:flex;align-items:center;justify-content:space-between;
+  margin-bottom:14px;
 }
 
-/* Mobile responsive */
-@media (max-width: 480px) {
-  body { padding: 12px; }
-  .header { flex-direction: column; align-items: flex-start; gap: 12px; }
-  .tokenBar { width: 100%; flex-wrap: wrap; }
-  .tokenBar input { width: 100%; margin-top: 6px; }
-  .inputRow { flex-direction: column; }
-  .inputRow input { width: 100%; }
-  .card { padding: 16px; }
-  .keyItem { flex-direction: column; align-items: flex-start; gap: 12px; }
-  .keyActions { width: 100%; justify-content: flex-end; }
+/* ─── ADD ROW ─── */
+.addRow{display:flex;gap:8px;flex-wrap:wrap;}
+.addRow input{
+  flex:1;min-width:120px;
+  background:var(--glass2);border:1px solid var(--line);
+  color:var(--txt);padding:11px 14px;border-radius:11px;
+  font-size:14px;font-family:inherit;outline:none;
+  transition:border-color .15s,box-shadow .15s;
 }
-button {
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: 700;
-  cursor: pointer;
-  transition: all .15s ease;
-  border: none;
+.addRow input::placeholder{color:var(--muted2);}
+.addRow input:focus{
+  border-color:var(--cyan);
+  box-shadow:0 0 0 3px rgba(105,231,255,.1);
 }
-.btn {
-  background: linear-gradient(135deg, var(--pink), var(--violet));
-  color: white;
-  padding: 12px 22px;
-  border-radius: 14px;
-  font-size: 15px;
-  box-shadow: 0 4px 20px rgba(255,122,200,.25);
+.addRow input#newKey{flex:0 0 120px;font-family:'JetBrains Mono',monospace;}
+
+/* ─── BUTTONS ─── */
+button{font-family:'Space Grotesk',sans-serif;font-weight:700;cursor:pointer;border:none;transition:all .15s;}
+.btn{
+  background:linear-gradient(135deg,var(--pink),var(--violet));
+  color:#fff;padding:11px 20px;border-radius:11px;font-size:14px;
+  box-shadow:0 3px 16px rgba(255,122,200,.22);white-space:nowrap;
 }
-.btn:hover { transform: translateY(-1px); }
-.btn.secondary {
-  background: rgba(255,255,255,.08);
-  color: var(--txt);
-  border: 1px solid var(--line);
+.btn:hover:not(:disabled){transform:translateY(-1px);box-shadow:0 6px 20px rgba(255,122,200,.32);}
+.btn:active:not(:disabled){transform:translateY(0);}
+.btn:disabled{opacity:.45;cursor:not-allowed;}
+.btn.sm{padding:7px 14px;font-size:12px;border-radius:9px;}
+.btn.ghost{
+  background:var(--glass);color:var(--txt);
+  border:1px solid var(--line);box-shadow:none;
 }
-.btn.danger {
-  background: rgba(255,83,113,.15);
-  color: #ffd1db;
-  border: 1px solid rgba(255,83,113,.3);
+.btn.ghost:hover:not(:disabled){background:rgba(255,255,255,.12);}
+.btn.danger{
+  background:rgba(255,83,113,.12);color:#ffb3bf;
+  border:1px solid rgba(255,83,113,.25);box-shadow:none;
 }
-.keyList {
-  display: grid;
-  gap: 8px;
+.btn.danger:hover:not(:disabled){background:rgba(255,83,113,.22);}
+.btn.confirm-del{
+  background:rgba(255,83,113,.25);color:#ff5371;
+  border:1px solid rgba(255,83,113,.5);box-shadow:none;
+  animation:shakein .2s ease;
 }
-.keyItem {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: rgba(255,255,255,.04);
-  border: 1px solid var(--line);
-  border-radius: 16px;
-  padding: 14px 18px;
-  transition: all .1s ease;
+@keyframes shakein{0%{transform:scale(.9);}100%{transform:scale(1);}}
+
+/* ─── SEARCH ─── */
+.searchWrap{position:relative;margin-bottom:14px;}
+.searchWrap svg{
+  position:absolute;left:13px;top:50%;transform:translateY(-50%);
+  color:var(--muted);pointer-events:none;
 }
-.keyItem:hover {
-  border-color: var(--cyan);
-  background: rgba(105,231,255,.06);
+#searchInput{
+  width:100%;background:var(--glass2);border:1px solid var(--line);
+  padding:11px 14px 11px 38px;border-radius:11px;
+  color:var(--txt);font-size:14px;font-family:inherit;outline:none;
+  transition:border-color .15s;
 }
-.keyInfo {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
+#searchInput::placeholder{color:var(--muted2);}
+#searchInput:focus{border-color:rgba(255,255,255,.25);}
+
+/* ─── KEY LIST ─── */
+.keyList{display:grid;gap:6px;}
+.keyItem{
+  display:flex;align-items:center;gap:12px;
+  background:var(--glass2);border:1px solid var(--line2);
+  border-radius:13px;padding:12px 14px;
+  transition:border-color .12s,background .12s;
+  position:relative;overflow:hidden;
 }
-.key {
-  font-family: 'JetBrains Mono', monospace;
-  font-weight: 800;
-  font-size: 16px;
-  color: var(--cyan);
+.keyItem:hover{border-color:var(--line);background:rgba(255,255,255,.05);}
+.keyItem.editing{
+  border-color:var(--cyan);
+  background:rgba(105,231,255,.05);
 }
-.domain {
-  font-size: 13px;
-  color: var(--muted);
-  word-break: break-all;
+.keyItem.saving{opacity:.6;pointer-events:none;}
+.keyItem.deleting{
+  animation:slideOut .2s ease forwards;
 }
-.keyActions {
-  display: flex;
-  gap: 8px;
+@keyframes slideOut{to{opacity:0;transform:translateX(12px);height:0;padding:0;margin:0;border:0;}}
+
+.keyChip{
+  font-family:'JetBrains Mono',monospace;font-weight:700;
+  font-size:14px;color:var(--cyan);
+  background:rgba(105,231,255,.1);border:1px solid rgba(105,231,255,.2);
+  padding:4px 10px;border-radius:7px;white-space:nowrap;flex-shrink:0;
 }
-.keyActions button {
-  padding: 8px 14px;
-  border-radius: 10px;
-  font-size: 13px;
+.keyDomain{
+  font-size:13px;color:var(--muted);flex:1;min-width:0;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
 }
-.emptyState {
-  text-align: center;
-  padding: 40px 20px;
-  color: var(--muted);
+.keyDomain a{
+  color:var(--muted);text-decoration:none;
+  transition:color .15s;
 }
-.toast {
-  position: fixed;
-  bottom: 24px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: #111;
-  color: white;
-  padding: 14px 24px;
-  border-radius: 999px;
-  box-shadow: 0 10px 30px rgba(0,0,0,.4);
-  display: none;
-  align-items: center;
-  gap: 10px;
-  z-index: 9999;
-  font-weight: 600;
+.keyDomain a:hover{color:var(--txt);}
+.keyActions{display:flex;gap:6px;flex-shrink:0;}
+
+/* Inline edit */
+.inlineEdit{
+  display:none;flex:1;min-width:0;
+  background:rgba(255,255,255,.08);border:1px solid var(--cyan);
+  color:var(--txt);padding:6px 10px;border-radius:8px;
+  font-size:13px;font-family:inherit;outline:none;
 }
-.toast.show { display: flex; }
-.toast.success { background: #0f2a1f; color: #48ffa0; }
-.toast.error { background: #2a1218; color: #ff5371; }
-.modal {
-  position: fixed;
-  inset: 0;
-  background: rgba(6,3,13,.85);
-  display: none;
-  align-items: center;
-  justify-content: center;
-  z-index: 99999;
+.keyItem.editing .inlineEdit{display:flex;}
+.keyItem.editing .keyDomain{display:none;}
+
+/* ─── STATS BAR ─── */
+.statsBar{
+  display:flex;gap:8px;font-size:12px;color:var(--muted);
+  align-items:center;flex-wrap:wrap;
 }
-.modal.open { display: flex; }
-.modalContent {
-  background: #10071f;
-  border: 1px solid var(--line);
-  border-radius: 22px;
-  padding: 28px;
-  width: 100%;
-  max-width: 420px;
-  box-shadow: 0 20px 60px rgba(0,0,0,.5);
+.statPill{
+  background:var(--glass2);border:1px solid var(--line2);
+  padding:4px 10px;border-radius:99px;
+  display:flex;align-items:center;gap:5px;
 }
-.modalContent h3 {
-  margin-bottom: 16px;
-  font-size: 20px;
+.statPill strong{color:var(--txt);}
+
+/* ─── CACHE BADGE ─── */
+.cacheBadge{
+  font-size:11px;color:var(--muted2);
+  display:flex;align-items:center;gap:4px;
 }
-.modalContent input {
-  width: 100%;
-  background: rgba(255,255,255,.06);
-  border: 1px solid var(--line);
-  color: var(--txt);
-  padding: 14px 16px;
-  border-radius: 14px;
-  font-size: 15px;
-  margin-bottom: 16px;
+.cacheBadge span{
+  background:rgba(105,231,255,.08);border:1px solid rgba(105,231,255,.15);
+  color:var(--cyan);padding:2px 8px;border-radius:99px;font-size:10px;letter-spacing:.03em;
 }
-.modalActions {
-  display: flex;
-  gap: 10px;
-  justify-content: flex-end;
+
+/* ─── EMPTY ─── */
+.emptyState{
+  text-align:center;padding:40px 20px;color:var(--muted);
 }
-.searchBar {
-  margin-bottom: 16px;
+.emptyState .emptyIcon{font-size:32px;margin-bottom:8px;opacity:.4;}
+
+/* ─── TOAST ─── */
+.toast{
+  position:fixed;bottom:24px;left:50%;
+  transform:translateX(-50%) translateY(12px);
+  background:#111828;color:var(--txt);
+  padding:12px 20px;border-radius:12px;
+  box-shadow:0 8px 28px rgba(0,0,0,.5);
+  display:flex;align-items:center;gap:10px;z-index:9999;
+  font-size:14px;font-weight:600;
+  opacity:0;pointer-events:none;
+  transition:opacity .2s,transform .2s;border:1px solid var(--line);
+  white-space:nowrap;
 }
-.searchBar input {
-  width: 100%;
-  background: rgba(255,255,255,.06);
-  border: 1px solid var(--line);
-  padding: 14px 18px;
-  border-radius: 999px;
-  color: var(--txt);
-  font-size: 15px;
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0);pointer-events:auto;}
+.toast.success{border-color:rgba(72,255,160,.3);color:var(--green);}
+.toast.error{border-color:rgba(255,83,113,.3);color:var(--red);}
+.toast.info{border-color:rgba(105,231,255,.3);color:var(--cyan);}
+
+/* ─── LOADING OVERLAY ─── */
+#loadingOverlay{
+  display:none;position:fixed;inset:0;
+  background:rgba(6,3,13,.75);z-index:99998;
+  align-items:center;justify-content:center;
+  backdrop-filter:blur(3px);
+}
+.spinner{
+  width:26px;height:26px;border:3px solid rgba(255,255,255,.15);
+  border-top-color:var(--cyan);border-radius:50%;
+  animation:spin .75s linear infinite;
+  margin:0 auto 12px;
+}
+@keyframes spin{to{transform:rotate(360deg);}}
+
+/* ─── MOBILE ─── */
+@media(max-width:520px){
+  .header{flex-direction:column;align-items:flex-start;}
+  .tokenSection{max-width:100%;width:100%;}
+  .addRow input#newKey{flex:0 0 90px;}
+  .keyItem{flex-wrap:wrap;}
+  .keyActions{width:100%;justify-content:flex-end;}
 }
 </style>
 </head>
 <body>
 <div class="container">
+
+  <!-- HEADER -->
   <div class="header">
     <div class="logo">
       <div class="logoOrb">N</div>
       <div>
-        <h1>RedirectMap</h1>
-        <div style="font-size:13px;color:var(--muted);margin-top:-4px;">Nevoirs • GitHub Editor</div>
+        <div class="logoTitle">RedirectMap</div>
+        <div class="logoSub">Nevoirs · GitHub Editor</div>
       </div>
     </div>
-    <div class="tokenBar">
-      <div style="display:flex; align-items:center; gap:8px; flex:1; min-width:0;">
-        <span style="color:var(--muted);font-size:12px; white-space:nowrap;">GitHub Token</span>
-        <input id="tokenInput" type="password" placeholder="Nhập GitHub PAT (ghp_...)" style="flex:1; min-width:120px;">
-      </div>
-      <button onclick="saveToken()" class="btn secondary" style="padding:8px 16px;font-size:13px; white-space:nowrap;">Lưu Token</button>
+    <div class="tokenSection">
+      <div class="statusDot" id="statusDot"></div>
+      <span class="tokenLabel">Token</span>
+      <input class="tokenInput" id="tokenInput" type="password" placeholder="ghp_..." spellcheck="false" autocomplete="off">
+      <button class="iconBtn" id="toggleToken" title="Hiện/ẩn token" onclick="toggleTokenVis()">👁</button>
+      <button class="iconBtn" title="Xoá token đã lưu" onclick="clearToken()" style="font-size:14px;">✕</button>
     </div>
   </div>
 
+  <!-- ADD NEW KEY -->
   <div class="card">
-    <div class="sectionTitle">Thêm key mới</div>
-    <div class="inputRow">
-      <input id="newKey" placeholder="Key (ví dụ: 127 hoặc 216-2)" style="flex:0.6">
-      <input id="newDomain" placeholder="Domain hoặc URL (nerland.co hoặc https://...)" style="flex:1.4">
-      <button onclick="addNewKey()" class="btn">+ Thêm</button>
+    <div class="cardTitle">Thêm key mới</div>
+    <div class="addRow">
+      <input id="newKey" placeholder="Key (vd: 127)" title="Tên key">
+      <input id="newDomain" placeholder="URL đích (vd: nerland.co hoặc https://...)" title="Domain hoặc URL đầy đủ">
+      <button class="btn" id="addBtn" onclick="addNewKey()">+ Thêm</button>
     </div>
   </div>
 
+  <!-- KEY LIST -->
   <div class="card">
-    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;">
-      <div class="sectionTitle" style="margin:0;">Danh sách key hiện có</div>
-      <button onclick="loadRepo(true)" class="btn secondary" style="padding:8px 18px;font-size:13px;">↻ Reload</button>
+    <div class="cardHeader">
+      <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+        <div class="cardTitle" style="margin:0;">Danh sách key</div>
+        <div class="statsBar" id="statsBar"></div>
+      </div>
+      <button class="btn ghost sm" onclick="loadRepo(true)" id="reloadBtn">↻ Tải lại</button>
     </div>
 
-    <div class="searchBar">
-      <input id="searchInput" placeholder="Tìm theo key hoặc domain..." oninput="filterKeys()">
+    <div class="searchWrap">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input id="searchInput" placeholder="Tìm key hoặc domain...">
     </div>
 
     <div id="keyList" class="keyList"></div>
+    <div class="cacheBadge" id="cacheBadge" style="margin-top:10px;display:none;">
+      <span id="cacheTime"></span> · từ cache
+    </div>
   </div>
+
 </div>
 
-<div id="editModal" class="modal">
-  <div class="modalContent">
-    <h3>Chỉnh sửa key <span id="editKeyName" style="color:var(--cyan)"></span></h3>
-    <input id="editDomainInput" placeholder="Domain mới">
-    <div class="modalActions">
-      <button onclick="closeEditModal()" class="btn secondary">Hủy</button>
-      <button onclick="saveEdit()" class="btn">Lưu thay đổi</button>
-    </div>
+<!-- LOADING OVERLAY -->
+<div id="loadingOverlay">
+  <div style="text-align:center;">
+    <div class="spinner"></div>
+    <div style="font-weight:700;">Đang kết nối GitHub...</div>
+    <div style="font-size:12px;color:var(--muted);margin-top:4px;" id="loadingMsg">Vui lòng chờ</div>
   </div>
 </div>
 
 <div id="toast" class="toast"></div>
 
-<!-- Loading Overlay -->
-<div id="loadingOverlay" style="display:none; position:fixed; inset:0; background:rgba(6,3,13,0.7); z-index:99998; align-items:center; justify-content:center; backdrop-filter:blur(4px);">
-  <div style="background:var(--glass); border:1px solid var(--line); border-radius:20px; padding:24px 32px; text-align:center; box-shadow:0 10px 40px rgba(0,0,0,.4);">
-    <div style="width:28px; height:28px; border:3px solid rgba(255,255,255,.2); border-top-color:var(--cyan); border-radius:50%; animation:spin 0.8s linear infinite; margin:0 auto 12px;"></div>
-    <div style="font-weight:700; color:var(--txt);">Đang tải từ GitHub...</div>
-    <div style="font-size:12px; color:var(--muted); margin-top:4px;">Vui lòng chờ một chút</div>
-  </div>
-</div>
-
-<style>
-@keyframes spin { to { transform: rotate(360deg); } }
-</style>
-
 <script>
-// ==================== CONFIG ====================
-const GITHUB_OWNER = "eystearisdown";
-const GITHUB_REPO  = "private-shii";
-const GITHUB_PATH  = "redirectMap.json";
+// ═══════════════════════════════════════════
+//  CONFIG
+// ═══════════════════════════════════════════
+const GH_OWNER = "eystearisdown";
+const GH_REPO  = "private-shii";
+const GH_PATH  = "redirectMap.json";
+const GH_API   = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${GH_PATH}`;
 
-let currentData = null;
-let currentSha = null;
-let allKeys = [];
+const STORAGE_TOKEN = "nevoirs_token";
+const STORAGE_CACHE = "nevoirs_cache";   // { data, sha, ts }
+const CACHE_TTL_MS  = 5 * 60 * 1000;    // 5 phút – sau đó auto-refresh ngầm
 
-// ==================== UTIL ====================
+// ═══════════════════════════════════════════
+//  STATE
+// ═══════════════════════════════════════════
+let currentData = null;   // parsed JSON object
+let currentSha  = null;   // github blob sha
+let allKeys     = [];     // sorted key array
+let pendingDelKey = null; // cho double-click xoá
+
+// ═══════════════════════════════════════════
+//  TOKEN HELPERS
+// ═══════════════════════════════════════════
+const getToken = () => document.getElementById("tokenInput").value.trim();
+
+function persistToken(t) {
+  if (t) localStorage.setItem(STORAGE_TOKEN, t);
+}
+
+function clearToken() {
+  localStorage.removeItem(STORAGE_TOKEN);
+  document.getElementById("tokenInput").value = "";
+  setStatus("idle");
+  showToast("Đã xoá token", "info");
+}
+
+function toggleTokenVis() {
+  const inp = document.getElementById("tokenInput");
+  inp.type = inp.type === "password" ? "text" : "password";
+}
+
+// ═══════════════════════════════════════════
+//  STATUS DOT
+// ═══════════════════════════════════════════
+function setStatus(state) { // "idle"|"loading"|"ok"|"err"
+  const d = document.getElementById("statusDot");
+  d.className = "statusDot" + (state !== "idle" ? " " + state : "");
+}
+
+// ═══════════════════════════════════════════
+//  TOAST
+// ═══════════════════════════════════════════
+let _toastTimer;
 function showToast(msg, type = "success") {
   const t = document.getElementById("toast");
   t.textContent = msg;
   t.className = `toast show ${type}`;
-  setTimeout(() => {
-    t.classList.remove("show");
-  }, 2400);
+  clearTimeout(_toastTimer);
+  _toastTimer = setTimeout(() => t.className = "toast", 2600);
 }
 
-function showLoading(show = true) {
-  const overlay = document.getElementById("loadingOverlay");
-  if (overlay) overlay.style.display = show ? "flex" : "none";
+// ═══════════════════════════════════════════
+//  LOADING
+// ═══════════════════════════════════════════
+function setLoading(on, msg = "") {
+  const el = document.getElementById("loadingOverlay");
+  el.style.display = on ? "flex" : "none";
+  if (msg) document.getElementById("loadingMsg").textContent = msg;
 }
 
-function getHeaders(token) {
+// ═══════════════════════════════════════════
+//  CACHE
+// ═══════════════════════════════════════════
+function saveCache(data, sha) {
+  try {
+    localStorage.setItem(STORAGE_CACHE, JSON.stringify({ data, sha, ts: Date.now() }));
+  } catch (_) {}
+}
+
+function loadCache() {
+  try {
+    const raw = localStorage.getItem(STORAGE_CACHE);
+    if (!raw) return null;
+    return JSON.parse(raw);
+  } catch (_) { return null; }
+}
+
+function renderCacheBadge(ts) {
+  const el = document.getElementById("cacheBadge");
+  const timeEl = document.getElementById("cacheTime");
+  if (!ts) { el.style.display = "none"; return; }
+  const ago = Math.round((Date.now() - ts) / 1000);
+  const label = ago < 60 ? `${ago}s trước` : ago < 3600 ? `${Math.round(ago/60)}p trước` : `${Math.round(ago/3600)}h trước`;
+  timeEl.textContent = label;
+  el.style.display = "flex";
+}
+
+// ═══════════════════════════════════════════
+//  GITHUB API
+// ═══════════════════════════════════════════
+function ghHeaders(token) {
   return {
     "Authorization": `Bearer ${token}`,
     "Content-Type": "application/json",
@@ -372,219 +447,382 @@ function getHeaders(token) {
   };
 }
 
-async function loadRepo(showToastMsg = false) {
-  const token = document.getElementById("tokenInput").value.trim();
+async function fetchFromGitHub(token) {
+  const res = await fetch(`${GH_API}?t=${Date.now()}`, { headers: ghHeaders(token) });
+  if (res.status === 401) throw new Error("Token không hợp lệ hoặc hết hạn");
+  if (res.status === 404) throw new Error("Không tìm thấy file trên GitHub");
+  if (!res.ok) throw new Error(`GitHub lỗi ${res.status}`);
+  const json = await res.json();
+  const content = atob(json.content.replace(/\n/g, ""));
+  return { data: JSON.parse(content), sha: json.sha };
+}
+
+async function pushToGitHub(token, message) {
+  const content = btoa(unescape(encodeURIComponent(JSON.stringify(currentData, null, 2))));
+  const res = await fetch(GH_API, {
+    method: "PUT",
+    headers: ghHeaders(token),
+    body: JSON.stringify({ message, content, sha: currentSha })
+  });
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}));
+    throw new Error(err.message || `GitHub lỗi ${res.status}`);
+  }
+  const result = await res.json();
+  currentSha = result.content.sha;
+  saveCache(currentData, currentSha);
+  return result;
+}
+
+// ═══════════════════════════════════════════
+//  LOAD REPO
+// ═══════════════════════════════════════════
+async function loadRepo(force = false) {
+  const token = getToken();
   if (!token) {
-    showToast("Thiếu GitHub token", "error");
+    showToast("Nhập GitHub token trước", "error");
+    return;
+  }
+  persistToken(token);
+
+  // Try cache first (if not forced)
+  const cache = loadCache();
+  if (!force && cache && (Date.now() - cache.ts < CACHE_TTL_MS)) {
+    currentData = cache.data;
+    currentSha  = cache.sha;
+    applyData();
+    renderCacheBadge(cache.ts);
+    // Background refresh
+    refreshInBackground(token, cache.ts);
     return;
   }
 
-  showLoading(true);
+  setLoading(true, "Đang tải redirectMap...");
+  setStatus("loading");
   try {
-    const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${GITHUB_PATH}?t=${Date.now()}`;
-    const res = await fetch(url, { headers: getHeaders(token) });
-
-    if (!res.ok) throw new Error("Không load được repo");
-
-    const json = await res.json();
-    currentSha = json.sha;
-
-    const content = atob(json.content.replace(/\n/g, ""));
-    currentData = JSON.parse(content);
+    const { data, sha } = await fetchFromGitHub(token);
+    currentData = data;
+    currentSha  = sha;
     currentData.redirects = currentData.redirects || {};
-
-    allKeys = Object.keys(currentData.redirects).sort((a,b) => {
-      const na = parseInt(a), nb = parseInt(b);
-      if (!isNaN(na) && !isNaN(nb)) return na - nb;
-      return a.localeCompare(b);
-    });
-
-    renderKeyList(allKeys);
-    if (showToastMsg) showToast("Đã tải lại redirectMap");
+    saveCache(currentData, sha);
+    applyData();
+    renderCacheBadge(Date.now());
+    setStatus("ok");
+    if (force) showToast(`Đã tải lại · ${allKeys.length} key`);
   } catch (e) {
-    console.error(e);
-    showToast("Lỗi khi tải repo. Kiểm tra token hoặc quyền.", "error");
+    setStatus("err");
+    showToast(e.message || "Lỗi kết nối GitHub", "error");
+    // Fall back to cache even if stale
+    if (cache) {
+      currentData = cache.data;
+      currentSha  = cache.sha;
+      applyData();
+      renderCacheBadge(cache.ts);
+      showToast("Dùng dữ liệu cache cũ", "info");
+    }
   } finally {
-    showLoading(false);
+    setLoading(false);
   }
+}
+
+async function refreshInBackground(token, cacheTs) {
+  // Only refresh if cache older than 30s
+  if (Date.now() - cacheTs < 30_000) return;
+  try {
+    const { data, sha } = await fetchFromGitHub(token);
+    currentData = data;
+    currentSha  = sha;
+    currentData.redirects = currentData.redirects || {};
+    saveCache(currentData, sha);
+    applyData();
+    renderCacheBadge(Date.now());
+    setStatus("ok");
+  } catch (_) {}
+}
+
+// ═══════════════════════════════════════════
+//  RENDER
+// ═══════════════════════════════════════════
+function applyData() {
+  allKeys = Object.keys(currentData.redirects).sort((a, b) => {
+    const na = parseInt(a), nb = parseInt(b);
+    if (!isNaN(na) && !isNaN(nb)) return na - nb;
+    return a.localeCompare(b);
+  });
+  const q = document.getElementById("searchInput").value.toLowerCase().trim();
+  renderKeyList(q ? allKeys.filter(k => matchesQuery(k, q)) : allKeys);
+  updateStats();
+}
+
+function matchesQuery(k, q) {
+  return k.toLowerCase().includes(q) ||
+    (currentData.redirects[k] || "").toLowerCase().includes(q);
+}
+
+function updateStats() {
+  const bar = document.getElementById("statsBar");
+  bar.innerHTML = `<div class="statPill"><strong>${allKeys.length}</strong> key</div>`;
 }
 
 function renderKeyList(keysToShow) {
   const container = document.getElementById("keyList");
-  container.innerHTML = "";
-
-  if (!keysToShow || keysToShow.length === 0) {
-    container.innerHTML = `<div class="emptyState">Chưa có key nào trong redirectMap.json</div>`;
+  if (!keysToShow.length) {
+    container.innerHTML = `<div class="emptyState">
+      <div class="emptyIcon">🗂</div>
+      <div>${currentData ? "Không tìm thấy key nào" : "Chưa tải dữ liệu"}</div>
+    </div>`;
     return;
   }
+  // Reuse existing DOM nodes where possible
+  const existing = {};
+  container.querySelectorAll(".keyItem[data-key]").forEach(el => {
+    existing[el.dataset.key] = el;
+  });
 
+  const frag = document.createDocumentFragment();
   keysToShow.forEach(key => {
-    const domain = currentData.redirects[key] || "";
-    const item = document.createElement("div");
-    item.className = "keyItem";
-    item.innerHTML = `
-      <div class="keyInfo">
-        <div class="key">${key}</div>
-        <div class="domain">${domain || "<i>chưa có domain</i>"}</div>
-      </div>
-      <div class="keyActions">
-        <button onclick="editKey('${key}')" class="btn secondary" style="padding:8px 16px;font-size:13px;">Sửa</button>
-        <button onclick="deleteKey('${key}')" class="btn danger" style="padding:8px 16px;font-size:13px;">Xoá</button>
-      </div>
-    `;
-    container.appendChild(item);
+    if (existing[key]) {
+      // Update domain text in place if not editing
+      const item = existing[key];
+      if (!item.classList.contains("editing")) {
+        const domEl = item.querySelector(".keyDomain");
+        if (domEl) domEl.innerHTML = domainHTML(currentData.redirects[key] || "");
+      }
+      frag.appendChild(item);
+      delete existing[key];
+    } else {
+      frag.appendChild(createKeyItem(key));
+    }
   });
+  container.innerHTML = "";
+  container.appendChild(frag);
 }
 
-function filterKeys() {
-  const q = document.getElementById("searchInput").value.toLowerCase().trim();
-  if (!q) {
-    renderKeyList(allKeys);
-    return;
-  }
-  const filtered = allKeys.filter(k => {
-    const d = (currentData.redirects[k] || "").toLowerCase();
-    return k.toLowerCase().includes(q) || d.includes(q);
+function domainHTML(domain) {
+  if (!domain) return `<i style="color:var(--muted2)">chưa có domain</i>`;
+  const href = domain.startsWith("http") ? domain : `https://${domain}`;
+  return `<a href="${href}" target="_blank" rel="noopener" title="${domain}">${domain}</a>`;
+}
+
+function createKeyItem(key) {
+  const domain = currentData.redirects[key] || "";
+  const div = document.createElement("div");
+  div.className = "keyItem";
+  div.dataset.key = key;
+  div.innerHTML = `
+    <div class="keyChip">${key}</div>
+    <div class="keyDomain">${domainHTML(domain)}</div>
+    <input class="inlineEdit" value="${domain}" placeholder="URL mới..." spellcheck="false">
+    <div class="keyActions">
+      <button class="btn ghost sm edit-btn" onclick="startEdit(this,'${key}')">Sửa</button>
+      <button class="btn ghost sm save-btn" style="display:none;color:var(--green);border-color:rgba(72,255,160,.3);" onclick="commitEdit(this,'${key}')">✓</button>
+      <button class="btn ghost sm cancel-btn" style="display:none;" onclick="cancelEdit(this,'${key}')">✕</button>
+      <button class="btn danger sm del-btn" onclick="handleDelete(this,'${key}')">Xoá</button>
+    </div>`;
+
+  // Enter / Esc on inline input
+  div.querySelector(".inlineEdit").addEventListener("keydown", e => {
+    if (e.key === "Enter") { e.preventDefault(); commitEdit(div.querySelector(".save-btn"), key); }
+    if (e.key === "Escape") cancelEdit(div.querySelector(".cancel-btn"), key);
   });
-  renderKeyList(filtered);
+
+  return div;
 }
 
-async function addNewKey() {
-  const key = document.getElementById("newKey").value.trim();
-  const domain = document.getElementById("newDomain").value.trim();
-
-  if (!key || !domain) {
-    showToast("Cần nhập cả Key và Domain", "error");
-    return;
-  }
-
-  const token = document.getElementById("tokenInput").value.trim();
-  if (!token || !currentData) {
-    showToast("Chưa load repo", "error");
-    return;
-  }
-
-  currentData.redirects[key] = domain;
-
-  try {
-    await saveToGitHub(`Add key ${key}`, token);
-    showToast(`Đã thêm key: ${key}`);
-    document.getElementById("newKey").value = "";
-    document.getElementById("newDomain").value = "";
-    await loadRepo();
-  } catch (e) {
-    showToast("Lưu thất bại", "error");
-  }
+// ═══════════════════════════════════════════
+//  INLINE EDIT
+// ═══════════════════════════════════════════
+function startEdit(btn, key) {
+  const item = btn.closest(".keyItem");
+  item.classList.add("editing");
+  item.querySelector(".edit-btn").style.display = "none";
+  item.querySelector(".save-btn").style.display = "";
+  item.querySelector(".cancel-btn").style.display = "";
+  item.querySelector(".del-btn").style.display = "none";
+  const input = item.querySelector(".inlineEdit");
+  input.value = currentData.redirects[key] || "";
+  input.focus();
+  input.select();
 }
 
-function editKey(key) {
-  document.getElementById("editKeyName").textContent = key;
-  document.getElementById("editDomainInput").value = currentData.redirects[key] || "";
-  document.getElementById("editModal").classList.add("open");
-  window.currentEditingKey = key;
+function cancelEdit(btn, key) {
+  const item = btn.closest(".keyItem");
+  item.classList.remove("editing");
+  item.querySelector(".edit-btn").style.display = "";
+  item.querySelector(".save-btn").style.display = "none";
+  item.querySelector(".cancel-btn").style.display = "none";
+  item.querySelector(".del-btn").style.display = "";
+  pendingDelKey = null;
 }
 
-function closeEditModal() {
-  document.getElementById("editModal").classList.remove("open");
-}
+async function commitEdit(btn, key) {
+  const item = btn.closest(".keyItem");
+  const newDomain = item.querySelector(".inlineEdit").value.trim();
+  const token = getToken();
+  if (!newDomain) { showToast("URL không được để trống", "error"); return; }
+  if (!token) { showToast("Cần có token", "error"); return; }
+  if (newDomain === currentData.redirects[key]) { cancelEdit(btn, key); return; }
 
-async function saveEdit() {
-  const key = window.currentEditingKey;
-  const newDomain = document.getElementById("editDomainInput").value.trim();
-  const token = document.getElementById("tokenInput").value.trim();
-
-  if (!key || !newDomain || !token) return;
-
+  // Optimistic update
   currentData.redirects[key] = newDomain;
+  cancelEdit(btn, key);
+  item.querySelector(".keyDomain").innerHTML = domainHTML(newDomain);
+  item.classList.add("saving");
 
   try {
-    await saveToGitHub(`Update ${key}`, token);
-    showToast(`Đã cập nhật key: ${key}`);
-    closeEditModal();
-    await loadRepo();
+    await pushToGitHub(token, `Update ${key}`);
+    showToast(`✓ Đã cập nhật key ${key}`);
   } catch (e) {
-    showToast("Lưu thất bại", "error");
+    showToast(e.message || "Lưu thất bại", "error");
+    // Rollback
+    await loadRepo(true);
+  } finally {
+    item.classList.remove("saving");
   }
 }
 
-async function deleteKey(key) {
-  if (!confirm(`Xoá key "${key}" khỏi redirectMap?`)) return;
+// ═══════════════════════════════════════════
+//  DELETE (double-confirm via re-click)
+// ═══════════════════════════════════════════
+function handleDelete(btn, key) {
+  if (pendingDelKey === key) {
+    // Second click — confirm
+    deleteKey(key, btn);
+    pendingDelKey = null;
+    return;
+  }
+  // First click — arm
+  if (pendingDelKey) {
+    // Disarm previous
+    const prev = document.querySelector(`.keyItem[data-key="${pendingDelKey}"] .del-btn`);
+    if (prev) { prev.textContent = "Xoá"; prev.className = "btn danger sm del-btn"; }
+  }
+  pendingDelKey = key;
+  btn.textContent = "Chắc chắn?";
+  btn.className = "btn confirm-del sm del-btn";
+  // Auto-disarm after 3s
+  setTimeout(() => {
+    if (pendingDelKey === key) {
+      pendingDelKey = null;
+      btn.textContent = "Xoá";
+      btn.className = "btn danger sm del-btn";
+    }
+  }, 3000);
+}
 
-  const token = document.getElementById("tokenInput").value.trim();
+async function deleteKey(key, btn) {
+  const token = getToken();
   if (!token || !currentData) return;
 
+  const item = btn.closest(".keyItem");
+  item.classList.add("deleting");
+
+  // Optimistic
   delete currentData.redirects[key];
+  allKeys = allKeys.filter(k => k !== key);
+  updateStats();
 
   try {
-    await saveToGitHub(`Delete key ${key}`, token);
-    showToast(`Đã xoá key: ${key}`);
-    await loadRepo();
+    await pushToGitHub(token, `Delete ${key}`);
+    showToast(`Đã xoá key ${key}`);
   } catch (e) {
-    showToast("Xoá thất bại", "error");
+    showToast(e.message || "Xoá thất bại", "error");
+    await loadRepo(true);
   }
 }
 
-async function saveToGitHub(message, token) {
-  showLoading(true);
+// ═══════════════════════════════════════════
+//  ADD NEW KEY
+// ═══════════════════════════════════════════
+async function addNewKey() {
+  const key    = document.getElementById("newKey").value.trim();
+  const domain = document.getElementById("newDomain").value.trim();
+  const token  = getToken();
+
+  if (!key || !domain) { showToast("Nhập đủ Key và URL", "error"); return; }
+  if (!token)           { showToast("Cần có token", "error"); return; }
+  if (!currentData)     { showToast("Tải dữ liệu trước", "error"); return; }
+  if (currentData.redirects[key] !== undefined) {
+    showToast(`Key "${key}" đã tồn tại`, "error"); return;
+  }
+
+  const addBtn = document.getElementById("addBtn");
+  addBtn.disabled = true;
+
+  // Optimistic
+  currentData.redirects[key] = domain;
+  allKeys = Object.keys(currentData.redirects).sort((a, b) => {
+    const na = parseInt(a), nb = parseInt(b);
+    if (!isNaN(na) && !isNaN(nb)) return na - nb;
+    return a.localeCompare(b);
+  });
+  document.getElementById("newKey").value = "";
+  document.getElementById("newDomain").value = "";
+  applyData();
+  // Scroll to newly added key
+  setTimeout(() => {
+    const el = document.querySelector(`.keyItem[data-key="${key}"]`);
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "center" });
+  }, 50);
+
   try {
-    const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${GITHUB_PATH}`;
-
-    const content = btoa(unescape(encodeURIComponent(JSON.stringify(currentData, null, 2))));
-
-    const body = {
-      message: message,
-      content: content,
-      sha: currentSha
-    };
-
-    const res = await fetch(url, {
-      method: "PUT",
-      headers: getHeaders(token),
-      body: JSON.stringify(body)
-    });
-
-    if (!res.ok) {
-      const err = await res.text();
-      throw new Error(err);
-    }
-
-    const result = await res.json();
-    currentSha = result.content.sha;
-    return result;
+    await pushToGitHub(token, `Add key ${key}`);
+    showToast(`✓ Đã thêm key ${key}`);
+    updateStats();
+  } catch (e) {
+    showToast(e.message || "Lưu thất bại", "error");
+    await loadRepo(true);
   } finally {
-    showLoading(false);
+    addBtn.disabled = false;
   }
 }
 
-function saveToken() {
-  const token = document.getElementById("tokenInput").value.trim();
-  if (token) {
-    localStorage.setItem("nevoirs_github_token", token);
-    showToast("Đã lưu token vào trình duyệt");
-  }
-}
+// ═══════════════════════════════════════════
+//  SEARCH (debounced)
+// ═══════════════════════════════════════════
+let _searchTimer;
+document.getElementById("searchInput").addEventListener("input", () => {
+  clearTimeout(_searchTimer);
+  _searchTimer = setTimeout(() => {
+    if (!currentData) return;
+    const q = document.getElementById("searchInput").value.toLowerCase().trim();
+    renderKeyList(q ? allKeys.filter(k => matchesQuery(k, q)) : allKeys);
+  }, 180);
+});
 
+// ═══════════════════════════════════════════
+//  KEYBOARD SHORTCUTS
+// ═══════════════════════════════════════════
+document.getElementById("newKey").addEventListener("keydown", e => {
+  if (e.key === "Enter") document.getElementById("newDomain").focus();
+});
+document.getElementById("newDomain").addEventListener("keydown", e => {
+  if (e.key === "Enter") addNewKey();
+});
+document.getElementById("tokenInput").addEventListener("keydown", e => {
+  if (e.key === "Enter") loadRepo(true);
+  if (e.key === "Escape") e.target.blur();
+});
+
+// Close pending delete on outside click
+document.addEventListener("click", e => {
+  if (pendingDelKey && !e.target.classList.contains("del-btn")) {
+    const prev = document.querySelector(`.keyItem[data-key="${pendingDelKey}"] .del-btn`);
+    if (prev) { prev.textContent = "Xoá"; prev.className = "btn danger sm del-btn"; }
+    pendingDelKey = null;
+  }
+});
+
+// ═══════════════════════════════════════════
+//  INIT
+// ═══════════════════════════════════════════
 function init() {
-  // Load saved token if any
-  const saved = localStorage.getItem("nevoirs_github_token");
+  const saved = localStorage.getItem(STORAGE_TOKEN);
   if (saved) {
     document.getElementById("tokenInput").value = saved;
+    loadRepo();   // auto-load if token exists
   }
-
-  // Auto load on start
-  setTimeout(() => {
-    loadRepo();
-  }, 600);
-
-  // Enter key support
-  document.getElementById("newKey").addEventListener("keydown", e => {
-    if (e.key === "Enter") document.getElementById("newDomain").focus();
-  });
-  document.getElementById("newDomain").addEventListener("keydown", e => {
-    if (e.key === "Enter") addNewKey();
-  });
 }
-
 init();
 </script>
 </body>
