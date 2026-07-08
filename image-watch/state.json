@@ -1312,5 +1312,23 @@
       }
     ],
     "changed_at": "08/07/2026 14:01:33"
+  },
+  "34-2": {
+    "scan_url": "https://linkhuongdan.online/34-2/?qq=complete",
+    "images": [
+      {
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/02/b52.PNG1_.png",
+        "sha256": "05c393c4f9e6fbfdfdaf7b3b58bcd6568f0e9b6d5fcffa8fa3110bd97637ac53"
+      },
+      {
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/02/photo_2026-07-08_13-49-54X.jpg",
+        "sha256": "1587daf69c4e1e4b2cddf37cac98deb46aee570edec8c0d1ef2482af1967d48e"
+      },
+      {
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/step1.jpg",
+        "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e"
+      }
+    ],
+    "changed_at": "08/07/2026 14:04:35"
   }
 }
