@@ -2732,5 +2732,33 @@
       }
     ],
     "changed_at": "14/07/2026 23:44:07"
+  },
+  "vi-vn": {
+    "scan_url": "https://ofideporteslacaleracund.com.co/vi-vn/?qq=complete",
+    "resolved_url": "https://ofideporteslacaleracund.com.co/vi-vn/?qq=complete",
+    "images": [
+      {
+        "url": "https://ofideporteslacaleracund.com.co/wp-content/uploads/2025/12/cac-buoc-dang-ky.jpg",
+        "sha256": "b0e0c8a4953659b4fb3a9ab08dd2ef2e06876e0b234eb83f00ffa746e3df2101",
+        "etag": "\"95a1-6a55c1b4-3e6d70;;;\"",
+        "last_modified": "Tue, 14 Jul 2026 04:57:24 GMT",
+        "content_length": "38305"
+      },
+      {
+        "url": "https://ofideporteslacaleracund.com.co/wp-content/uploads/2025/05/btn-play-web.png",
+        "sha256": "92854cf31e75791f1b555c3ee8f809beb8c928c02c2794ec58b06300746a78cf",
+        "etag": "\"144b-6a55c1b4-3e6b35;;;\"",
+        "last_modified": "Tue, 14 Jul 2026 04:57:24 GMT",
+        "content_length": "5195"
+      },
+      {
+        "url": "https://ofideporteslacaleracund.com.co/wp-content/uploads/2026/07/btn-app-store-sun28.png",
+        "sha256": "fb03713bab85b72ea7e35e0a1435629ff9b569af9a65e57b3373e6f27d3542ae",
+        "etag": "\"a92c-6a55c1b4-3e6aa9;;;\"",
+        "last_modified": "Tue, 14 Jul 2026 04:57:24 GMT",
+        "content_length": "43308"
+      }
+    ],
+    "changed_at": "15/07/2026 00:01:48"
   }
 }
