@@ -1253,18 +1253,15 @@
     "scan_url": "https://linkhuongdan.online/211-2/?qq=complete",
     "images": [
       {
-        "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/keo-nha-caiX.png",
-        "sha256": "abd91dbccd9958d2bfad8030942bedd2cb506138f7e2e0baa1c6269bbb54b7bb",
-        "etag": "\"6a48936d-3f63\"",
-        "last_modified": "Sat, 04 Jul 2026 05:00:29 GMT",
-        "content_length": "16227"
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/KPX.png",
+        "sha256": "d79405693fde63952ec060b2e8a538a796e5c55108c3380975f52be42f687184",
+        "etag": "\"6a68de20-2fce\"",
+        "last_modified": "Tue, 28 Jul 2026 16:51:44 GMT",
+        "content_length": "12238"
       },
       {
-        "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-07-23_19-37-54X.jpg",
-        "sha256": "e39f162c28ff65de11485b7dcceeca09b32e0994eae3d7fc0842236ed66d1911",
-        "etag": "\"6a6214f7-34333\"",
-        "last_modified": "Thu, 23 Jul 2026 13:19:51 GMT",
-        "content_length": "213811"
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/photo_2026-07-28_23-47-44X.jpg",
+        "sha256": null
       },
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/step1.jpg",
@@ -1274,7 +1271,7 @@
         "content_length": "5314"
       }
     ],
-    "changed_at": "23/07/2026 20:28:11",
+    "changed_at": "28/07/2026 23:52:44",
     "resolved_url": "https://linkhuongdan.online/211-2/?qq=complete"
   },
   "175-2": {
