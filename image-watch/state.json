@@ -3088,14 +3088,17 @@
         "content_length": "268674"
       },
       {
-        "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/step1.jpg",
-        "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
-        "etag": "\"69e47cad-14c2\"",
-        "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
-        "content_length": "5314"
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/IMG_4108.jpeg",
+        "sha256": "2f2a08542c2da8069bb5ca320c86b7f3e6e583d897b6b3635e4d44ceff9300fe",
+        "byte_size": 472773,
+        "etag": "\"6a5efb8f-736c5\"",
+        "last_modified": "Tue, 21 Jul 2026 04:54:39 GMT",
+        "content_length": "472773"
       }
     ],
-    "changed_at": "21/07/2026 11:56:26"
+    "changed_at": "29/07/2026 22:40:52",
+    "confirmed_rounds": 2,
+    "image_count": 3
   },
   "122-2": {
     "scan_url": "https://linkhuongdan.online/122-2/?qq=complete",
