@@ -138,24 +138,24 @@
   "188-2": {
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/03/sunwin-1.png",
     "sha256": "049e993db208c9f9b7d9ad2d12cf89f1e9cddc459c764e345268c672f0edd999",
-    "changed_at": "27/06/2026 15:22:13",
+    "changed_at": "30/07/2026 14:21:27",
     "scan_url": "https://linkhuongdan.online/188-2/?qq=complete",
     "images": [
       {
-        "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/sunwin-1.png",
-        "sha256": "049e993db208c9f9b7d9ad2d12cf89f1e9cddc459c764e345268c672f0edd999",
-        "byte_size": 10218,
-        "content_length": "10218",
-        "etag": "\"6a03d488-27ea\"",
-        "last_modified": "Wed, 13 May 2026 01:31:52 GMT"
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/keonhacai_1.png",
+        "sha256": "ca775b397e57343dde64666c15d71d5e9e13bf96818ccba9ab925798725a7aab",
+        "byte_size": 11860,
+        "content_length": "11860",
+        "etag": "\"6a0d6204-2e54\"",
+        "last_modified": "Wed, 20 May 2026 07:25:56 GMT"
       },
       {
-        "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-06-26_23-16-45X.jpg",
-        "sha256": "6d54a684d760c6045997a890b9a91270c97ccc5fe7d61862b0a2e3620af8bba8",
-        "byte_size": 211136,
-        "content_length": "211136",
-        "etag": "\"6a3eaade-338c0\"",
-        "last_modified": "Fri, 26 Jun 2026 16:37:50 GMT"
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-07-30_13-48-46X.jpg",
+        "sha256": "5032bfd55ca5f1c81906091480d87a5dc50ad229260cc3533a075e55e411625d",
+        "byte_size": 190928,
+        "content_length": "190928",
+        "etag": "\"6a6afaf3-2e9d0\"",
+        "last_modified": "Thu, 30 Jul 2026 07:19:15 GMT"
       },
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/step1.jpg",
@@ -167,7 +167,9 @@
       }
     ],
     "resolved_url": "https://linkhuongdan.online/188-2/?qq=complete",
-    "image_count": 3
+    "image_count": 3,
+    "confirmed_rounds": 2,
+    "change_reason": "content_changed"
   },
   "42-2": {
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/03/go99-0.png",
