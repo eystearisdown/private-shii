@@ -2833,12 +2833,12 @@
         "last_modified": "Sat, 04 Apr 2026 07:39:43 GMT"
       },
       {
-        "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-07-31_22-01-48-2X.jpg",
-        "sha256": "325513f9829c06318364f71fa57107c840cba9e57a7d61380bc671e39ad527ce",
-        "byte_size": 201781,
-        "content_length": "201781",
-        "etag": "\"6a6cc9fc-31435\"",
-        "last_modified": "Fri, 31 Jul 2026 16:14:52 GMT"
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-07-31_22-01-48-2XX.jpg",
+        "sha256": "2631708cefd8a9c1e4e6006392e5462247183c182bf10b997178e0a7dfe10552",
+        "byte_size": 201623,
+        "content_length": "201623",
+        "etag": "\"6a6ccb14-31397\"",
+        "last_modified": "Fri, 31 Jul 2026 16:19:32 GMT"
       },
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/step1.jpg",
@@ -2849,7 +2849,7 @@
         "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT"
       }
     ],
-    "changed_at": "31/07/2026 23:16:00",
+    "changed_at": "31/07/2026 23:21:04",
     "resolved_url": "https://linkhuongdan.online/141-2/?qq=complete",
     "image_count": 3,
     "confirmed_rounds": 2,
