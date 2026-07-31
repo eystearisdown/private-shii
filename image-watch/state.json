@@ -1345,20 +1345,20 @@
     "scan_url": "https://linkhuongdan.online/223-3/?qq=complete",
     "images": [
       {
-        "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/VIN99X.png",
-        "sha256": "65b16305359441ee7b6ed94357056c50ec3fa97bc9947111ba0cc85f47b3dfd6",
-        "byte_size": 12970,
-        "content_length": "12970",
-        "etag": "\"6a64c6e5-32aa\"",
-        "last_modified": "Sat, 25 Jul 2026 14:23:33 GMT"
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/HITCLUB6.png",
+        "sha256": "cb9ff17e1e4d9abcc290f37afa02375794804f2075d1296f861d323c3c13cd7f",
+        "byte_size": 11747,
+        "content_length": "11747",
+        "etag": "\"69c0c705-2de3\"",
+        "last_modified": "Mon, 23 Mar 2026 04:52:21 GMT"
       },
       {
-        "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/photo_2026-07-25_20-34-41X.jpg",
-        "sha256": "aefef34a1e9a61383fb3a7e1d62a544965c8ae3712bbcd52647c3a8c9936d38f",
-        "byte_size": 157307,
-        "content_length": "157307",
-        "etag": "\"6a64c709-2667b\"",
-        "last_modified": "Sat, 25 Jul 2026 14:24:09 GMT"
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/photo_2026-07-31_22-01-48XX.jpg",
+        "sha256": "2973466acc5c16305a9e4c005dfa2410289f97b38c8b31561a28a25cd4d1f58e",
+        "byte_size": 224857,
+        "content_length": "224857",
+        "etag": "\"6a6cbbeb-36e59\"",
+        "last_modified": "Fri, 31 Jul 2026 15:14:51 GMT"
       },
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/step1.jpg",
@@ -1369,9 +1369,11 @@
         "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT"
       }
     ],
-    "changed_at": "25/07/2026 21:25:01",
+    "changed_at": "31/07/2026 22:56:28",
     "resolved_url": "https://linkhuongdan.online/223-3/?qq=complete",
-    "image_count": 3
+    "image_count": 3,
+    "confirmed_rounds": 2,
+    "change_reason": "content_changed"
   },
   "215-3": {
     "scan_url": "https://linkhuongdan.online/215-3/?qq=complete",
