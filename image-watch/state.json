@@ -861,20 +861,20 @@
     "scan_url": "https://linkhuongdan.online/222-3/?qq=complete",
     "images": [
       {
-        "url": "https://linkhuongdan.online/wp-content/uploads/2026/02/keonhacaihomnayKODAUx.png",
-        "sha256": "4e0a265fca1e7733f7ad654480ab97864533caa12cdcd1cb9404598dd0e579e9",
-        "byte_size": 13748,
-        "content_length": "13748",
-        "etag": "\"6a5b34b0-35b4\"",
-        "last_modified": "Sat, 18 Jul 2026 08:09:20 GMT"
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/02/hitclubnewX.png",
+        "sha256": "6f5ad976c6d9dd69bf9162465534a29e8fa461aa69fcc7f5c817b03f10499079",
+        "byte_size": 12796,
+        "content_length": "12796",
+        "etag": "\"69be57a2-31fc\"",
+        "last_modified": "Sat, 21 Mar 2026 08:32:34 GMT"
       },
       {
-        "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-07-23_19-37-54X.jpg",
-        "sha256": "e39f162c28ff65de11485b7dcceeca09b32e0994eae3d7fc0842236ed66d1911",
-        "byte_size": 213811,
-        "content_length": "213811",
-        "etag": "\"6a6214f7-34333\"",
-        "last_modified": "Thu, 23 Jul 2026 13:19:51 GMT"
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/photo_2026-07-31_22-01-48XX.jpg",
+        "sha256": "2973466acc5c16305a9e4c005dfa2410289f97b38c8b31561a28a25cd4d1f58e",
+        "byte_size": 224857,
+        "content_length": "224857",
+        "etag": "\"6a6cbbeb-36e59\"",
+        "last_modified": "Fri, 31 Jul 2026 15:14:51 GMT"
       },
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/step1.jpg",
@@ -885,9 +885,11 @@
         "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT"
       }
     ],
-    "changed_at": "23/07/2026 20:26:20",
+    "changed_at": "31/07/2026 22:15:50",
     "resolved_url": "https://linkhuongdan.online/222-3/?qq=complete",
-    "image_count": 3
+    "image_count": 3,
+    "confirmed_rounds": 2,
+    "change_reason": "content_changed"
   },
   "226-2": {
     "scan_url": "https://linkhuongdan.online/226-2/?qq=complete",
