@@ -2047,20 +2047,20 @@
     "scan_url": "https://linkhuongdan.online/225-2/?qq=complete",
     "images": [
       {
-        "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/sunwin-1.png",
-        "sha256": "049e993db208c9f9b7d9ad2d12cf89f1e9cddc459c764e345268c672f0edd999",
-        "byte_size": 10218,
-        "content_length": "10218",
-        "etag": "\"6a03d488-27ea\"",
-        "last_modified": "Wed, 13 May 2026 01:31:52 GMT"
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/Capturett88X.png",
+        "sha256": "b411d45d1137d4483a465f7c8e6a1cb62e8c3b17156d8403d923a73b7bfd13ae",
+        "byte_size": 13299,
+        "content_length": "13299",
+        "etag": "\"69a97afd-33f3\"",
+        "last_modified": "Thu, 05 Mar 2026 12:45:49 GMT"
       },
       {
-        "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/photo_2026-07-29_12-16-10x.jpg",
-        "sha256": "df8151435bb139d267b90f36e3eadab95547b1b37df92d1ce1a62c61be98f51f",
-        "byte_size": 207456,
-        "content_length": "207456",
-        "etag": "\"6a6994f9-32a60\"",
-        "last_modified": "Wed, 29 Jul 2026 05:51:53 GMT"
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/photo_2026-07-31_11-56-26X.jpg",
+        "sha256": "fe0579128960f8bdd8d458ccf8f09a24b5a867e2101483bd15a2d2c370ef4d06",
+        "byte_size": 162557,
+        "content_length": "162557",
+        "etag": "\"6a6c476c-27afd\"",
+        "last_modified": "Fri, 31 Jul 2026 06:57:48 GMT"
       },
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/step1.jpg",
@@ -2071,9 +2071,11 @@
         "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT"
       }
     ],
-    "changed_at": "29/07/2026 12:52:39",
+    "changed_at": "31/07/2026 13:59:14",
     "resolved_url": "https://linkhuongdan.online/225-2/?qq=complete",
-    "image_count": 3
+    "image_count": 3,
+    "confirmed_rounds": 2,
+    "change_reason": "content_changed"
   },
   "220-3": {
     "scan_url": "https://linkhuongdan.online/220-3/?qq=complete",
