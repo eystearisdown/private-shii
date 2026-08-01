@@ -475,20 +475,20 @@
     "scan_url": "https://linkhuongdan.online/202-2/?qq=complete",
     "images": [
       {
-        "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/u888X.png",
-        "sha256": "aef57bf14149e47f38d0793ec431b21ebc9a5bff588bef1284c09bc2aeef99e3",
-        "byte_size": 12428,
-        "content_length": "12428",
-        "etag": "\"69fad4c9-308c\"",
-        "last_modified": "Wed, 06 May 2026 05:42:33 GMT"
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/c168X.png",
+        "sha256": "8e2c55337667b85e67c74e9a982b6b16f33a4ec3ad52fb52ca8619eae2c32b7f",
+        "byte_size": 12469,
+        "content_length": "12469",
+        "etag": "\"69fd860d-30b5\"",
+        "last_modified": "Fri, 08 May 2026 06:43:25 GMT"
       },
       {
-        "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-07-02_19-16-17-2X.jpg",
-        "sha256": "4324d3aa161e58e6bc7feccb90fbd3f7c1464b6de3c336afbaa07b873e671e79",
-        "byte_size": 184053,
-        "content_length": "184053",
-        "etag": "\"6a465732-2cef5\"",
-        "last_modified": "Thu, 02 Jul 2026 12:18:58 GMT"
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-08-01_13-37-32X.jpg",
+        "sha256": "a0a030f24e3e01b49742301f9250f86539c1887068c69f46277ed44e492b1d47",
+        "byte_size": 178178,
+        "content_length": "178178",
+        "etag": "\"6a6d94fa-2b802\"",
+        "last_modified": "Sat, 01 Aug 2026 06:40:58 GMT"
       },
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/step1.jpg",
@@ -499,9 +499,11 @@
         "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT"
       }
     ],
-    "changed_at": "02/07/2026 19:21:11",
+    "changed_at": "01/08/2026 13:43:17",
     "resolved_url": "https://linkhuongdan.online/202-2/?qq=complete",
-    "image_count": 3
+    "image_count": 3,
+    "confirmed_rounds": 2,
+    "change_reason": "content_changed"
   },
   "191-2": {
     "scan_url": "https://linkhuongdan.online/191-2/?qq=complete",
