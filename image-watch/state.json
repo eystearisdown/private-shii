@@ -1699,20 +1699,20 @@
     "scan_url": "https://linkhuongdan.online/237-2/?qq=complete",
     "images": [
       {
-        "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/79kingX-3.png",
-        "sha256": "99b6bc8e83d63f7af0a7f6ee83d5a15e92e130720543598ad8d121ca07c5c49a",
-        "byte_size": 12538,
-        "content_length": "12538",
-        "etag": "\"6a0d8365-30fa\"",
-        "last_modified": "Wed, 20 May 2026 09:48:21 GMT"
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/06/uy8i.png",
+        "sha256": "0cc81aff62eea908889ca7696aa0a3e4ae0bc6d602ccd2dd110aa482b2b058e5",
+        "byte_size": 10930,
+        "content_length": "10930",
+        "etag": "\"6a6d7c9c-2ab2\"",
+        "last_modified": "Sat, 01 Aug 2026 04:57:00 GMT"
       },
       {
-        "url": "https://linkhuongdan.online/wp-content/uploads/2026/06/photo_2026-07-16_19-13-46X.jpg",
-        "sha256": "d1d9af8317f39cada4e5486a7a9a47dd97b0837b84b6e697831e0d3fa3c74b81",
-        "byte_size": 169544,
-        "content_length": "169544",
-        "etag": "\"6a58efc9-29648\"",
-        "last_modified": "Thu, 16 Jul 2026 14:50:49 GMT"
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/06/photo_2026-08-01_11-44-55-2x.jpg",
+        "sha256": "d10e85c89bd5de90d1dcc2538e1447e24d0ab97250cc1337ad44a147c79350c5",
+        "byte_size": 203107,
+        "content_length": "203107",
+        "etag": "\"6a6d7d0b-31963\"",
+        "last_modified": "Sat, 01 Aug 2026 04:58:51 GMT"
       },
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/step1.jpg",
@@ -1723,9 +1723,11 @@
         "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT"
       }
     ],
-    "changed_at": "16/07/2026 21:51:05",
+    "changed_at": "01/08/2026 12:01:51",
     "resolved_url": "https://linkhuongdan.online/237-2/?qq=complete",
-    "image_count": 3
+    "image_count": 3,
+    "confirmed_rounds": 2,
+    "change_reason": "content_changed"
   },
   "209-2": {
     "scan_url": "https://linkhuongdan.online/209-2/?qq=complete",
