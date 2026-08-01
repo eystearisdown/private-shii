@@ -1539,20 +1539,20 @@
     "scan_url": "https://linkhuongdan.online/223-2/?qq=complete",
     "images": [
       {
-        "url": "https://linkhuongdan.online/wp-content/uploads/2026/02/Capture99okX.png",
-        "sha256": "1c1cc4fc28a098ef9475ac94ee80b203719eeafed68e5f9d43519861433b76f8",
-        "byte_size": 12965,
-        "content_length": "12965",
-        "etag": "\"699deec1-32a5\"",
-        "last_modified": "Tue, 24 Feb 2026 18:32:33 GMT"
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/789kX.png",
+        "sha256": "107a3274c4bff115f8d56fd4ad98095d8a3db82e7242709bf09729f3820bd67d",
+        "byte_size": 12610,
+        "content_length": "12610",
+        "etag": "\"6a202b62-3142\"",
+        "last_modified": "Wed, 03 Jun 2026 13:25:54 GMT"
       },
       {
-        "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/photo_2026-07-03_16-33-21X.jpg",
-        "sha256": "36f6fe6232a54c4cc0545cff39d8452c62cda78e88e936daff0f5f3aff8442f2",
-        "byte_size": 149663,
-        "content_length": "149663",
-        "etag": "\"6a478277-2489f\"",
-        "last_modified": "Fri, 03 Jul 2026 09:35:51 GMT"
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/photo_2026-08-01_12-50-05X.jpg",
+        "sha256": "9eec239485ad407944537a60c11724f02ad6ecda4c00f773937abb08f0f43025",
+        "byte_size": 195330,
+        "content_length": "195330",
+        "etag": "\"6a6d8a31-2fb02\"",
+        "last_modified": "Sat, 01 Aug 2026 05:54:57 GMT"
       },
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/step1.jpg",
@@ -1563,9 +1563,11 @@
         "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT"
       }
     ],
-    "changed_at": "03/07/2026 16:37:53",
+    "changed_at": "01/08/2026 12:57:02",
     "resolved_url": "https://linkhuongdan.online/223-2/?qq=complete",
-    "image_count": 3
+    "image_count": 3,
+    "confirmed_rounds": 2,
+    "change_reason": "content_changed"
   },
   "164-2": {
     "scan_url": "https://linkhuongdan.online/164-2/?qq=complete",
