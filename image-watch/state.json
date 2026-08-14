@@ -7839,22 +7839,62 @@
   "149-click-3-trang": {
     "scan_url": "https://linkhuongdan.online/149-click-3-trang/?qq=complete",
     "resolved_url": "https://linkhuongdan.online/149-click-3-trang/?qq=complete",
-    "images": [],
-    "image_count": 0,
+    "images": [
+      {
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/CaptureHUX-1.png",
+        "sha256": "bf993a05b5d80a16c55b5a20f13f4fd86d104d7f5a76dd82312e323f7e6cd29e",
+        "byte_size": 14574,
+        "content_length": "14574",
+        "_full_checked_ts": 1786721793.7314625,
+        "etag": "\"69c3c3b8-38ee\"",
+        "last_modified": "Wed, 25 Mar 2026 11:15:04 GMT",
+        "position": 1
+      },
+      {
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/CaptureHUX-1.png",
+        "sha256": "bf993a05b5d80a16c55b5a20f13f4fd86d104d7f5a76dd82312e323f7e6cd29e",
+        "byte_size": 14574,
+        "content_length": "14574",
+        "_full_checked_ts": 1786721793.7321324,
+        "etag": "\"69c3c3b8-38ee\"",
+        "last_modified": "Wed, 25 Mar 2026 11:15:04 GMT",
+        "position": 2
+      },
+      {
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-03-25_18-11-19X.jpg",
+        "sha256": "26758cde6f8acad11f01f710d4e4b18a2df9a0c7c30de2ca5c7f6c0488b11d20",
+        "byte_size": 190840,
+        "content_length": "190840",
+        "_full_checked_ts": 1786721793.8845816,
+        "etag": "\"69c3c3f3-2e978\"",
+        "last_modified": "Wed, 25 Mar 2026 11:16:03 GMT",
+        "position": 3
+      }
+    ],
+    "image_count": 3,
     "primary_image_index": 1,
     "primary_image_number": 2,
-    "primary_image": {},
-    "primary_image_url": "",
-    "primary_sha256": "",
-    "image_url": "",
-    "sha256": "",
+    "primary_image": {
+      "position": 2,
+      "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/CaptureHUX-1.png",
+      "sha256": "bf993a05b5d80a16c55b5a20f13f4fd86d104d7f5a76dd82312e323f7e6cd29e",
+      "byte_size": 14574
+    },
+    "primary_image_url": "https://linkhuongdan.online/wp-content/uploads/2026/03/CaptureHUX-1.png",
+    "primary_sha256": "bf993a05b5d80a16c55b5a20f13f4fd86d104d7f5a76dd82312e323f7e6cd29e",
+    "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/03/CaptureHUX-1.png",
+    "sha256": "bf993a05b5d80a16c55b5a20f13f4fd86d104d7f5a76dd82312e323f7e6cd29e",
     "added_at": "14/08/2026 22:22:26",
-    "status": "pending",
+    "status": "active",
     "source": "redirectMap.json",
     "source_present": true,
     "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "change_reason": "redirect_source_added"
+    "change_reason": "baseline_initialized",
+    "changed_at": "14/08/2026 22:36:35",
+    "baseline_at": "14/08/2026 22:36:35",
+    "baseline_ready": true,
+    "confirmed_rounds": 1
   },
   "15-2": {
     "scan_url": "https://linkhuongdan.online/15-2/?qq=complete",
@@ -10193,7 +10233,7 @@
         "sha256": "5d61b1483933e5987ccf4c79e23e6bbd73efcd5b5db72bf53e6cbf6066bd260a",
         "byte_size": 11356,
         "content_length": "11356",
-        "_full_checked_ts": 1786556772.2252815,
+        "_full_checked_ts": 1786721795.1282272,
         "etag": "\"6a1f1ee8-2c5c\"",
         "last_modified": "Tue, 02 Jun 2026 18:20:24 GMT",
         "position": 1
@@ -10203,7 +10243,7 @@
         "sha256": "2aaf3596ee127d8f4061fe1d0680141f9004372703165e9c59c436f20b7cf670",
         "byte_size": 156345,
         "content_length": "156345",
-        "_full_checked_ts": 1786556772.3025959,
+        "_full_checked_ts": 1786721795.1283622,
         "etag": "\"6a7b0002-262b9\"",
         "last_modified": "Tue, 11 Aug 2026 10:57:06 GMT",
         "position": 2
@@ -10213,7 +10253,7 @@
         "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
         "byte_size": 5314,
         "content_length": "5314",
-        "_full_checked_ts": 1786556772.5075033,
+        "_full_checked_ts": 1786721795.4838443,
         "etag": "\"69e47cad-14c2\"",
         "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
         "position": 3
@@ -10246,7 +10286,8 @@
     "source_step": "4",
     "source": "redirectMap.json",
     "source_present": true,
-    "source_added_at": "14/08/2026 22:22:27"
+    "source_added_at": "14/08/2026 22:22:27",
+    "baseline_ready": true
   },
   "229-click-3-trang": {
     "scan_url": "https://linkhuongdan.online/229-click-3-trang/?qq=complete",
@@ -12241,22 +12282,62 @@
   "94-2": {
     "scan_url": "https://linkhuongdan.online/94-2/?qq=complete",
     "resolved_url": "https://linkhuongdan.online/94-2/?qq=complete",
-    "images": [],
-    "image_count": 0,
+    "images": [
+      {
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/02/keotructuyenX.png",
+        "sha256": "c0e582c9fcb6456d818d0c798ac433e8e74697ab306c37e6fcb1ef93cad75cff",
+        "byte_size": 12909,
+        "content_length": "12909",
+        "_full_checked_ts": 1786721794.8944767,
+        "etag": "\"69f38758-326d\"",
+        "last_modified": "Thu, 30 Apr 2026 16:46:16 GMT",
+        "position": 1
+      },
+      {
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/photo_2026-04-30_17-03-17X.jpg",
+        "sha256": "06c1311ea1f3f3d461766d87b729c1af62a8c43559ebcb757fb5d5ee64b44b2c",
+        "byte_size": 185248,
+        "content_length": "185248",
+        "_full_checked_ts": 1786721794.896206,
+        "etag": "\"69f32b3f-2d3a0\"",
+        "last_modified": "Thu, 30 Apr 2026 10:13:19 GMT",
+        "position": 2
+      },
+      {
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/step1.jpg",
+        "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
+        "byte_size": 5314,
+        "content_length": "5314",
+        "_full_checked_ts": 1786721794.8963847,
+        "etag": "\"69e47cad-14c2\"",
+        "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
+        "position": 3
+      }
+    ],
+    "image_count": 3,
     "primary_image_index": 1,
     "primary_image_number": 2,
-    "primary_image": {},
-    "primary_image_url": "",
-    "primary_sha256": "",
-    "image_url": "",
-    "sha256": "",
+    "primary_image": {
+      "position": 2,
+      "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/photo_2026-04-30_17-03-17X.jpg",
+      "sha256": "06c1311ea1f3f3d461766d87b729c1af62a8c43559ebcb757fb5d5ee64b44b2c",
+      "byte_size": 185248
+    },
+    "primary_image_url": "https://linkhuongdan.online/wp-content/uploads/2026/04/photo_2026-04-30_17-03-17X.jpg",
+    "primary_sha256": "06c1311ea1f3f3d461766d87b729c1af62a8c43559ebcb757fb5d5ee64b44b2c",
+    "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/04/photo_2026-04-30_17-03-17X.jpg",
+    "sha256": "06c1311ea1f3f3d461766d87b729c1af62a8c43559ebcb757fb5d5ee64b44b2c",
     "added_at": "14/08/2026 22:22:28",
-    "status": "pending",
+    "status": "active",
     "source": "redirectMap.json",
     "source_present": true,
     "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "change_reason": "redirect_source_added"
+    "change_reason": "baseline_initialized",
+    "changed_at": "14/08/2026 22:36:36",
+    "baseline_at": "14/08/2026 22:36:36",
+    "baseline_ready": true,
+    "confirmed_rounds": 1
   },
   "94-click-3-trang": {
     "scan_url": "https://linkhuongdan.online/94-click-3-trang/?qq=complete",
