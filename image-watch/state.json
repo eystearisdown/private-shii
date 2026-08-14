@@ -3769,6 +3769,7 @@
         "sha256": "75141cc185854a60f3601c1744a1d12fbd8714f49ebe4157db0d295175a4e2ae",
         "byte_size": 15000,
         "content_length": "15000",
+        "_full_checked_ts": 1786720977.1052315,
         "etag": "\"6a009a21-3a98\"",
         "last_modified": "Sun, 10 May 2026 14:45:53 GMT",
         "position": 1
@@ -3778,6 +3779,7 @@
         "sha256": "b0ab3aa0996a3a431b4e83909efcf4e4fca0bbf07619980fc8ffb9b6ff3b3551",
         "byte_size": 190152,
         "content_length": "190152",
+        "_full_checked_ts": 1786720977.1062086,
         "etag": "\"6a5a2d42-2e6c8\"",
         "last_modified": "Fri, 17 Jul 2026 13:25:22 GMT",
         "position": 2
@@ -3787,6 +3789,7 @@
         "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
         "byte_size": 5314,
         "content_length": "5314",
+        "_full_checked_ts": 1786720977.1801713,
         "etag": "\"69e47cad-14c2\"",
         "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
         "position": 3
@@ -11101,7 +11104,7 @@
         "sha256": "f124b3cab037fb45047bca70c491695474322db5c64ee68a60ef2912bbce8824",
         "byte_size": 12201,
         "content_length": "12201",
-        "_full_checked_ts": 1786532660.9100482,
+        "_full_checked_ts": 1786720976.9261625,
         "etag": "\"69e9c215-2fa9\"",
         "last_modified": "Thu, 23 Apr 2026 06:54:13 GMT",
         "position": 1
@@ -11111,7 +11114,7 @@
         "sha256": "7d6c3ff476be9ec2c5731ea35d3e03d901122a9186479e6489936523ac5ab504",
         "byte_size": 203619,
         "content_length": "203619",
-        "_full_checked_ts": 1786532660.9101002,
+        "_full_checked_ts": 1786720976.9854293,
         "etag": "\"6a796427-31b63\"",
         "last_modified": "Mon, 10 Aug 2026 05:39:51 GMT",
         "position": 2
@@ -11121,7 +11124,7 @@
         "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
         "byte_size": 5314,
         "content_length": "5314",
-        "_full_checked_ts": 1786532660.9101384,
+        "_full_checked_ts": 1786720976.988777,
         "etag": "\"69e47cad-14c2\"",
         "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
         "position": 3
@@ -11154,8 +11157,8 @@
     "change_reason": "redirect_source_added",
     "source_step": "4",
     "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_event_notified_at": "",
+    "new_key_event_pending": false,
+    "new_event_notified_at": "14/08/2026 22:22:58",
     "source": "redirectMap.json",
     "source_present": true,
     "source_added_at": "14/08/2026 22:22:27"
