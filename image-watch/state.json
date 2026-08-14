@@ -6520,7 +6520,7 @@
         "sha256": "8e2c55337667b85e67c74e9a982b6b16f33a4ec3ad52fb52ca8619eae2c32b7f",
         "byte_size": 12469,
         "content_length": "12469",
-        "_full_checked_ts": 1786720971.2916653,
+        "_full_checked_ts": 1786721856.8872166,
         "etag": "\"69fd860d-30b5\"",
         "last_modified": "Fri, 08 May 2026 06:43:25 GMT",
         "position": 1
@@ -6530,7 +6530,7 @@
         "sha256": "a2b2141ca837d3c80febc2a1f311b8b15eebf0a2b2b62f730864fdf2eeff8e44",
         "byte_size": 179370,
         "content_length": "179370",
-        "_full_checked_ts": 1786720971.291871,
+        "_full_checked_ts": 1786721856.888209,
         "etag": "\"6a797bbd-2bcaa\"",
         "last_modified": "Mon, 10 Aug 2026 07:20:29 GMT",
         "position": 2
@@ -6540,7 +6540,7 @@
         "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
         "byte_size": 5314,
         "content_length": "5314",
-        "_full_checked_ts": 1786720971.2927809,
+        "_full_checked_ts": 1786721856.888907,
         "etag": "\"69e47cad-14c2\"",
         "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
         "position": 3
@@ -6573,7 +6573,8 @@
     "change_reason": "redirect_source_added",
     "source": "redirectMap.json",
     "source_present": true,
-    "source_added_at": "14/08/2026 22:22:25"
+    "source_added_at": "14/08/2026 22:22:25",
+    "baseline_ready": true
   },
   "105-2": {
     "scan_url": "https://linkhuongdan.online/105-2/?qq=complete",
@@ -12152,7 +12153,7 @@
         "sha256": "782a7012f7b51921eb0a95b17e420927271ea5c910fcd2215a8131293a67914a",
         "byte_size": 11296,
         "content_length": "11296",
-        "_full_checked_ts": 1786720962.3801608,
+        "_full_checked_ts": 1786721857.742438,
         "etag": "\"69fb331a-2c20\"",
         "last_modified": "Wed, 06 May 2026 12:24:58 GMT",
         "position": 1
@@ -12162,7 +12163,7 @@
         "sha256": "ef01bde6eb9bf25333b3587e5d92c4f2c4b0fe0101b15390f749db8ecd25a176",
         "byte_size": 220098,
         "content_length": "220098",
-        "_full_checked_ts": 1786720962.386462,
+        "_full_checked_ts": 1786721857.7442322,
         "etag": "\"69fb09d7-35bc2\"",
         "last_modified": "Wed, 06 May 2026 09:28:55 GMT",
         "position": 2
@@ -12172,7 +12173,7 @@
         "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
         "byte_size": 5314,
         "content_length": "5314",
-        "_full_checked_ts": 1786720962.387888,
+        "_full_checked_ts": 1786721857.7461529,
         "etag": "\"69e47cad-14c2\"",
         "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
         "position": 3
@@ -12199,7 +12200,8 @@
     "source_added_at": "14/08/2026 22:22:27",
     "change_reason": "new_key_baseline",
     "changed_at": "14/08/2026 22:22:44",
-    "confirmed_rounds": 1
+    "confirmed_rounds": 1,
+    "baseline_ready": true
   },
   "41-2": {
     "scan_url": "https://linkhuongdan.online/41-2/?qq=complete",
