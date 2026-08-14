@@ -2020,6 +2020,7 @@
         "sha256": "f124b3cab037fb45047bca70c491695474322db5c64ee68a60ef2912bbce8824",
         "byte_size": 12201,
         "content_length": "12201",
+        "_full_checked_ts": 1786720953.0070539,
         "etag": "\"69e9c215-2fa9\"",
         "last_modified": "Thu, 23 Apr 2026 06:54:13 GMT",
         "position": 1
@@ -2029,6 +2030,7 @@
         "sha256": "62978035f9fd186b52c583d20da5afd9ef4d0be83763bb652d0d22ae723292c8",
         "byte_size": 212839,
         "content_length": "212839",
+        "_full_checked_ts": 1786720953.0148726,
         "etag": "\"6a4a0039-33f67\"",
         "last_modified": "Sun, 05 Jul 2026 06:56:57 GMT",
         "position": 2
@@ -2038,6 +2040,7 @@
         "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
         "byte_size": 5314,
         "content_length": "5314",
+        "_full_checked_ts": 1786720953.0182981,
         "etag": "\"69e47cad-14c2\"",
         "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
         "position": 3
@@ -9769,25 +9772,63 @@
   "227-2": {
     "scan_url": "https://linkhuongdan.online/227-2/?qq=complete",
     "resolved_url": "https://linkhuongdan.online/227-2/?qq=complete",
-    "images": [],
-    "image_count": 0,
+    "images": [
+      {
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/c168X.png",
+        "sha256": "8e2c55337667b85e67c74e9a982b6b16f33a4ec3ad52fb52ca8619eae2c32b7f",
+        "byte_size": 12469,
+        "content_length": "12469",
+        "_full_checked_ts": 1786720953.3892417,
+        "etag": "\"69fd860d-30b5\"",
+        "last_modified": "Fri, 08 May 2026 06:43:25 GMT",
+        "position": 1
+      },
+      {
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/photo_2026-08-09_14-37-10X.jpg",
+        "sha256": "18222b81c6ca74f8618e562470a2a3841af5c74897c8d3157b8e2d147265c441",
+        "byte_size": 206477,
+        "content_length": "206477",
+        "_full_checked_ts": 1786720953.4905891,
+        "etag": "\"6a783307-3268d\"",
+        "last_modified": "Sun, 09 Aug 2026 07:57:59 GMT",
+        "position": 2
+      },
+      {
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/step1.jpg",
+        "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
+        "byte_size": 5314,
+        "content_length": "5314",
+        "_full_checked_ts": 1786720953.7830284,
+        "etag": "\"69e47cad-14c2\"",
+        "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
+        "position": 3
+      }
+    ],
+    "image_count": 3,
     "primary_image_index": 1,
     "primary_image_number": 2,
-    "primary_image": {},
-    "primary_image_url": "",
-    "primary_sha256": "",
-    "image_url": "",
-    "sha256": "",
+    "primary_image": {
+      "position": 2,
+      "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/photo_2026-08-09_14-37-10X.jpg",
+      "sha256": "18222b81c6ca74f8618e562470a2a3841af5c74897c8d3157b8e2d147265c441",
+      "byte_size": 206477
+    },
+    "primary_image_url": "https://linkhuongdan.online/wp-content/uploads/2026/04/photo_2026-08-09_14-37-10X.jpg",
+    "primary_sha256": "18222b81c6ca74f8618e562470a2a3841af5c74897c8d3157b8e2d147265c441",
+    "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/04/photo_2026-08-09_14-37-10X.jpg",
+    "sha256": "18222b81c6ca74f8618e562470a2a3841af5c74897c8d3157b8e2d147265c441",
     "added_at": "14/08/2026 22:22:27",
-    "status": "pending",
+    "status": "active",
     "source": "redirectMap.json",
     "source_present": true,
     "schema_version": 8,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
+    "new_key_event_pending": false,
     "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
-    "change_reason": "redirect_source_added"
+    "new_event_notified_at": "14/08/2026 22:22:36",
+    "change_reason": "new_key_baseline",
+    "changed_at": "14/08/2026 22:22:36",
+    "confirmed_rounds": 1
   },
   "228-2": {
     "scan_url": "https://linkhuongdan.online/228-2/?qq=complete",
