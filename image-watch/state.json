@@ -6765,22 +6765,62 @@
   "110-2": {
     "scan_url": "https://linkhuongdan.online/110-2/?qq=complete",
     "resolved_url": "https://linkhuongdan.online/110-2/?qq=complete",
-    "images": [],
-    "image_count": 0,
+    "images": [
+      {
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/keonhacai_1.png",
+        "sha256": "ca775b397e57343dde64666c15d71d5e9e13bf96818ccba9ab925798725a7aab",
+        "byte_size": 11860,
+        "content_length": "11860",
+        "_full_checked_ts": 1786721847.2923338,
+        "etag": "\"6a0d6204-2e54\"",
+        "last_modified": "Wed, 20 May 2026 07:25:56 GMT",
+        "position": 1
+      },
+      {
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-06-12_15-11-04X.jpg",
+        "sha256": "dc90117effc9e0bee5822b6f1ab2ba10b36172e704ad5ac02eb41c4e793ebb67",
+        "byte_size": 215963,
+        "content_length": "215963",
+        "_full_checked_ts": 1786721847.2994225,
+        "etag": "\"6a2bbfac-34b9b\"",
+        "last_modified": "Fri, 12 Jun 2026 08:13:32 GMT",
+        "position": 2
+      },
+      {
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/step1.jpg",
+        "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
+        "byte_size": 5314,
+        "content_length": "5314",
+        "_full_checked_ts": 1786721847.735098,
+        "etag": "\"69e47cad-14c2\"",
+        "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
+        "position": 3
+      }
+    ],
+    "image_count": 3,
     "primary_image_index": 1,
     "primary_image_number": 2,
-    "primary_image": {},
-    "primary_image_url": "",
-    "primary_sha256": "",
-    "image_url": "",
-    "sha256": "",
+    "primary_image": {
+      "position": 2,
+      "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-06-12_15-11-04X.jpg",
+      "sha256": "dc90117effc9e0bee5822b6f1ab2ba10b36172e704ad5ac02eb41c4e793ebb67",
+      "byte_size": 215963
+    },
+    "primary_image_url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-06-12_15-11-04X.jpg",
+    "primary_sha256": "dc90117effc9e0bee5822b6f1ab2ba10b36172e704ad5ac02eb41c4e793ebb67",
+    "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-06-12_15-11-04X.jpg",
+    "sha256": "dc90117effc9e0bee5822b6f1ab2ba10b36172e704ad5ac02eb41c4e793ebb67",
     "added_at": "14/08/2026 22:22:25",
-    "status": "pending",
+    "status": "active",
     "source": "redirectMap.json",
     "source_present": true,
     "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:25",
-    "change_reason": "redirect_source_added"
+    "change_reason": "baseline_initialized",
+    "changed_at": "14/08/2026 22:37:29",
+    "baseline_at": "14/08/2026 22:37:29",
+    "baseline_ready": true,
+    "confirmed_rounds": 1
   },
   "111-2": {
     "scan_url": "https://linkhuongdan.online/111-2/?qq=complete",
@@ -7681,7 +7721,7 @@
         "sha256": "b257fae87d3d58d6c47cc8d69e903a431c3123d593848529d2c82a62ef146c1e",
         "byte_size": 14232,
         "content_length": "14232",
-        "_full_checked_ts": 1786093338.9283528,
+        "_full_checked_ts": 1786721849.196861,
         "etag": "\"6a74339d-3798\"",
         "last_modified": "Thu, 06 Aug 2026 07:11:25 GMT",
         "position": 1
@@ -7691,7 +7731,7 @@
         "sha256": "d3caa4d385df75359c75ea3acc2ef8f007f2c5e24beada38a23b8c9da1d77a72",
         "byte_size": 61163,
         "content_length": "61163",
-        "_full_checked_ts": 1786093338.928887,
+        "_full_checked_ts": 1786721849.2869866,
         "etag": "\"6a7433af-eeeb\"",
         "last_modified": "Thu, 06 Aug 2026 07:11:43 GMT",
         "position": 2
@@ -7701,7 +7741,7 @@
         "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
         "byte_size": 5314,
         "content_length": "5314",
-        "_full_checked_ts": 1786093338.9295394,
+        "_full_checked_ts": 1786721849.2918859,
         "etag": "\"69e47cad-14c2\"",
         "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
         "position": 3
@@ -7728,7 +7768,8 @@
     "source_step": "4",
     "source": "redirectMap.json",
     "source_present": true,
-    "source_added_at": "14/08/2026 22:22:26"
+    "source_added_at": "14/08/2026 22:22:26",
+    "baseline_ready": true
   },
   "138-2": {
     "scan_url": "https://linkhuongdan.online/138-2/?qq=complete",
