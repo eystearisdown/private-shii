@@ -52,7 +52,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -112,7 +112,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -169,7 +169,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -226,7 +226,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -283,7 +283,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -340,7 +340,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -397,7 +397,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -454,7 +454,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -511,7 +511,7 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "primary_changed",
     "source_step": "4",
@@ -571,7 +571,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -628,7 +628,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -688,7 +688,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "primary_changed",
     "source": "redirectMap.json",
@@ -747,7 +747,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -804,7 +804,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -861,7 +861,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -918,7 +918,7 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "primary_changed",
     "source_step": "4",
@@ -978,7 +978,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -1035,7 +1035,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -1095,7 +1095,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -1155,7 +1155,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -1212,7 +1212,7 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source_step": "4",
     "source": "redirectMap.json",
     "source_present": true
@@ -1270,7 +1270,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -1327,7 +1327,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -1386,7 +1386,7 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source_step": "4",
     "source": "redirectMap.json",
     "source_present": true
@@ -1444,7 +1444,7 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "primary_changed",
     "source_step": "4",
@@ -1507,7 +1507,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -1564,7 +1564,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -1621,7 +1621,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -1678,7 +1678,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -1735,7 +1735,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -1795,7 +1795,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -1855,7 +1855,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -1912,7 +1912,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -1972,7 +1972,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -2029,7 +2029,7 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "primary_changed",
     "source_step": "4",
@@ -2092,7 +2092,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -2151,7 +2151,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -2210,7 +2210,7 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source_step": "4",
     "source": "redirectMap.json",
     "source_present": true
@@ -2268,7 +2268,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -2325,7 +2325,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -2382,7 +2382,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -2439,7 +2439,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -2496,7 +2496,7 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "primary_changed",
     "source_step": "4",
@@ -2556,7 +2556,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -2616,7 +2616,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -2673,7 +2673,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -2730,7 +2730,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -2790,7 +2790,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -2847,7 +2847,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -2904,7 +2904,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -2961,7 +2961,7 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "primary_changed",
     "source_step": "4",
@@ -3021,7 +3021,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -3078,7 +3078,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -3135,7 +3135,7 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "primary_changed",
     "source_step": "4",
@@ -3195,7 +3195,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -3252,7 +3252,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -3309,7 +3309,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -3366,7 +3366,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -3423,7 +3423,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -3480,7 +3480,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -3537,7 +3537,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -3597,7 +3597,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -3654,7 +3654,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -3711,7 +3711,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -3768,7 +3768,7 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "primary_changed",
     "source_step": "4",
@@ -3831,7 +3831,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -3888,7 +3888,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -3945,7 +3945,7 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "primary_changed",
     "source_step": "4",
@@ -4005,7 +4005,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -4062,7 +4062,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -4119,7 +4119,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -4179,7 +4179,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -4236,7 +4236,7 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source_step": "4",
     "confirmed_rounds": 2,
     "change_reason": "primary_changed",
@@ -4296,7 +4296,7 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "primary_changed",
     "source_step": "4",
@@ -4356,7 +4356,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -4413,7 +4413,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -4470,7 +4470,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -4527,7 +4527,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -4584,7 +4584,7 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "primary_changed",
     "source_step": "4",
@@ -4644,7 +4644,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -4701,7 +4701,7 @@
     "has_confirmed_once": false,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -4760,7 +4760,7 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source_step": "4",
     "source": "redirectMap.json",
     "source_present": true
@@ -4820,11 +4820,8 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source_step": "4",
-    "new_key_detected_at": "03/08/2026 23:27:52",
-    "new_key_event_pending": false,
-    "new_event_notified_at": "03/08/2026 23:28:02",
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -4881,13 +4878,10 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "new_key_recovered",
     "source_step": "4",
-    "new_key_detected_at": "08/08/2026 19:41:54",
-    "new_key_event_pending": false,
-    "new_event_notified_at": "08/08/2026 19:42:01",
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -4944,13 +4938,10 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source_step": "4",
     "confirmed_rounds": 2,
     "change_reason": "new_key_recovered",
-    "new_key_detected_at": "08/08/2026 19:42:17",
-    "new_key_event_pending": false,
-    "new_event_notified_at": "08/08/2026 19:42:22",
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -5008,12 +4999,9 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "new_key_recovered",
     "source_step": "4",
-    "new_key_detected_at": "08/08/2026 19:42:30",
-    "new_key_event_pending": false,
-    "new_event_notified_at": "08/08/2026 19:42:36",
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -5072,11 +5060,8 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source_step": "4",
-    "new_key_detected_at": "08/08/2026 19:42:43",
-    "new_key_event_pending": false,
-    "new_event_notified_at": "08/08/2026 19:42:51",
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -5088,9 +5073,6 @@
     "has_confirmed_once": true,
     "missing_since": "13/08/2026 16:30:15",
     "missing_valid_seconds": 84592.41679739952,
-    "new_key_detected_at": "10/08/2026 18:47:07",
-    "new_key_event_pending": false,
-    "new_event_notified_at": "10/08/2026 18:47:14",
     "images": [
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/nowgoal.png",
@@ -5134,7 +5116,7 @@
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-08-10_18-39-51X.jpg",
     "sha256": "cdbdeed622e0403b5d5e3021622ea94e7b7ac303cc91f58593b3905133fe638c",
     "status": "active",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "new_key_baseline",
     "source_step": "4",
     "changed_at": "10/08/2026 18:47:14",
@@ -5150,9 +5132,6 @@
     "has_confirmed_once": true,
     "missing_since": "14/08/2026 15:37:20",
     "missing_valid_seconds": 13305.45561504364,
-    "new_key_detected_at": "11/08/2026 15:48:53",
-    "new_key_event_pending": false,
-    "new_event_notified_at": "11/08/2026 15:48:58",
     "images": [
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/c168X.png",
@@ -5196,7 +5175,7 @@
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-08-13_14-20-34-2X.jpg",
     "sha256": "2bcbb154ddca6a623cb1dd20e6b1c6fed389e6c8a963c5dac90bd7966ad9dc63",
     "status": "active",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "primary_changed",
     "changed_at": "13/08/2026 14:22:49",
     "confirmed_rounds": 2,
@@ -5259,11 +5238,8 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source_step": "4",
-    "new_key_detected_at": "12/08/2026 10:08:03",
-    "new_key_event_pending": false,
-    "new_event_notified_at": "12/08/2026 10:08:14",
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -5275,9 +5251,6 @@
     "has_confirmed_once": true,
     "missing_since": "14/08/2026 14:53:26",
     "missing_valid_seconds": 13858.263492107391,
-    "new_key_detected_at": "12/08/2026 11:24:48",
-    "new_key_event_pending": false,
-    "new_event_notified_at": "12/08/2026 11:24:59",
     "images": [
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/02/luckywinX.png",
@@ -5321,7 +5294,7 @@
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/04/photo_2026-08-12_11-21-40X.jpg",
     "sha256": "7347acaa61515e8e5a995e78794811b7e1bad4c24e11158c6a9bbfd86fe55ad6",
     "status": "active",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "new_key_reactivated",
     "changed_at": "12/08/2026 11:24:59",
     "confirmed_rounds": 2,
@@ -5384,11 +5357,8 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source_step": "4",
-    "new_key_detected_at": "12/08/2026 11:40:26",
-    "new_key_event_pending": false,
-    "new_event_notified_at": "12/08/2026 11:40:36",
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -5400,9 +5370,6 @@
     "has_confirmed_once": true,
     "missing_since": "14/08/2026 14:09:43",
     "missing_valid_seconds": 16288.905341625214,
-    "new_key_detected_at": "13/08/2026 00:44:20",
-    "new_key_event_pending": false,
-    "new_event_notified_at": "13/08/2026 00:44:26",
     "images": [
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/TG88.png",
@@ -5446,7 +5413,7 @@
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-08-13_00-36-13-2X.jpg",
     "sha256": "26a039c2adbae3736a118287f0ea30452f65edd70bfaef9aee005a12e7518640",
     "status": "active",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "new_key_baseline",
     "changed_at": "13/08/2026 00:44:26",
     "confirmed_rounds": 1,
@@ -5462,9 +5429,6 @@
     "has_confirmed_once": true,
     "missing_since": "14/08/2026 09:11:30",
     "missing_valid_seconds": 33213.847111940384,
-    "new_key_detected_at": "13/08/2026 11:34:37",
-    "new_key_event_pending": false,
-    "new_event_notified_at": "13/08/2026 11:34:48",
     "images": [
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/go889.png",
@@ -5508,7 +5472,7 @@
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-08-13_10-46-08X.jpg",
     "sha256": "e6750e95f4ac2ea719912de89a93404350c1bdd02aa9a91ad629be7b8a12dffd",
     "status": "active",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "new_key_reactivated",
     "changed_at": "13/08/2026 11:34:48",
     "confirmed_rounds": 2,
@@ -5524,9 +5488,6 @@
     "has_confirmed_once": true,
     "missing_since": "13/08/2026 17:56:37",
     "missing_valid_seconds": 79203.03798818588,
-    "new_key_detected_at": "13/08/2026 14:12:25",
-    "new_key_event_pending": false,
-    "new_event_notified_at": "13/08/2026 14:12:31",
     "images": [
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/go99-0.png",
@@ -5570,7 +5531,7 @@
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/04/photo_2026-08-13_14-08-50X.jpg",
     "sha256": "41b2131bab17d52c7d91d731439ba38f078cf46b7d2baa8ea256dedafd5778a4",
     "status": "active",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "new_key_baseline",
     "changed_at": "13/08/2026 14:12:31",
     "confirmed_rounds": 1,
@@ -5631,13 +5592,10 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "new_key_reactivated",
     "source_step": "4",
-    "new_key_detected_at": "13/08/2026 14:32:18",
-    "new_key_event_pending": false,
-    "new_event_notified_at": "13/08/2026 14:32:30",
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -5694,13 +5652,10 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "new_key_reactivated",
     "source_step": "4",
-    "new_key_detected_at": "13/08/2026 14:41:15",
-    "new_key_event_pending": false,
-    "new_event_notified_at": "13/08/2026 14:41:27",
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -5712,9 +5667,6 @@
     "has_confirmed_once": true,
     "missing_since": "14/08/2026 15:37:20",
     "missing_valid_seconds": 13309.182936668396,
-    "new_key_detected_at": "13/08/2026 15:42:28",
-    "new_key_event_pending": false,
-    "new_event_notified_at": "13/08/2026 15:42:38",
     "images": [
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/02/Capture33WINXX.png",
@@ -5758,7 +5710,7 @@
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-08-13_15-38-44-2X.jpg",
     "sha256": "04109a6533f7eb1e733b5ad72409260a208c25a72c72ecedf63ab48de85ad1b2",
     "status": "active",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "new_key_reactivated",
     "source_step": "4",
     "changed_at": "13/08/2026 15:42:38",
@@ -5774,9 +5726,6 @@
     "has_confirmed_once": true,
     "missing_since": "14/08/2026 15:37:20",
     "missing_valid_seconds": 13351.89221906662,
-    "new_key_detected_at": "13/08/2026 15:50:37",
-    "new_key_event_pending": false,
-    "new_event_notified_at": "13/08/2026 15:50:44",
     "images": [
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/uy88X.png",
@@ -5820,7 +5769,7 @@
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-08-14_10-43-49X.jpg",
     "sha256": "777db0708d182c12be099c39d472f213302f95a51812a3987727954c081fbc47",
     "status": "active",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "primary_changed",
     "changed_at": "14/08/2026 11:49:55",
     "confirmed_rounds": 2,
@@ -5881,13 +5830,10 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "new_key_reactivated",
     "source_step": "4",
-    "new_key_detected_at": "13/08/2026 23:33:12",
-    "new_key_event_pending": false,
-    "new_event_notified_at": "13/08/2026 23:33:23",
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -5944,13 +5890,10 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "new_key_reactivated",
     "source_step": "4",
-    "new_key_detected_at": "14/08/2026 01:15:29",
-    "new_key_event_pending": false,
-    "new_event_notified_at": "14/08/2026 01:15:40",
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -6009,11 +5952,8 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source_step": "4",
-    "new_key_detected_at": "14/08/2026 11:44:15",
-    "new_key_event_pending": false,
-    "new_event_notified_at": "14/08/2026 11:44:26",
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -6070,13 +6010,10 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "new_key_reactivated",
     "source_step": "4",
-    "new_key_detected_at": "14/08/2026 12:05:38",
-    "new_key_event_pending": false,
-    "new_event_notified_at": "14/08/2026 12:05:49",
     "source": "redirectMap.json",
     "source_present": true
   },
@@ -6088,9 +6025,6 @@
     "has_confirmed_once": true,
     "missing_since": "14/08/2026 14:24:15",
     "missing_valid_seconds": 15469.988746643066,
-    "new_key_detected_at": "14/08/2026 12:43:42",
-    "new_key_event_pending": false,
-    "new_event_notified_at": "14/08/2026 12:43:55",
     "images": [
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/02/hitclubnewX.png",
@@ -6134,7 +6068,7 @@
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/04/photo_2026-08-14_10-30-37X.jpg",
     "sha256": "5209f17c78fb81c0b6de153f67150fe287a66e312a1d6db5636e051e8f572236",
     "status": "active",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "new_key_reactivated",
     "changed_at": "14/08/2026 12:43:55",
     "confirmed_rounds": 2,
@@ -6158,11 +6092,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "10-2": {
@@ -6181,11 +6112,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "100-2": {
@@ -6244,16 +6172,13 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "redirect_source_added",
     "source_step": "4",
     "source": "redirectMap.json",
     "source_present": true,
-    "source_added_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_event_notified_at": ""
+    "source_added_at": "14/08/2026 22:22:25"
   },
   "101-2": {
     "scan_url": "https://linkhuongdan.online/101-2/?qq=complete",
@@ -6271,11 +6196,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "102-2": {
@@ -6294,11 +6216,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "103-2": {
@@ -6357,16 +6276,13 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source_step": "4",
     "confirmed_rounds": 2,
     "change_reason": "redirect_source_added",
     "source": "redirectMap.json",
     "source_present": true,
-    "source_added_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": false,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_event_notified_at": "14/08/2026 22:22:53"
+    "source_added_at": "14/08/2026 22:22:25"
   },
   "105-2": {
     "scan_url": "https://linkhuongdan.online/105-2/?qq=complete",
@@ -6384,11 +6300,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "106-2": {
@@ -6399,9 +6312,6 @@
     "has_confirmed_once": true,
     "missing_since": "09/08/2026 00:47:35",
     "missing_valid_seconds": 86401.30512666702,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": true,
-    "new_event_notified_at": "",
     "images": [
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-08-06_14-43-52X.jpg",
@@ -6448,7 +6358,7 @@
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-05-31_19-16-27-2X.jpg",
     "sha256": "8a454075da55ffd4d146b715f4f07e11b0abaec483e568ef0d8e6216898184fc",
     "status": "active",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "redirect_source_added",
     "source_step": "4",
     "changed_at": "06/08/2026 14:57:10",
@@ -6473,11 +6383,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "108-2": {
@@ -6496,11 +6403,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "109-2": {
@@ -6555,11 +6459,8 @@
     "status": "active",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": false,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_event_notified_at": "14/08/2026 22:23:06",
     "change_reason": "new_key_baseline",
     "changed_at": "14/08/2026 22:23:06",
     "confirmed_rounds": 1
@@ -6580,11 +6481,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "110-2": {
@@ -6603,11 +6501,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "111-2": {
@@ -6667,14 +6562,11 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source_step": "4",
     "source": "redirectMap.json",
     "source_present": true,
     "source_added_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "112-2": {
@@ -6685,9 +6577,6 @@
     "has_confirmed_once": true,
     "missing_since": "10/08/2026 18:44:09",
     "missing_valid_seconds": 86400.58219242096,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": true,
-    "new_event_notified_at": "",
     "images": [
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/c168X.png",
@@ -6734,7 +6623,7 @@
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-08-10_13-49-38X.jpg",
     "sha256": "37885aebe69a77bf7af2c3ad909a20f1773624348bb3f847158f6154a0d60c71",
     "status": "active",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "redirect_source_added",
     "source_step": "4",
     "changed_at": "10/08/2026 14:19:30",
@@ -6795,11 +6684,8 @@
     "status": "active",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": false,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_event_notified_at": "14/08/2026 22:22:54",
     "change_reason": "new_key_baseline",
     "changed_at": "14/08/2026 22:22:54",
     "confirmed_rounds": 1
@@ -6820,11 +6706,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "11441-2": {
@@ -6843,11 +6726,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "116-2": {
@@ -6866,35 +6746,69 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "11738-2": {
     "scan_url": "https://linkhuongdan.online/11738-2/?qq=complete",
     "resolved_url": "https://linkhuongdan.online/11738-2/?qq=complete",
-    "images": [],
-    "image_count": 0,
+    "images": [
+      {
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/f8betX-1024x137-1-1.png",
+        "sha256": "e6312f9f59f2d4d9c8c9c7cff1c390c96f548c655bf6a0f3817f64d0e6190c2a",
+        "byte_size": 20489,
+        "content_length": "20489",
+        "_full_checked_ts": 1786721770.9887757,
+        "etag": "\"69ccd343-5009\"",
+        "last_modified": "Wed, 01 Apr 2026 08:11:47 GMT",
+        "position": 1
+      },
+      {
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/02/photo_2026-05-20_14-00-49-2X.jpg",
+        "sha256": "8da5f6f6a592933642c09dd5e6535fe08660128b798846bf1af3b3f4a52d385e",
+        "byte_size": 209773,
+        "content_length": "209773",
+        "_full_checked_ts": 1786721770.9895492,
+        "etag": "\"6a0d5e50-3336d\"",
+        "last_modified": "Wed, 20 May 2026 07:10:08 GMT",
+        "position": 2
+      },
+      {
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/step1.jpg",
+        "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
+        "byte_size": 5314,
+        "content_length": "5314",
+        "_full_checked_ts": 1786721770.990609,
+        "etag": "\"69e47cad-14c2\"",
+        "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
+        "position": 3
+      }
+    ],
+    "image_count": 3,
     "primary_image_index": 1,
     "primary_image_number": 2,
-    "primary_image": {},
-    "primary_image_url": "",
-    "primary_sha256": "",
-    "image_url": "",
-    "sha256": "",
+    "primary_image": {
+      "position": 2,
+      "url": "https://linkhuongdan.online/wp-content/uploads/2026/02/photo_2026-05-20_14-00-49-2X.jpg",
+      "sha256": "8da5f6f6a592933642c09dd5e6535fe08660128b798846bf1af3b3f4a52d385e",
+      "byte_size": 209773
+    },
+    "primary_image_url": "https://linkhuongdan.online/wp-content/uploads/2026/02/photo_2026-05-20_14-00-49-2X.jpg",
+    "primary_sha256": "8da5f6f6a592933642c09dd5e6535fe08660128b798846bf1af3b3f4a52d385e",
+    "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/02/photo_2026-05-20_14-00-49-2X.jpg",
+    "sha256": "8da5f6f6a592933642c09dd5e6535fe08660128b798846bf1af3b3f4a52d385e",
     "added_at": "14/08/2026 22:22:25",
-    "status": "pending",
+    "status": "active",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_event_notified_at": "",
-    "change_reason": "redirect_source_added"
+    "change_reason": "baseline_initialized",
+    "changed_at": "14/08/2026 22:36:14",
+    "baseline_at": "14/08/2026 22:36:14",
+    "baseline_ready": true,
+    "confirmed_rounds": 1
   },
   "119-click-3-trang": {
     "scan_url": "https://linkhuongdan.online/119-click-3-trang/?qq=complete",
@@ -6912,11 +6826,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "120-2": {
@@ -6927,9 +6838,6 @@
     "has_confirmed_once": true,
     "missing_since": "11/08/2026 19:26:59",
     "missing_valid_seconds": 86402.03327703476,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": true,
-    "new_event_notified_at": "",
     "images": [
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/ee88X.png",
@@ -6976,7 +6884,7 @@
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-08-11_16-07-11X-1.jpg",
     "sha256": "673203d78bf6ed7767e3ce59376cb7db049df243c235301e9ba7925da19f0f3d",
     "status": "active",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "redirect_source_added",
     "changed_at": "11/08/2026 16:45:27",
     "confirmed_rounds": 2,
@@ -7041,13 +6949,10 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "redirect_source_added",
     "source_step": "4",
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": true,
-    "new_event_notified_at": "",
     "source": "redirectMap.json",
     "source_present": true,
     "source_added_at": "14/08/2026 22:22:25"
@@ -7104,11 +7009,8 @@
     "status": "active",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": false,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_event_notified_at": "14/08/2026 22:23:08",
     "change_reason": "new_key_baseline",
     "changed_at": "14/08/2026 22:23:08",
     "confirmed_rounds": 1
@@ -7165,11 +7067,8 @@
     "status": "active",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": false,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_event_notified_at": "14/08/2026 22:23:00",
     "change_reason": "new_key_baseline",
     "changed_at": "14/08/2026 22:23:00",
     "confirmed_rounds": 1
@@ -7182,9 +7081,6 @@
     "has_confirmed_once": true,
     "missing_since": "10/08/2026 14:09:20",
     "missing_valid_seconds": 86401.14020514488,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": true,
-    "new_event_notified_at": "",
     "images": [
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/02/Capture33winX.png",
@@ -7231,7 +7127,7 @@
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-08-08_12-13-35X.jpg",
     "sha256": "5a95fbd52ea4f0c167d0c68894ce27f9bbb74b4b00ad68b9041780ef9af7dc87",
     "status": "active",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "redirect_source_added",
     "changed_at": "08/08/2026 13:39:59",
     "confirmed_rounds": 2,
@@ -7256,11 +7152,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "130-2": {
@@ -7271,9 +7164,6 @@
     "has_confirmed_once": true,
     "missing_since": "10/08/2026 15:40:01",
     "missing_valid_seconds": 86401.5214817524,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": true,
-    "new_event_notified_at": "",
     "images": [
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/luck8X.png",
@@ -7320,7 +7210,7 @@
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-08-09_11-01-49X.jpg",
     "sha256": "1f0f18483229de67a3bc77353d2f58e298dcbfde249a22b0941c369fd248255d",
     "status": "active",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "redirect_source_added",
     "changed_at": "09/08/2026 11:09:10",
     "confirmed_rounds": 1,
@@ -7345,11 +7235,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:25",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:25",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "132-click-3-trang": {
@@ -7368,11 +7255,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "133-2": {
@@ -7391,11 +7275,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "134-2": {
@@ -7454,14 +7335,11 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source_step": "4",
     "source": "redirectMap.json",
     "source_present": true,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "136-2": {
@@ -7472,9 +7350,6 @@
     "has_confirmed_once": true,
     "missing_since": "06/08/2026 14:59:08",
     "missing_valid_seconds": 86402.34403800964,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_event_notified_at": "",
     "images": [
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/ciX.png",
@@ -7521,7 +7396,7 @@
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/03/ci1X.png",
     "sha256": "d3caa4d385df75359c75ea3acc2ef8f007f2c5e24beada38a23b8c9da1d77a72",
     "status": "active",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "redirect_source_added",
     "changed_at": "06/08/2026 14:13:03",
     "confirmed_rounds": 1,
@@ -7546,11 +7421,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "14-2": {
@@ -7569,11 +7441,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "140-2": {
@@ -7592,11 +7461,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "142-2": {
@@ -7615,11 +7481,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "142-click-3-trang": {
@@ -7638,11 +7501,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "143-2": {
@@ -7661,11 +7521,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "143-click-3-trang": {
@@ -7720,11 +7577,8 @@
     "status": "active",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": false,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "14/08/2026 22:23:01",
     "change_reason": "new_key_baseline",
     "changed_at": "14/08/2026 22:23:01",
     "confirmed_rounds": 1
@@ -7745,11 +7599,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "148-2": {
@@ -7808,16 +7659,13 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "redirect_source_added",
     "source_step": "4",
     "source": "redirectMap.json",
     "source_present": true,
-    "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": ""
+    "source_added_at": "14/08/2026 22:22:26"
   },
   "148-click-3-trang": {
     "scan_url": "https://linkhuongdan.online/148-click-3-trang/?qq=complete",
@@ -7835,11 +7683,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "149-click-3-trang": {
@@ -7858,11 +7703,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "15-2": {
@@ -7881,11 +7723,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "150-2": {
@@ -7904,11 +7743,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "151-2": {
@@ -7969,14 +7805,11 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source_step": "4",
     "source": "redirectMap.json",
     "source_present": true,
-    "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": ""
+    "source_added_at": "14/08/2026 22:22:26"
   },
   "153-2": {
     "scan_url": "https://linkhuongdan.online/153-2/?qq=complete",
@@ -7994,11 +7827,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "155-2": {
@@ -8009,9 +7839,6 @@
     "has_confirmed_once": true,
     "missing_since": "09/08/2026 23:42:53",
     "missing_valid_seconds": 86400.69832992554,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_event_notified_at": "",
     "images": [
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/h19X.png",
@@ -8058,7 +7885,7 @@
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-08-09_19-17-01X.jpg",
     "sha256": "47ad9cbe4a15e0bff91a22b1312a1ce0cdaa865ed4101029a687b49d896a8b7c",
     "status": "active",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "redirect_source_added",
     "source_step": "4",
     "changed_at": "09/08/2026 19:19:00",
@@ -8083,11 +7910,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "157-2": {
@@ -8098,9 +7922,6 @@
     "has_confirmed_once": true,
     "missing_since": "07/08/2026 16:46:55",
     "missing_valid_seconds": 86404.06158447266,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": false,
-    "new_event_notified_at": "14/08/2026 22:23:11",
     "images": [
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/ki1x.png",
@@ -8147,7 +7968,7 @@
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-08-06_14-43-52-2X.jpg",
     "sha256": "c16de11bf43a54c9df6778a1e5117fec93bc83583879ee12c2d57e5491c0fb3f",
     "status": "active",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "redirect_source_added",
     "changed_at": "06/08/2026 19:52:38",
     "confirmed_rounds": 1,
@@ -8172,11 +7993,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "16-2": {
@@ -8195,11 +8013,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "163-2": {
@@ -8258,16 +8073,13 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source_step": "4",
     "confirmed_rounds": 2,
     "change_reason": "redirect_source_added",
     "source": "redirectMap.json",
     "source_present": true,
-    "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": ""
+    "source_added_at": "14/08/2026 22:22:26"
   },
   "166-2": {
     "scan_url": "https://linkhuongdan.online/166-2/?qq=complete",
@@ -8285,11 +8097,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "166-click-3-trang": {
@@ -8308,11 +8117,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "167-click-3-trang": {
@@ -8331,11 +8137,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "169-2": {
@@ -8390,11 +8193,8 @@
     "status": "active",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": false,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "14/08/2026 22:23:12",
     "change_reason": "new_key_baseline",
     "changed_at": "14/08/2026 22:23:12",
     "confirmed_rounds": 1
@@ -8415,11 +8215,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "175-2": {
@@ -8478,16 +8275,13 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "redirect_source_added",
     "source_step": "4",
     "source": "redirectMap.json",
     "source_present": true,
-    "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": false,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "14/08/2026 22:22:36"
+    "source_added_at": "14/08/2026 22:22:26"
   },
   "179-click-3-trang": {
     "scan_url": "https://linkhuongdan.online/179-click-3-trang/?qq=complete",
@@ -8541,11 +8335,8 @@
     "status": "active",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": false,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "14/08/2026 22:22:37",
     "change_reason": "new_key_baseline",
     "changed_at": "14/08/2026 22:22:37",
     "confirmed_rounds": 1
@@ -8566,11 +8357,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "18-2": {
@@ -8589,11 +8377,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "180-2": {
@@ -8652,14 +8437,11 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source_step": "4",
     "source": "redirectMap.json",
     "source_present": true,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": false,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "14/08/2026 22:23:13",
     "change_reason": "redirect_source_added"
   },
   "185-2": {
@@ -8670,9 +8452,6 @@
     "has_confirmed_once": true,
     "missing_since": "11/08/2026 14:07:17",
     "missing_valid_seconds": 86403.48747444153,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_event_notified_at": "",
     "images": [
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/Captures6661X.png",
@@ -8719,7 +8498,7 @@
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-08-09_15-09-14X.jpg",
     "sha256": "201871ab709da0765f3c8be6f66bafcd89f2f6992513e04195693d1d17c64c81",
     "status": "active",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "redirect_source_added",
     "source_step": "4",
     "changed_at": "09/08/2026 15:18:26",
@@ -8782,14 +8561,11 @@
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-08-10_13-45-14X.jpg",
     "sha256": "ad741f972b21ea4fc5d5ec0ae485ed409f19c5476a8b3040e2357e3d72e3fa99",
     "status": "active",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "redirect_source_added",
     "source_step": "4",
     "changed_at": "10/08/2026 13:47:40",
     "confirmed_rounds": 2,
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "",
     "source": "redirectMap.json",
     "source_present": true,
     "source_added_at": "14/08/2026 22:22:26"
@@ -8850,14 +8626,11 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source_step": "4",
     "source": "redirectMap.json",
     "source_present": true,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "19-2": {
@@ -8876,11 +8649,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:26",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:26",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "191-2": {
@@ -8939,16 +8709,13 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "redirect_source_added",
     "source_step": "4",
     "source": "redirectMap.json",
     "source_present": true,
-    "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": ""
+    "source_added_at": "14/08/2026 22:22:27"
   },
   "193-2": {
     "scan_url": "https://linkhuongdan.online/193-2/?qq=complete",
@@ -9006,16 +8773,13 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source_step": "4",
     "confirmed_rounds": 2,
     "change_reason": "redirect_source_added",
     "source": "redirectMap.json",
     "source_present": true,
-    "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": ""
+    "source_added_at": "14/08/2026 22:22:27"
   },
   "195-2": {
     "scan_url": "https://linkhuongdan.online/195-2/?qq=complete",
@@ -9073,14 +8837,11 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source_step": "4",
     "source": "redirectMap.json",
     "source_present": true,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "198-2": {
@@ -9099,11 +8860,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "2-2": {
@@ -9122,11 +8880,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "20-2": {
@@ -9145,11 +8900,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "201-2": {
@@ -9208,13 +8960,10 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "redirect_source_added",
     "source_step": "4",
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_event_notified_at": "",
     "source": "redirectMap.json",
     "source_present": true,
     "source_added_at": "14/08/2026 22:22:27"
@@ -9277,11 +9026,8 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source_step": "4",
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_event_notified_at": "",
     "source": "redirectMap.json",
     "source_present": true,
     "source_added_at": "14/08/2026 22:22:27"
@@ -9302,11 +9048,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "204-2": {
@@ -9365,16 +9108,13 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "redirect_source_added",
     "source_step": "4",
     "source": "redirectMap.json",
     "source_present": true,
-    "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": ""
+    "source_added_at": "14/08/2026 22:22:27"
   },
   "205-2": {
     "scan_url": "https://linkhuongdan.online/205-2/?qq=complete",
@@ -9432,14 +9172,11 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source_step": "4",
     "source": "redirectMap.json",
     "source_present": true,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "206-2": {
@@ -9499,15 +9236,12 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "redirect_source_added",
     "source_step": "4",
     "source": "redirectMap.json",
     "source_present": true,
-    "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": ""
+    "source_added_at": "14/08/2026 22:22:27"
   },
   "21-2": {
     "scan_url": "https://linkhuongdan.online/21-2/?qq=complete",
@@ -9525,11 +9259,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "210-2": {
@@ -9540,9 +9271,6 @@
     "has_confirmed_once": true,
     "missing_since": "03/08/2026 18:35:10",
     "missing_valid_seconds": 86400.63802146912,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_event_notified_at": "",
     "images": [
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/89X.png",
@@ -9589,7 +9317,7 @@
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/04/891xX.png",
     "sha256": "2bdef869d47ba0a66a175b14d5dcee6ee41a731448459f57830ba75232849d14",
     "status": "active",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "redirect_source_added",
     "changed_at": "03/08/2026 18:24:00",
     "confirmed_rounds": 1,
@@ -9614,11 +9342,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "211-2": {
@@ -9637,11 +9362,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "212-2": {
@@ -9660,11 +9382,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "213-2": {
@@ -9719,11 +9438,8 @@
     "status": "active",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": false,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "14/08/2026 22:23:02",
     "change_reason": "new_key_baseline",
     "changed_at": "14/08/2026 22:23:02",
     "confirmed_rounds": 1
@@ -9736,9 +9452,6 @@
     "has_confirmed_once": true,
     "missing_since": "10/08/2026 21:08:39",
     "missing_valid_seconds": 86405.4900727272,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_event_notified_at": "",
     "images": [
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/ee88X.png",
@@ -9785,7 +9498,7 @@
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/04/photo_2026-08-08_11-25-07X.jpg",
     "sha256": "fd8b8435a0e5113eb1fa5916165b6b6bdc9e9bca6f426f1868bf62cbc0a24f9b",
     "status": "active",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "redirect_source_added",
     "source_step": "4",
     "changed_at": "08/08/2026 11:29:42",
@@ -9810,11 +9523,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "214-3": {
@@ -9833,11 +9543,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "215-2": {
@@ -9892,11 +9599,8 @@
     "status": "active",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": false,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "14/08/2026 22:22:41",
     "change_reason": "new_key_baseline",
     "changed_at": "14/08/2026 22:22:41",
     "confirmed_rounds": 1
@@ -9959,14 +9663,11 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source_step": "4",
     "source": "redirectMap.json",
     "source_present": true,
-    "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": false,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "14/08/2026 22:23:07"
+    "source_added_at": "14/08/2026 22:22:27"
   },
   "219-3": {
     "scan_url": "https://linkhuongdan.online/219-3/?qq=complete",
@@ -9984,11 +9685,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "22-2": {
@@ -10007,11 +9705,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "221-3": {
@@ -10030,11 +9725,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "222-2": {
@@ -10053,11 +9745,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "223-2": {
@@ -10118,14 +9807,11 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source_step": "4",
     "source": "redirectMap.json",
     "source_present": true,
-    "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": ""
+    "source_added_at": "14/08/2026 22:22:27"
   },
   "223-3": {
     "scan_url": "https://linkhuongdan.online/223-3/?qq=complete",
@@ -10143,11 +9829,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "227-2": {
@@ -10202,11 +9885,8 @@
     "status": "active",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": false,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "14/08/2026 22:22:36",
     "change_reason": "new_key_baseline",
     "changed_at": "14/08/2026 22:22:36",
     "confirmed_rounds": 1
@@ -10227,11 +9907,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "229-2": {
@@ -10292,11 +9969,8 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source_step": "4",
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_event_notified_at": "",
     "source": "redirectMap.json",
     "source_present": true,
     "source_added_at": "14/08/2026 22:22:27"
@@ -10317,11 +9991,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "230-2": {
@@ -10340,11 +10011,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "231-2": {
@@ -10363,11 +10031,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "232-2": {
@@ -10386,11 +10051,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "233-2": {
@@ -10409,11 +10071,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "236-2": {
@@ -10472,16 +10131,13 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source_step": "4",
     "confirmed_rounds": 2,
     "change_reason": "redirect_source_added",
     "source": "redirectMap.json",
     "source_present": true,
-    "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": ""
+    "source_added_at": "14/08/2026 22:22:27"
   },
   "238-2": {
     "scan_url": "https://linkhuongdan.online/238-2/?qq=complete",
@@ -10499,11 +10155,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "239-2": {
@@ -10522,11 +10175,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "24-2": {
@@ -10545,11 +10195,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "240-2": {
@@ -10568,11 +10215,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "241-3": {
@@ -10591,11 +10235,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "242-2": {
@@ -10614,11 +10255,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "243-2": {
@@ -10637,11 +10275,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "244-2": {
@@ -10660,11 +10295,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "246-2": {
@@ -10683,11 +10315,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "247-2": {
@@ -10706,11 +10335,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "25-2": {
@@ -10765,11 +10391,8 @@
     "status": "active",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": false,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "14/08/2026 22:22:48",
     "change_reason": "new_key_baseline",
     "changed_at": "14/08/2026 22:22:48",
     "confirmed_rounds": 1
@@ -10790,11 +10413,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "27-2": {
@@ -10813,11 +10433,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "28-2": {
@@ -10872,11 +10489,8 @@
     "status": "active",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": false,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "14/08/2026 22:22:42",
     "change_reason": "new_key_baseline",
     "changed_at": "14/08/2026 22:22:42",
     "confirmed_rounds": 1
@@ -10897,11 +10511,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "3-2": {
@@ -10920,11 +10531,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "31-2": {
@@ -10935,9 +10543,6 @@
     "has_confirmed_once": true,
     "missing_since": "06/08/2026 22:27:56",
     "missing_valid_seconds": 86407.9304265976,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_event_notified_at": "",
     "images": [
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/02/go-88.png",
@@ -10984,7 +10589,7 @@
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/02/photo_2026-08-05_23-26-16X.jpg",
     "sha256": "9cff4bf2e85577b70a1abe60924336b3a9bf75d094c83b8c048aa6872d21cda4",
     "status": "active",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "redirect_source_added",
     "changed_at": "06/08/2026 00:00:49",
     "confirmed_rounds": 1,
@@ -11001,9 +10606,6 @@
     "has_confirmed_once": true,
     "missing_since": "06/08/2026 19:57:10",
     "missing_valid_seconds": 86401.86781454086,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_event_notified_at": "",
     "images": [
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/taigo88.png",
@@ -11050,7 +10652,7 @@
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/02/photo_2026-08-05_23-26-16X.jpg",
     "sha256": "9cff4bf2e85577b70a1abe60924336b3a9bf75d094c83b8c048aa6872d21cda4",
     "status": "active",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "redirect_source_added",
     "changed_at": "06/08/2026 00:04:59",
     "confirmed_rounds": 1,
@@ -11111,11 +10713,8 @@
     "status": "active",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": false,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "14/08/2026 22:22:41",
     "change_reason": "new_key_baseline",
     "changed_at": "14/08/2026 22:22:41",
     "confirmed_rounds": 1
@@ -11136,11 +10735,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "39-2": {
@@ -11151,9 +10747,6 @@
     "has_confirmed_once": true,
     "missing_since": "09/08/2026 14:33:06",
     "missing_valid_seconds": 86402.37223100662,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_event_notified_at": "",
     "images": [
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/c168X.png",
@@ -11200,7 +10793,7 @@
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/02/photo_2026-08-08_14-20-47-2X.jpg",
     "sha256": "f76478509022aa44262a1dcd44db11e3ce5db947e51a8460f585d206b11e8382",
     "status": "active",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "redirect_source_added",
     "source_step": "4",
     "changed_at": "08/08/2026 14:35:26",
@@ -11225,11 +10818,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "40-2": {
@@ -11284,11 +10874,8 @@
     "status": "active",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": false,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "14/08/2026 22:22:44",
     "change_reason": "new_key_baseline",
     "changed_at": "14/08/2026 22:22:44",
     "confirmed_rounds": 1
@@ -11309,11 +10896,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "43-2": {
@@ -11332,11 +10916,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "44-2": {
@@ -11395,13 +10976,10 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "redirect_source_added",
     "source_step": "4",
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": false,
-    "new_event_notified_at": "14/08/2026 22:22:58",
     "source": "redirectMap.json",
     "source_present": true,
     "source_added_at": "14/08/2026 22:22:27"
@@ -11422,11 +11000,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "47-2": {
@@ -11445,11 +11020,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "49-2": {
@@ -11460,9 +11032,6 @@
     "has_confirmed_once": true,
     "missing_since": "06/08/2026 15:32:46",
     "missing_valid_seconds": 86403.79764842987,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": false,
-    "new_event_notified_at": "14/08/2026 22:23:06",
     "images": [
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/88m.png",
@@ -11509,7 +11078,7 @@
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/02/photo_2026-08-06_13-51-51X.jpg",
     "sha256": "4eb61aea64123a0f982518356c66a4a71fbc5685fb9f14217b1e093ac590dc2d",
     "status": "active",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "redirect_source_added",
     "changed_at": "06/08/2026 13:58:10",
     "confirmed_rounds": 1,
@@ -11534,11 +11103,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "53-2": {
@@ -11557,11 +11123,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:27",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:27",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "54-2": {
@@ -11580,11 +11143,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "56-2": {
@@ -11603,11 +11163,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "57-2": {
@@ -11626,11 +11183,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "59-2": {
@@ -11649,11 +11203,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "6-2": {
@@ -11672,11 +11223,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "60-2": {
@@ -11695,11 +11243,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "62-2": {
@@ -11718,11 +11263,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "64-2": {
@@ -11741,11 +11283,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "65-2": {
@@ -11764,11 +11303,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "66-2": {
@@ -11829,11 +11365,8 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "source_step": "4",
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_event_notified_at": "",
     "source": "redirectMap.json",
     "source_present": true,
     "source_added_at": "14/08/2026 22:22:28"
@@ -11854,11 +11387,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "69-2": {
@@ -11917,16 +11447,13 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "redirect_source_added",
     "source_step": "4",
     "source": "redirectMap.json",
     "source_present": true,
-    "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": ""
+    "source_added_at": "14/08/2026 22:22:28"
   },
   "7-2": {
     "scan_url": "https://linkhuongdan.online/7-2/?qq=complete",
@@ -11944,11 +11471,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "71-2": {
@@ -11959,9 +11483,6 @@
     "has_confirmed_once": true,
     "missing_since": "09/08/2026 19:36:54",
     "missing_valid_seconds": 86402.48842477798,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_event_notified_at": "",
     "images": [
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/keonhacai_1.png",
@@ -12008,7 +11529,7 @@
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/02/photo_2026-08-06_11-06-08X.jpg",
     "sha256": "fe1d91c679e937255e7926467030f693583fe9080ede79c7b018e93513f6d70f",
     "status": "active",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "redirect_source_added",
     "changed_at": "06/08/2026 11:16:36",
     "confirmed_rounds": 1,
@@ -12033,11 +11554,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "73-2": {
@@ -12056,11 +11574,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "79-2": {
@@ -12079,11 +11594,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "8-2": {
@@ -12102,11 +11614,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "80-2": {
@@ -12125,11 +11634,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "85-2": {
@@ -12148,11 +11654,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "86-2": {
@@ -12211,16 +11714,13 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "redirect_source_added",
     "source_step": "4",
     "source": "redirectMap.json",
     "source_present": true,
-    "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": ""
+    "source_added_at": "14/08/2026 22:22:28"
   },
   "9-2": {
     "scan_url": "https://linkhuongdan.online/9-2/?qq=complete",
@@ -12238,11 +11738,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "90-click-3-trang": {
@@ -12261,11 +11758,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "91-2": {
@@ -12284,11 +11778,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "92-2": {
@@ -12307,11 +11798,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "92-click-3-trang": {
@@ -12330,11 +11818,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "93-click-3-trang": {
@@ -12353,11 +11838,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "94-2": {
@@ -12376,11 +11858,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "94-click-3-trang": {
@@ -12399,11 +11878,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "95-click-3-trang": {
@@ -12422,11 +11898,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "96-2": {
@@ -12485,13 +11958,10 @@
     "has_confirmed_once": true,
     "status": "active",
     "migrated_at": "01/08/2026 17:12:07",
-    "schema_version": 8,
+    "schema_version": 9,
     "confirmed_rounds": 2,
     "change_reason": "redirect_source_added",
     "source_step": "4",
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_event_notified_at": "",
     "source": "redirectMap.json",
     "source_present": true,
     "source_added_at": "14/08/2026 22:22:28"
@@ -12548,11 +12018,8 @@
     "status": "active",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": false,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "14/08/2026 22:22:42",
     "change_reason": "new_key_baseline",
     "changed_at": "14/08/2026 22:22:42",
     "confirmed_rounds": 1
@@ -12565,9 +12032,6 @@
     "has_confirmed_once": true,
     "missing_since": "09/08/2026 23:44:31",
     "missing_valid_seconds": 86403.7150630951,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_event_notified_at": "",
     "images": [
       {
         "url": "https://linkhuongdan.online/wp-content/uploads/2026/02/hitclubnewX.png",
@@ -12614,7 +12078,7 @@
     "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/02/photo_2026-08-09_16-07-30X.jpg",
     "sha256": "c21dba169ba15788d2badbfa4fb4e8230c621ee3a23bfece10f6b8d2661d9969",
     "status": "active",
-    "schema_version": 8,
+    "schema_version": 9,
     "change_reason": "redirect_source_added",
     "changed_at": "09/08/2026 17:48:24",
     "confirmed_rounds": 1,
@@ -12639,11 +12103,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   },
   "het-ma": {
@@ -12662,11 +12123,8 @@
     "status": "pending",
     "source": "redirectMap.json",
     "source_present": true,
-    "schema_version": 8,
+    "schema_version": 9,
     "source_added_at": "14/08/2026 22:22:28",
-    "new_key_event_pending": true,
-    "new_key_detected_at": "14/08/2026 22:22:28",
-    "new_event_notified_at": "",
     "change_reason": "redirect_source_added"
   }
 }
