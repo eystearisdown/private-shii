@@ -829,6 +829,7 @@
         "sha256": "d7c66e87c53720724d25ddf618e7dd51696358f97ea502c759e80e02632ca32f",
         "byte_size": 14408,
         "content_length": "14408",
+        "_full_checked_ts": 1786721792.3824298,
         "etag": "\"69b37af0-3848\"",
         "last_modified": "Fri, 13 Mar 2026 02:48:16 GMT",
         "position": 1
@@ -838,6 +839,7 @@
         "sha256": "8c2b4865abaff35fab48cb97526b46fa0f66936c34d262414760378436fe6d6b",
         "byte_size": 189007,
         "content_length": "189007",
+        "_full_checked_ts": 1786721792.3833175,
         "etag": "\"6a5f427c-2e24f\"",
         "last_modified": "Tue, 21 Jul 2026 09:57:16 GMT",
         "position": 2
@@ -847,6 +849,7 @@
         "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
         "byte_size": 5314,
         "content_length": "5314",
+        "_full_checked_ts": 1786721792.3837974,
         "etag": "\"69e47cad-14c2\"",
         "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
         "position": 3
@@ -876,7 +879,8 @@
     "migrated_at": "01/08/2026 17:12:07",
     "schema_version": 9,
     "source": "redirectMap.json",
-    "source_present": true
+    "source_present": true,
+    "baseline_ready": true
   },
   "158-2": {
     "scan_url": "https://linkhuongdan.online/158-2/?qq=complete",
@@ -5733,6 +5737,7 @@
         "sha256": "6bb01c71c2e0266bc2e34f78c38ee6209933d78f2ece975e72522bdc7ecb59db",
         "byte_size": 14717,
         "content_length": "14717",
+        "_full_checked_ts": 1786721793.3943424,
         "etag": "\"6995917a-397d\"",
         "last_modified": "Wed, 18 Feb 2026 10:16:26 GMT",
         "position": 1
@@ -5742,6 +5747,7 @@
         "sha256": "04109a6533f7eb1e733b5ad72409260a208c25a72c72ecedf63ab48de85ad1b2",
         "byte_size": 203674,
         "content_length": "203674",
+        "_full_checked_ts": 1786721793.395336,
         "etag": "\"6a7d8331-31b9a\"",
         "last_modified": "Thu, 13 Aug 2026 08:41:21 GMT",
         "position": 2
@@ -5751,6 +5757,7 @@
         "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
         "byte_size": 5314,
         "content_length": "5314",
+        "_full_checked_ts": 1786721793.3955102,
         "etag": "\"69e47cad-14c2\"",
         "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
         "position": 3
@@ -5776,7 +5783,8 @@
     "changed_at": "13/08/2026 15:42:38",
     "confirmed_rounds": 2,
     "source": "redirectMap.json",
-    "source_present": true
+    "source_present": true,
+    "baseline_ready": true
   },
   "145-2": {
     "scan_url": "https://linkhuongdan.online/145-2/?qq=complete",
@@ -11706,7 +11714,7 @@
         "sha256": "0147d21b7fccbbc12894f7a44f975ead7b2f2f2d0a4fef18e1dd5637191f8087",
         "byte_size": 13244,
         "content_length": "13244",
-        "_full_checked_ts": 1786544510.4905126,
+        "_full_checked_ts": 1786721792.8559778,
         "etag": "\"69b79993-33bc\"",
         "last_modified": "Mon, 16 Mar 2026 05:48:03 GMT",
         "position": 1
@@ -11716,7 +11724,7 @@
         "sha256": "2bda0cc826b5a112f2ee33d342ac6fb5c4f97242e624e6f5f0b13b927f191724",
         "byte_size": 214671,
         "content_length": "214671",
-        "_full_checked_ts": 1786544510.4937868,
+        "_full_checked_ts": 1786721792.8584213,
         "etag": "\"6a78748c-3468f\"",
         "last_modified": "Sun, 09 Aug 2026 12:37:32 GMT",
         "position": 2
@@ -11726,7 +11734,7 @@
         "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
         "byte_size": 5314,
         "content_length": "5314",
-        "_full_checked_ts": 1786544510.4939203,
+        "_full_checked_ts": 1786721792.8593519,
         "etag": "\"69e47cad-14c2\"",
         "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
         "position": 3
@@ -11760,7 +11768,8 @@
     "source_step": "4",
     "source": "redirectMap.json",
     "source_present": true,
-    "source_added_at": "14/08/2026 22:22:28"
+    "source_added_at": "14/08/2026 22:22:28",
+    "baseline_ready": true
   },
   "7-2": {
     "scan_url": "https://linkhuongdan.online/7-2/?qq=complete",
