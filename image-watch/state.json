@@ -2140,7 +2140,7 @@
         "sha256": "75141cc185854a60f3601c1744a1d12fbd8714f49ebe4157db0d295175a4e2ae",
         "byte_size": 15000,
         "content_length": "15000",
-        "_full_checked_ts": 1789146620.6303127,
+        "_full_checked_ts": 1789146685.5741608,
         "etag": "W/\"6a009a21-3a98\"",
         "last_modified": "Sun, 10 May 2026 14:45:53 GMT",
         "position": 1
@@ -2150,7 +2150,7 @@
         "sha256": "1e092021f4ed2d69920ccc733c14b2c1c317b8bf92554e25036fadf8b40b8e34",
         "byte_size": 206937,
         "content_length": "206937",
-        "_full_checked_ts": 1789146620.6313043,
+        "_full_checked_ts": 1789146685.5758786,
         "etag": "W/\"6a5dea0e-32859\"",
         "last_modified": "Mon, 20 Jul 2026 09:27:42 GMT",
         "position": 2
@@ -2160,7 +2160,7 @@
         "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
         "byte_size": 5314,
         "content_length": "5314",
-        "_full_checked_ts": 1789146620.6314275,
+        "_full_checked_ts": 1789146685.576859,
         "etag": "W/\"69e47cad-14c2\"",
         "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
         "position": 3
@@ -3515,7 +3515,7 @@
         "sha256": "3e59577d317164ebaf7a0b3b58632892dd4209a671a1820dda6bc7435c4f2196",
         "byte_size": 14333,
         "content_length": "14333",
-        "_full_checked_ts": 1789146606.2316713,
+        "_full_checked_ts": 1789146672.5597038,
         "etag": "W/\"69ca0743-37fd\"",
         "last_modified": "Mon, 30 Mar 2026 05:16:51 GMT",
         "position": 1
@@ -3525,7 +3525,7 @@
         "sha256": "b55845754a9e12036842e8c1dc621e277a3a603aab6c04dbb9b3b24f22d926b5",
         "byte_size": 181899,
         "content_length": "181899",
-        "_full_checked_ts": 1789146606.232386,
+        "_full_checked_ts": 1789146672.560383,
         "etag": "W/\"6a5cbcb6-2c68b\"",
         "last_modified": "Sun, 19 Jul 2026 12:01:58 GMT",
         "position": 2
@@ -3535,7 +3535,7 @@
         "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
         "byte_size": 5314,
         "content_length": "5314",
-        "_full_checked_ts": 1789146606.2328808,
+        "_full_checked_ts": 1789146672.560538,
         "etag": "W/\"69e47cad-14c2\"",
         "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
         "position": 3
@@ -4076,7 +4076,7 @@
         "sha256": "75141cc185854a60f3601c1744a1d12fbd8714f49ebe4157db0d295175a4e2ae",
         "byte_size": 15000,
         "content_length": "15000",
-        "_full_checked_ts": 1789146621.523754,
+        "_full_checked_ts": 1789146688.2326107,
         "etag": "W/\"6a009a21-3a98\"",
         "last_modified": "Sun, 10 May 2026 14:45:53 GMT",
         "position": 1
@@ -4086,7 +4086,7 @@
         "sha256": "b0ab3aa0996a3a431b4e83909efcf4e4fca0bbf07619980fc8ffb9b6ff3b3551",
         "byte_size": 190152,
         "content_length": "190152",
-        "_full_checked_ts": 1789146621.5240097,
+        "_full_checked_ts": 1789146688.2355816,
         "etag": "W/\"6a5a2d42-2e6c8\"",
         "last_modified": "Fri, 17 Jul 2026 13:25:22 GMT",
         "position": 2
@@ -4096,7 +4096,7 @@
         "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
         "byte_size": 5314,
         "content_length": "5314",
-        "_full_checked_ts": 1789146621.524873,
+        "_full_checked_ts": 1789146688.2363856,
         "etag": "W/\"69e47cad-14c2\"",
         "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
         "position": 3
@@ -7976,23 +7976,23 @@
     "missing_valid_seconds": 86401.14020514488,
     "images": [
       {
-        "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/TG88X.png",
-        "sha256": "53b27cb95eacd5888297038f26e2c6248a3e933eb7bfa910815516b17cd1f4af",
-        "byte_size": 13126,
-        "content_length": "13126",
-        "_full_checked_ts": 1789131278.3440197,
-        "etag": "\"69e4838d-3346\"",
-        "last_modified": "Sun, 19 Apr 2026 07:26:05 GMT",
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/02/Capture33winX.png",
+        "sha256": "0af8c0e2293788b9da9c5fcb7d9d55efe343a35e32442d66e06df4f470d52a32",
+        "byte_size": 14431,
+        "content_length": "14431",
+        "_full_checked_ts": 1789146687.0260394,
+        "etag": "W/\"69a321a7-385f\"",
+        "last_modified": "Sat, 28 Feb 2026 17:11:03 GMT",
         "position": 1
       },
       {
-        "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-09-10_22-59-53X.jpg",
-        "sha256": "5e0b6b852c634c546d5d4f6b5ea76dad162c424337590bb7c2ce892e42c94946",
-        "byte_size": 170898,
-        "content_length": "170898",
-        "_full_checked_ts": 1789131278.3462515,
-        "etag": "\"6aa2dc0d-29b92\"",
-        "last_modified": "Thu, 10 Sep 2026 16:34:21 GMT",
+        "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-08-08_12-13-35X.jpg",
+        "sha256": "5a95fbd52ea4f0c167d0c68894ce27f9bbb74b4b00ad68b9041780ef9af7dc87",
+        "byte_size": 176236,
+        "content_length": "176236",
+        "_full_checked_ts": 1789146687.0261967,
+        "etag": "W/\"6a76bc41-2b06c\"",
+        "last_modified": "Sat, 08 Aug 2026 05:18:57 GMT",
         "position": 2
       },
       {
@@ -8000,8 +8000,8 @@
         "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
         "byte_size": 5314,
         "content_length": "5314",
-        "_full_checked_ts": 1789131278.4209814,
-        "etag": "\"69e47cad-14c2\"",
+        "_full_checked_ts": 1789146687.0295138,
+        "etag": "W/\"69e47cad-14c2\"",
         "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
         "position": 3
       }
@@ -8011,18 +8011,18 @@
     "primary_image_number": 2,
     "primary_image": {
       "position": 2,
-      "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-09-10_22-59-53X.jpg",
-      "sha256": "5e0b6b852c634c546d5d4f6b5ea76dad162c424337590bb7c2ce892e42c94946",
-      "byte_size": 170898
+      "url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-08-08_12-13-35X.jpg",
+      "sha256": "5a95fbd52ea4f0c167d0c68894ce27f9bbb74b4b00ad68b9041780ef9af7dc87",
+      "byte_size": 176236
     },
-    "primary_image_url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-09-10_22-59-53X.jpg",
-    "primary_sha256": "5e0b6b852c634c546d5d4f6b5ea76dad162c424337590bb7c2ce892e42c94946",
-    "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-09-10_22-59-53X.jpg",
-    "sha256": "5e0b6b852c634c546d5d4f6b5ea76dad162c424337590bb7c2ce892e42c94946",
+    "primary_image_url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-08-08_12-13-35X.jpg",
+    "primary_sha256": "5a95fbd52ea4f0c167d0c68894ce27f9bbb74b4b00ad68b9041780ef9af7dc87",
+    "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/03/photo_2026-08-08_12-13-35X.jpg",
+    "sha256": "5a95fbd52ea4f0c167d0c68894ce27f9bbb74b4b00ad68b9041780ef9af7dc87",
     "status": "active",
     "schema_version": 9,
     "change_reason": "primary_changed",
-    "changed_at": "10/09/2026 23:35:43",
+    "changed_at": "12/09/2026 00:11:29",
     "confirmed_rounds": 2,
     "source_step": "4",
     "source": "redirectMap.json",
@@ -13701,7 +13701,7 @@
         "sha256": "30930fe492b954f233a30f70f8d7d0a768b8c952a89911e047e15eca34ab8099",
         "byte_size": 13529,
         "content_length": "13529",
-        "_full_checked_ts": 1789145073.095094,
+        "_full_checked_ts": 1789146687.199538,
         "etag": "W/\"6a3d226c-34d9\"",
         "last_modified": "Thu, 25 Jun 2026 12:43:24 GMT",
         "position": 1
@@ -13711,7 +13711,7 @@
         "sha256": "4eb61aea64123a0f982518356c66a4a71fbc5685fb9f14217b1e093ac590dc2d",
         "byte_size": 180837,
         "content_length": "180837",
-        "_full_checked_ts": 1789145073.095702,
+        "_full_checked_ts": 1789146687.2015982,
         "etag": "W/\"6a743024-2c265\"",
         "last_modified": "Thu, 06 Aug 2026 06:56:36 GMT",
         "position": 2
@@ -13721,7 +13721,7 @@
         "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
         "byte_size": 5314,
         "content_length": "5314",
-        "_full_checked_ts": 1789145073.0977614,
+        "_full_checked_ts": 1789146687.2037828,
         "etag": "W/\"69e47cad-14c2\"",
         "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
         "position": 3
