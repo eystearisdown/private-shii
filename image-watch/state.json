@@ -10701,11 +10701,11 @@
       "key": "179-click-3-trang",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789202566.5700593,
-      "updated_at": 1789202575.4648876,
+      "updated_at": 1789202582.079266,
       "changed_at": "12/09/2026 15:42:46",
-      "status": "PROCESSING",
-      "retry_count": 0,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 1,
+      "next_retry_at": 1789202584.078655,
       "ocr_image_index": 1,
       "previous_entry": {
         "scan_url": "https://linkhuongdan.online/179-click-3-trang/?qq=complete",
@@ -10838,7 +10838,8 @@
       "new_sha256": "4086937cc8aba20b854fef72320caa0f52c02f3a5a81b2fdb528923c3c5311ae",
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
-      "image_count": 3
+      "image_count": 3,
+      "last_retry_error": "A server error occurred. Please try again."
     }
   },
   "17937-2": {
