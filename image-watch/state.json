@@ -4674,7 +4674,7 @@
         "sha256": "b0ab3aa0996a3a431b4e83909efcf4e4fca0bbf07619980fc8ffb9b6ff3b3551",
         "byte_size": 190152,
         "content_length": "190152",
-        "_full_checked_ts": 1789198091.9611812,
+        "_full_checked_ts": 1789199024.9637213,
         "etag": "W/\"6a5a2d42-2e6c8\"",
         "last_modified": "Fri, 17 Jul 2026 13:25:22 GMT",
         "position": 2
@@ -6885,11 +6885,11 @@
       "key": "173-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789198997.8005123,
-      "updated_at": 1789199023.866817,
+      "updated_at": 1789199032.6905756,
       "changed_at": "12/09/2026 14:43:17",
-      "status": "RETRY_WAIT",
+      "status": "PROCESSING",
       "retry_count": 2,
-      "next_retry_at": 1789199028.8665206,
+      "next_retry_at": 0,
       "ocr_image_index": 1,
       "previous_entry": {
         "scan_url": "https://linkhuongdan.online/173-2/?qq=complete",
@@ -8250,7 +8250,7 @@
         "sha256": "22050c0987690eebeafb4f8543fac94967ac4de7c9e69b2778b9cb605211d3bb",
         "byte_size": 12573,
         "content_length": "12573",
-        "_full_checked_ts": 1789198702.8990328,
+        "_full_checked_ts": 1789199026.3687296,
         "etag": "W/\"69cbc663-311d\"",
         "last_modified": "Tue, 31 Mar 2026 13:04:35 GMT",
         "position": 1
@@ -8270,7 +8270,7 @@
         "sha256": "345747cda492f6fbedf8ba09981f0ee92ca5c4124d647849dc93c4c27b540c55",
         "byte_size": 197226,
         "content_length": "197226",
-        "_full_checked_ts": 1789198703.2695546,
+        "_full_checked_ts": 1789199026.3765411,
         "etag": "W/\"69d47c39-3026a\"",
         "last_modified": "Tue, 07 Apr 2026 03:38:33 GMT",
         "position": 3
@@ -9412,7 +9412,7 @@
         "sha256": "f7f41225603f029e948987677a8259b63c44e8e000668e21f4983a883c7c0b15",
         "byte_size": 219015,
         "content_length": "219015",
-        "_full_checked_ts": 1789198093.2725048,
+        "_full_checked_ts": 1789199030.9505951,
         "etag": "W/\"69f717ed-35787\"",
         "last_modified": "Sun, 03 May 2026 09:39:57 GMT",
         "position": 2
