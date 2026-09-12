@@ -878,11 +878,11 @@
       "key": "218-3",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789192281.5939035,
-      "updated_at": 1789192346.9667385,
+      "updated_at": 1789192355.8777478,
       "changed_at": "12/09/2026 12:51:21",
-      "status": "PROCESSING",
-      "retry_count": 3,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 4,
+      "next_retry_at": 1789192380.84905,
       "ocr_image_index": 1,
       "previous_entry": {
         "scan_url": "https://linkhuongdan.online/218-3/?qq=complete",
@@ -4999,7 +4999,7 @@
         "sha256": "348819f65338d46ba239b6cb0bd86b0306a3f3ae9b9329a287e28b65b25ed9d9",
         "byte_size": 209009,
         "content_length": "209009",
-        "_full_checked_ts": 1789191150.8886378,
+        "_full_checked_ts": 1789192350.874864,
         "etag": "W/\"6a61c017-33071\"",
         "last_modified": "Thu, 23 Jul 2026 07:17:43 GMT",
         "position": 2
@@ -6292,7 +6292,7 @@
         "sha256": "e6750e95f4ac2ea719912de89a93404350c1bdd02aa9a91ad629be7b8a12dffd",
         "byte_size": 215305,
         "content_length": "215305",
-        "_full_checked_ts": 1789191221.247836,
+        "_full_checked_ts": 1789192352.2765172,
         "etag": "W/\"6a7d48b9-34909\"",
         "last_modified": "Thu, 13 Aug 2026 04:31:53 GMT",
         "position": 2
@@ -8907,7 +8907,7 @@
         "sha256": "cbebcd49d04e11849c8ee7e653512bc2b513ed5d6bd9af414d7c10bf87cd1c2b",
         "byte_size": 185189,
         "content_length": "185189",
-        "_full_checked_ts": 1789191189.8669314,
+        "_full_checked_ts": 1789192346.2662199,
         "etag": "W/\"69e39433-2d365\"",
         "last_modified": "Sat, 18 Apr 2026 14:24:51 GMT",
         "position": 2
@@ -12397,7 +12397,7 @@
         "sha256": "2e3668b9b06c3852dbc3ae60be58d463d71c332f3e2db071dfb7a053ca0650cb",
         "byte_size": 186817,
         "content_length": "186817",
-        "_full_checked_ts": 1789191197.984008,
+        "_full_checked_ts": 1789192354.7720165,
         "etag": "W/\"6a072303-2d9c1\"",
         "last_modified": "Fri, 15 May 2026 13:43:31 GMT",
         "position": 2
@@ -13423,7 +13423,7 @@
         "sha256": "4eb61aea64123a0f982518356c66a4a71fbc5685fb9f14217b1e093ac590dc2d",
         "byte_size": 180837,
         "content_length": "180837",
-        "_full_checked_ts": 1789191182.473083,
+        "_full_checked_ts": 1789192349.7637537,
         "etag": "W/\"6a743024-2c265\"",
         "last_modified": "Thu, 06 Aug 2026 06:56:36 GMT",
         "position": 2
