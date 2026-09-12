@@ -146,7 +146,7 @@
         "sha256": "ca74e9e266b58667dff7443165588736a674f4087a9fba9570db4f03cebf16e8",
         "byte_size": 205722,
         "content_length": "205722",
-        "_full_checked_ts": 1789188972.9647443,
+        "_full_checked_ts": 1789190103.9949164,
         "etag": "W/\"6a4d1d38-3239a\"",
         "last_modified": "Tue, 07 Jul 2026 15:37:28 GMT",
         "position": 2
@@ -2024,7 +2024,7 @@
         "sha256": "e85b8e1f62e904431d75ce7a350b0bc01465083d0b30e7c13a04638cffac4cda",
         "byte_size": 200920,
         "content_length": "200920",
-        "_full_checked_ts": 1789188968.5192673,
+        "_full_checked_ts": 1789190101.9031084,
         "etag": "W/\"6a493938-310d8\"",
         "last_modified": "Sat, 04 Jul 2026 16:47:52 GMT",
         "position": 2
@@ -2453,9 +2453,9 @@
       "key": "220-3",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789189957.2120237,
-      "updated_at": 1789190101.815129,
+      "updated_at": 1789190111.6664362,
       "changed_at": "12/09/2026 12:12:37",
-      "status": "PROCESSING",
+      "status": "MANUAL_REQUIRED",
       "retry_count": 5,
       "next_retry_at": 0,
       "ocr_image_index": 1,
@@ -2591,7 +2591,9 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "A server error occurred. Please try again."
+      "last_retry_error": "A server error occurred. Please try again.",
+      "ocr_error": "A server error occurred. Please try again.",
+      "manual_notified_at": "12/09/2026 12:15:11"
     }
   },
   "104-2": {
@@ -7784,7 +7786,7 @@
         "sha256": "673203d78bf6ed7767e3ce59376cb7db049df243c235301e9ba7925da19f0f3d",
         "byte_size": 169238,
         "content_length": "169238",
-        "_full_checked_ts": 1789188981.5648046,
+        "_full_checked_ts": 1789190108.6874204,
         "etag": "W/\"6a7aeee7-29516\"",
         "last_modified": "Tue, 11 Aug 2026 09:44:07 GMT",
         "position": 2
@@ -9257,7 +9259,7 @@
         "sha256": "c16de11bf43a54c9df6778a1e5117fec93bc83583879ee12c2d57e5491c0fb3f",
         "byte_size": 223569,
         "content_length": "223569",
-        "_full_checked_ts": 1789189036.4915407,
+        "_full_checked_ts": 1789190104.2618446,
         "etag": "W/\"6a743f5b-36951\"",
         "last_modified": "Thu, 06 Aug 2026 08:01:31 GMT",
         "position": 2
@@ -13870,7 +13872,7 @@
         "sha256": "06c1311ea1f3f3d461766d87b729c1af62a8c43559ebcb757fb5d5ee64b44b2c",
         "byte_size": 185248,
         "content_length": "185248",
-        "_full_checked_ts": 1789189012.908288,
+        "_full_checked_ts": 1789190101.5709114,
         "etag": "W/\"69f32b3f-2d3a0\"",
         "last_modified": "Thu, 30 Apr 2026 10:13:19 GMT",
         "position": 2
