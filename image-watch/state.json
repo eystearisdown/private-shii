@@ -662,7 +662,7 @@
         "sha256": "82b844bf47b5f1000b8a81c8126cfe84765a26d978e451a682953768c453f5cd",
         "byte_size": 187969,
         "content_length": "187969",
-        "_full_checked_ts": 1789201437.3244936,
+        "_full_checked_ts": 1789202632.418652,
         "etag": "W/\"6a7d67af-2de41\"",
         "last_modified": "Thu, 13 Aug 2026 06:43:59 GMT",
         "position": 2
@@ -10846,11 +10846,11 @@
       "key": "179-click-3-trang",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789202566.5700593,
-      "updated_at": 1789202630.604551,
+      "updated_at": 1789202637.3099303,
       "changed_at": "12/09/2026 15:42:46",
-      "status": "PROCESSING",
-      "retry_count": 3,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 4,
+      "next_retry_at": 1789202662.3075998,
       "ocr_image_index": 1,
       "previous_entry": {
         "scan_url": "https://linkhuongdan.online/179-click-3-trang/?qq=complete",
@@ -14415,7 +14415,7 @@
         "sha256": "9cff4bf2e85577b70a1abe60924336b3a9bf75d094c83b8c048aa6872d21cda4",
         "byte_size": 191597,
         "content_length": "191597",
-        "_full_checked_ts": 1789201721.2644467,
+        "_full_checked_ts": 1789202629.8237991,
         "etag": "W/\"6a736531-2ec6d\"",
         "last_modified": "Wed, 05 Aug 2026 16:30:41 GMT",
         "position": 2
@@ -15425,7 +15425,7 @@
         "sha256": "1c1cc4fc28a098ef9475ac94ee80b203719eeafed68e5f9d43519861433b76f8",
         "byte_size": 12965,
         "content_length": "12965",
-        "_full_checked_ts": 1789202322.70971,
+        "_full_checked_ts": 1789202625.1933827,
         "etag": "W/\"699deec1-32a5\"",
         "last_modified": "Tue, 24 Feb 2026 18:32:33 GMT",
         "position": 1
@@ -15445,7 +15445,7 @@
         "sha256": "80dd5edd24f918d9964eca1d74807af52e6e62f76d8705242c96c8da2d57fdbc",
         "byte_size": 183360,
         "content_length": "183360",
-        "_full_checked_ts": 1789202323.9723072,
+        "_full_checked_ts": 1789202625.197082,
         "etag": "W/\"699deede-2cc40\"",
         "last_modified": "Tue, 24 Feb 2026 18:33:02 GMT",
         "position": 3
