@@ -480,7 +480,7 @@
         "sha256": "d5030d03ad37de94409cac0ec0823584227c6c526d1ee23b2280b8b55f0a43e3",
         "byte_size": 216977,
         "content_length": "216977",
-        "_full_checked_ts": 1789201828.5404763,
+        "_full_checked_ts": 1789202740.417871,
         "etag": "W/\"6a4a1a8a-34f91\"",
         "last_modified": "Sun, 05 Jul 2026 08:49:14 GMT",
         "position": 2
@@ -10846,9 +10846,9 @@
       "key": "179-click-3-trang",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789202566.5700593,
-      "updated_at": 1789202734.5722678,
+      "updated_at": 1789202745.36926,
       "changed_at": "12/09/2026 15:42:46",
-      "status": "PROCESSING",
+      "status": "MANUAL_REQUIRED",
       "retry_count": 5,
       "next_retry_at": 0,
       "ocr_image_index": 1,
@@ -10984,7 +10984,9 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "A server error occurred. Please try again."
+      "last_retry_error": "A server error occurred. Please try again.",
+      "ocr_error": "A server error occurred. Please try again.",
+      "manual_notified_at": "12/09/2026 15:45:45"
     }
   },
   "17937-2": {
@@ -15232,7 +15234,7 @@
         "sha256": "42792dfe53d72b084a688fa1326e84c762512ff49a1eba2f00a740f83cbdc869",
         "byte_size": 15242,
         "content_length": "15242",
-        "_full_checked_ts": 1789202420.57186,
+        "_full_checked_ts": 1789202731.1735072,
         "etag": "W/\"69b6b2de-3b8a\"",
         "last_modified": "Sun, 15 Mar 2026 13:23:42 GMT",
         "position": 1
@@ -15252,7 +15254,7 @@
         "sha256": "acf159fb43cf04bbd03cc178a46d2d4e7288cff459edde2ba18262d559942c8b",
         "byte_size": 197300,
         "content_length": "197300",
-        "_full_checked_ts": 1789202420.573455,
+        "_full_checked_ts": 1789202731.184976,
         "etag": "W/\"69b6b3c5-302b4\"",
         "last_modified": "Sun, 15 Mar 2026 13:27:33 GMT",
         "position": 3
