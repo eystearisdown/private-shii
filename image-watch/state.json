@@ -5847,7 +5847,7 @@
         "sha256": "4948e23d4b47fb7c047a8d884a5aac2d0c236732bbc53a5159e5ce683493d51f",
         "byte_size": 191907,
         "content_length": "191907",
-        "_full_checked_ts": 1789192072.5648284,
+        "_full_checked_ts": 1789193019.9623916,
         "etag": "W/\"6a71ae2c-2eda3\"",
         "last_modified": "Tue, 04 Aug 2026 09:17:32 GMT",
         "position": 2
@@ -10706,7 +10706,7 @@
         "sha256": "1653e21c7524599849bfaec847fcc7f3cd14b891f6d117a4c7574ed2a47158ca",
         "byte_size": 213303,
         "content_length": "213303",
-        "_full_checked_ts": 1789192069.862869,
+        "_full_checked_ts": 1789193019.8366888,
         "etag": "W/\"6a72ec57-34137\"",
         "last_modified": "Wed, 05 Aug 2026 07:55:03 GMT",
         "position": 2
@@ -11998,11 +11998,11 @@
       "key": "227-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789192907.7612836,
-      "updated_at": 1789193017.9817388,
+      "updated_at": 1789193024.3709319,
       "changed_at": "12/09/2026 13:01:47",
-      "status": "PROCESSING",
-      "retry_count": 4,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 5,
+      "next_retry_at": 1789193069.3707256,
       "ocr_image_index": 1,
       "previous_entry": {
         "scan_url": "https://linkhuongdan.online/227-2/?qq=complete",
