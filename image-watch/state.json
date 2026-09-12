@@ -11571,11 +11571,11 @@
       "key": "223-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789190379.0048652,
-      "updated_at": 1789190386.0751224,
+      "updated_at": 1789190391.5887835,
       "changed_at": "12/09/2026 12:19:39",
-      "status": "PROCESSING",
-      "retry_count": 0,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 1,
+      "next_retry_at": 1789190393.588567,
       "ocr_image_index": 1,
       "previous_entry": {
         "scan_url": "https://linkhuongdan.online/223-2/?qq=complete",
@@ -11712,7 +11712,8 @@
       "new_sha256": "6be4d674617b7bc3a2c8f089e2e50f2b79ad7181b61f8cc203f7d3a4f04dbc59",
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
-      "image_count": 3
+      "image_count": 3,
+      "last_retry_error": "A server error occurred. Please try again."
     }
   },
   "223-3": {
