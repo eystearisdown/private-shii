@@ -3570,7 +3570,7 @@
         "sha256": "8705f14ecc6f240276ae2b8f3a38f78f0fed5709f1961ff2e00ab17182db637f",
         "byte_size": 182133,
         "content_length": "182133",
-        "_full_checked_ts": 1789192043.6776876,
+        "_full_checked_ts": 1789192991.3713574,
         "etag": "W/\"6a4f91df-2c775\"",
         "last_modified": "Thu, 09 Jul 2026 12:19:43 GMT",
         "position": 2
@@ -4006,7 +4006,7 @@
         "sha256": "34e9acc68be90b53df1f173fbbebff85f9ac6529538dfe739bbee9018a8ae6a4",
         "byte_size": 221669,
         "content_length": "221669",
-        "_full_checked_ts": 1789192062.5075376,
+        "_full_checked_ts": 1789193001.3753126,
         "etag": "W/\"6a549c4a-361e5\"",
         "last_modified": "Mon, 13 Jul 2026 08:05:30 GMT",
         "position": 2
@@ -9219,7 +9219,7 @@
         "sha256": "bf993a05b5d80a16c55b5a20f13f4fd86d104d7f5a76dd82312e323f7e6cd29e",
         "byte_size": 14574,
         "content_length": "14574",
-        "_full_checked_ts": 1789192695.4668257,
+        "_full_checked_ts": 1789193010.9641075,
         "etag": "W/\"69c3c3b8-38ee\"",
         "last_modified": "Wed, 25 Mar 2026 11:15:04 GMT",
         "position": 1
@@ -9229,7 +9229,7 @@
         "sha256": "bf993a05b5d80a16c55b5a20f13f4fd86d104d7f5a76dd82312e323f7e6cd29e",
         "byte_size": 14574,
         "content_length": "14574",
-        "_full_checked_ts": 1789192056.3598678,
+        "_full_checked_ts": 1789193010.9662244,
         "etag": "W/\"69c3c3b8-38ee\"",
         "last_modified": "Wed, 25 Mar 2026 11:15:04 GMT",
         "position": 2
@@ -9239,7 +9239,7 @@
         "sha256": "26758cde6f8acad11f01f710d4e4b18a2df9a0c7c30de2ca5c7f6c0488b11d20",
         "byte_size": 190840,
         "content_length": "190840",
-        "_full_checked_ts": 1789192696.2615426,
+        "_full_checked_ts": 1789193011.478196,
         "etag": "W/\"69c3c3f3-2e978\"",
         "last_modified": "Wed, 25 Mar 2026 11:16:03 GMT",
         "position": 3
@@ -10190,7 +10190,7 @@
         "sha256": "e0c60b3ce885b6984388d9e4981ca59977e9876c84e2bf240f87faf8696c6e0f",
         "byte_size": 54709,
         "content_length": "54709",
-        "_full_checked_ts": 1789192063.9080195,
+        "_full_checked_ts": 1789193006.166003,
         "etag": "W/\"6a5f774e-d5b5\"",
         "last_modified": "Tue, 21 Jul 2026 13:42:38 GMT",
         "position": 2
@@ -11031,7 +11031,7 @@
         "sha256": "7fa0d786f2773eae81c492da75c564ecc17c1bf18a3793ed0deb5062d265c857",
         "byte_size": 213416,
         "content_length": "213416",
-        "_full_checked_ts": 1789192065.1690378,
+        "_full_checked_ts": 1789193007.5395918,
         "etag": "W/\"6a37895f-341a8\"",
         "last_modified": "Sun, 21 Jun 2026 06:49:03 GMT",
         "position": 2
@@ -11414,7 +11414,7 @@
         "sha256": "886ee812dc6e489eb03e536f703f087b8c2dcc540839d7a149de71209c07227b",
         "byte_size": 201480,
         "content_length": "201480",
-        "_full_checked_ts": 1789192046.6613636,
+        "_full_checked_ts": 1789192997.709671,
         "etag": "W/\"6a71e430-31308\"",
         "last_modified": "Tue, 04 Aug 2026 13:08:00 GMT",
         "position": 2
@@ -11998,11 +11998,11 @@
       "key": "227-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789192907.7612836,
-      "updated_at": 1789192989.4035277,
+      "updated_at": 1789193017.9817388,
       "changed_at": "12/09/2026 13:01:47",
-      "status": "RETRY_WAIT",
+      "status": "PROCESSING",
       "retry_count": 4,
-      "next_retry_at": 1789193014.4032297,
+      "next_retry_at": 0,
       "ocr_image_index": 1,
       "previous_entry": {
         "scan_url": "https://linkhuongdan.online/227-2/?qq=complete",
@@ -13308,7 +13308,7 @@
         "sha256": "db79c94f64597b430d7106ecfa7810041ce1f2b286dd736e811af83c0acc217a",
         "byte_size": 258354,
         "content_length": "258354",
-        "_full_checked_ts": 1789192053.6039493,
+        "_full_checked_ts": 1789192996.6877506,
         "etag": "W/\"6a59be14-3f132\"",
         "last_modified": "Fri, 17 Jul 2026 05:31:00 GMT",
         "position": 2
