@@ -12774,10 +12774,10 @@
       "key": "223-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789190379.0048652,
-      "updated_at": 1789190555.6857297,
+      "updated_at": 1789203841.7668812,
       "changed_at": "12/09/2026 12:19:39",
-      "status": "MANUAL_REQUIRED",
-      "retry_count": 5,
+      "status": "OCR_QUEUED",
+      "retry_count": 0,
       "next_retry_at": 0,
       "ocr_image_index": 1,
       "previous_entry": {
@@ -12916,9 +12916,9 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "A server error occurred. Please try again.",
-      "ocr_error": "A server error occurred. Please try again.",
-      "manual_notified_at": "12/09/2026 12:22:35"
+      "last_retry_error": "",
+      "ocr_error": "",
+      "manual_notified_at": ""
     }
   },
   "223-3": {
