@@ -878,11 +878,11 @@
       "key": "218-3",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789192281.5939035,
-      "updated_at": 1789192290.5623438,
+      "updated_at": 1789192300.901673,
       "changed_at": "12/09/2026 12:51:21",
-      "status": "PROCESSING",
-      "retry_count": 0,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 1,
+      "next_retry_at": 1789192302.9000437,
       "ocr_image_index": 1,
       "previous_entry": {
         "scan_url": "https://linkhuongdan.online/218-3/?qq=complete",
@@ -1015,7 +1015,8 @@
       "new_sha256": "0383cba1999663c4ba4be17bd721cd6bb0f089a19057c378e470f967db97d6b1",
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
-      "image_count": 3
+      "image_count": 3,
+      "last_retry_error": "A server error occurred. Please try again."
     }
   },
   "115-2": {
