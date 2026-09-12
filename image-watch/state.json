@@ -2894,10 +2894,10 @@
       "key": "220-3",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789189957.2120237,
-      "updated_at": 1789190111.6664362,
+      "updated_at": 1789203782.9954736,
       "changed_at": "12/09/2026 12:12:37",
-      "status": "MANUAL_REQUIRED",
-      "retry_count": 5,
+      "status": "OCR_QUEUED",
+      "retry_count": 0,
       "next_retry_at": 0,
       "ocr_image_index": 1,
       "previous_entry": {
@@ -3032,9 +3032,9 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "A server error occurred. Please try again.",
-      "ocr_error": "A server error occurred. Please try again.",
-      "manual_notified_at": "12/09/2026 12:15:11"
+      "last_retry_error": "",
+      "ocr_error": "",
+      "manual_notified_at": ""
     }
   },
   "104-2": {
@@ -7695,7 +7695,7 @@
         "sha256": "482a2e4ed8e61024c14922693fe6efc63bd4434312dfc93a6674d77ddf5d05fb",
         "byte_size": 12288,
         "content_length": "12288",
-        "_full_checked_ts": 1789202744.8620284,
+        "_full_checked_ts": 1789203774.1286573,
         "etag": "W/\"69ce2f9d-3000\"",
         "last_modified": "Thu, 02 Apr 2026 08:58:05 GMT",
         "position": 1
