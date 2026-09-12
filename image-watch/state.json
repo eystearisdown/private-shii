@@ -66,11 +66,11 @@
       "key": "208-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789193043.3896806,
-      "updated_at": 1789193069.3755956,
+      "updated_at": 1789193084.9804003,
       "changed_at": "12/09/2026 13:04:03",
-      "status": "RETRY_WAIT",
+      "status": "PROCESSING",
       "retry_count": 2,
-      "next_retry_at": 1789193074.3212388,
+      "next_retry_at": 0,
       "ocr_image_index": 1,
       "previous_entry": {
         "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/04/photo_2026-06-30_20-08-32X.jpg",
@@ -13009,7 +13009,7 @@
         "sha256": "6080e50321802001a2e468c1aa2840bee7e41a97a0c63d306d44bbc235a74ee0",
         "byte_size": 138708,
         "content_length": "138708",
-        "_full_checked_ts": 1789192157.327326,
+        "_full_checked_ts": 1789193082.6634808,
         "etag": "W/\"6a1ee462-21dd4\"",
         "last_modified": "Tue, 02 Jun 2026 14:10:42 GMT",
         "position": 2
