@@ -7545,7 +7545,7 @@
         "sha256": "8a454075da55ffd4d146b715f4f07e11b0abaec483e568ef0d8e6216898184fc",
         "byte_size": 188056,
         "content_length": "188056",
-        "_full_checked_ts": 1789197809.0212228,
+        "_full_checked_ts": 1789198751.568504,
         "etag": "W/\"6a1c277a-2de98\"",
         "last_modified": "Sun, 31 May 2026 12:20:10 GMT",
         "position": 2
@@ -11995,11 +11995,11 @@
       "key": "213-3",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789198733.173855,
-      "updated_at": 1789198748.6812737,
+      "updated_at": 1789198754.1795392,
       "changed_at": "12/09/2026 14:38:53",
-      "status": "RETRY_WAIT",
+      "status": "PROCESSING",
       "retry_count": 1,
-      "next_retry_at": 1789198750.6810641,
+      "next_retry_at": 0,
       "ocr_image_index": 1,
       "previous_entry": {
         "scan_url": "https://linkhuongdan.online/213-3/?qq=complete",
