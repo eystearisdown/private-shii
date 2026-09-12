@@ -417,7 +417,7 @@
         "sha256": "7e18a51a4bd7ec38937c8baf0354f6e88763656f4ad5414f30d9b7f4b267aaab",
         "byte_size": 173659,
         "content_length": "173659",
-        "_full_checked_ts": 1789201413.8122623,
+        "_full_checked_ts": 1789202587.7625704,
         "etag": "W/\"6a63b4d4-2a65b\"",
         "last_modified": "Fri, 24 Jul 2026 18:54:12 GMT",
         "position": 2
@@ -2215,7 +2215,7 @@
         "sha256": "fcb1ee3d2d839f00f8470c929e9856fdfe0455b17d1711d05d99ba0e44584f37",
         "byte_size": 64639,
         "content_length": "64639",
-        "_full_checked_ts": 1789201425.537841,
+        "_full_checked_ts": 1789202592.9653807,
         "etag": "W/\"6a47e083-fc7f\"",
         "last_modified": "Fri, 03 Jul 2026 16:17:07 GMT",
         "position": 2
@@ -6398,7 +6398,7 @@
         "sha256": "5e184310a53bb1d55725d2b293276d9e2ef63aecf161fe165459c5258f50e4f5",
         "byte_size": 188992,
         "content_length": "188992",
-        "_full_checked_ts": 1789201687.4854822,
+        "_full_checked_ts": 1789202590.2510695,
         "etag": "W/\"6aa449d2-2e240\"",
         "last_modified": "Fri, 11 Sep 2026 18:34:58 GMT",
         "position": 2
@@ -7879,7 +7879,7 @@
         "sha256": "4059938f3a90c9515b6220fc3b90a655d63bdc93157795c66ddfdb5e06917b71",
         "byte_size": 205833,
         "content_length": "205833",
-        "_full_checked_ts": 1789201463.9280837,
+        "_full_checked_ts": 1789202589.5383232,
         "etag": "W/\"6a0eacf5-32409\"",
         "last_modified": "Thu, 21 May 2026 06:57:57 GMT",
         "position": 2
@@ -10701,11 +10701,11 @@
       "key": "179-click-3-trang",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789202566.5700593,
-      "updated_at": 1789202587.4159014,
+      "updated_at": 1789202594.6135454,
       "changed_at": "12/09/2026 15:42:46",
-      "status": "PROCESSING",
-      "retry_count": 1,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 2,
+      "next_retry_at": 1789202599.6133285,
       "ocr_image_index": 1,
       "previous_entry": {
         "scan_url": "https://linkhuongdan.online/179-click-3-trang/?qq=complete",
