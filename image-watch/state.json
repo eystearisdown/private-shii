@@ -2528,7 +2528,7 @@
         "sha256": "8fb455bd8f07765cf7f03cd5748b14cb2bd67487a3be4a43e8f3e36b7c3305b1",
         "byte_size": 171582,
         "content_length": "171582",
-        "_full_checked_ts": 1789156978.424654,
+        "_full_checked_ts": 1789179423.6515872,
         "etag": "W/\"6a4de3de-29e3e\"",
         "last_modified": "Wed, 08 Jul 2026 05:45:02 GMT",
         "position": 2
@@ -4580,7 +4580,7 @@
         "sha256": "4a60b72a5e7e5f1a7de4aa3a781d463c2890a0685ded586a25508f490f4796f7",
         "byte_size": 197726,
         "content_length": "197726",
-        "_full_checked_ts": 1789156816.8468556,
+        "_full_checked_ts": 1789179426.962877,
         "etag": "W/\"6a606f14-3045e\"",
         "last_modified": "Wed, 22 Jul 2026 07:19:48 GMT",
         "position": 2
@@ -9963,7 +9963,7 @@
         "sha256": "0a691a0966e7da23f34d79fed25fbc75c4e5418b826f29b416412462f236dcb1",
         "byte_size": 209319,
         "content_length": "209319",
-        "_full_checked_ts": 1789156818.0295527,
+        "_full_checked_ts": 1789179433.0246544,
         "etag": "W/\"6a69c0ea-331a7\"",
         "last_modified": "Wed, 29 Jul 2026 08:59:22 GMT",
         "position": 2
@@ -11745,30 +11745,6 @@
     "source_present": true,
     "source_added_at": "14/08/2026 22:22:27",
     "baseline_ready": true
-  },
-  "238-2": {
-    "scan_url": "https://linkhuongdan.online/238-2/?qq=complete",
-    "resolved_url": "https://linkhuongdan.online/238-2/?qq=complete",
-    "images": [],
-    "image_count": 0,
-    "primary_image_index": 1,
-    "primary_image_number": 2,
-    "primary_image": {},
-    "primary_image_url": "",
-    "primary_sha256": "",
-    "image_url": "",
-    "sha256": "",
-    "added_at": "14/08/2026 22:22:27",
-    "status": "pending",
-    "source": "redirectMap.json",
-    "source_present": true,
-    "schema_version": 10,
-    "source_added_at": "14/08/2026 22:22:27",
-    "change_reason": "redirect_source_added",
-    "last_seen_has_at": "",
-    "missing_since": "",
-    "missing_valid_seconds": 0.0,
-    "has_confirmed_once": false
   },
   "239-2": {
     "scan_url": "https://linkhuongdan.online/239-2/?qq=complete",
