@@ -66,11 +66,11 @@
       "key": "208-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789193043.3896806,
-      "updated_at": 1789193113.9790072,
+      "updated_at": 1789193142.1912718,
       "changed_at": "12/09/2026 13:04:03",
-      "status": "RETRY_WAIT",
+      "status": "PROCESSING",
       "retry_count": 4,
-      "next_retry_at": 1789193138.9787912,
+      "next_retry_at": 0,
       "ocr_image_index": 1,
       "previous_entry": {
         "image_url": "https://linkhuongdan.online/wp-content/uploads/2026/04/photo_2026-06-30_20-08-32X.jpg",
@@ -478,7 +478,7 @@
         "sha256": "d5030d03ad37de94409cac0ec0823584227c6c526d1ee23b2280b8b55f0a43e3",
         "byte_size": 216977,
         "content_length": "216977",
-        "_full_checked_ts": 1789192184.9626863,
+        "_full_checked_ts": 1789193132.563606,
         "etag": "W/\"6a4a1a8a-34f91\"",
         "last_modified": "Sun, 05 Jul 2026 08:49:14 GMT",
         "position": 2
@@ -3405,7 +3405,7 @@
         "sha256": "006ad11b182a702322391f5aa64c72d09869142c61efc0061b1a1883980b9b52",
         "byte_size": 219102,
         "content_length": "219102",
-        "_full_checked_ts": 1789192199.5166295,
+        "_full_checked_ts": 1789193140.9863834,
         "etag": "W/\"6a542c4d-357de\"",
         "last_modified": "Mon, 13 Jul 2026 00:07:41 GMT",
         "position": 2
@@ -7509,7 +7509,7 @@
         "sha256": "8a1969841e5308c10d3488475e6448bca2ac3a94ae356e82221a8ec6bf17a730",
         "byte_size": 14143,
         "content_length": "14143",
-        "_full_checked_ts": 1789192793.4627628,
+        "_full_checked_ts": 1789193115.865214,
         "etag": "W/\"69a5a2de-373f\"",
         "last_modified": "Mon, 02 Mar 2026 14:46:54 GMT",
         "position": 1
@@ -7529,7 +7529,7 @@
         "sha256": "9da668b6321ba73628192dc37567277508e1281a645ef192ab7e2bc25230a035",
         "byte_size": 134934,
         "content_length": "134934",
-        "_full_checked_ts": 1789192793.4640777,
+        "_full_checked_ts": 1789193115.867906,
         "etag": "W/\"69a5a2ee-20f16\"",
         "last_modified": "Mon, 02 Mar 2026 14:47:10 GMT",
         "position": 3
@@ -12935,7 +12935,7 @@
         "sha256": "238091b545bd9f30f5bc9a5189f8d18feed91da5bc2ae36e64d675de5059c378",
         "byte_size": 11316,
         "content_length": "11316",
-        "_full_checked_ts": 1789192809.4688585,
+        "_full_checked_ts": 1789193127.9004781,
         "etag": "W/\"69dd0417-2c34\"",
         "last_modified": "Mon, 13 Apr 2026 14:56:23 GMT",
         "position": 1
@@ -12945,7 +12945,7 @@
         "sha256": "238091b545bd9f30f5bc9a5189f8d18feed91da5bc2ae36e64d675de5059c378",
         "byte_size": 11316,
         "content_length": "11316",
-        "_full_checked_ts": 1789192180.1644576,
+        "_full_checked_ts": 1789193127.9034793,
         "etag": "W/\"69dd0417-2c34\"",
         "last_modified": "Mon, 13 Apr 2026 14:56:23 GMT",
         "position": 2
@@ -13190,7 +13190,7 @@
         "sha256": "05c011d06e9c8b13faf5cbc0b43748e9e90b8832a58ec4b5a422dd05d59cb5a0",
         "byte_size": 14734,
         "content_length": "14734",
-        "_full_checked_ts": 1789192787.719335,
+        "_full_checked_ts": 1789193105.4268148,
         "etag": "W/\"69958ddc-398e\"",
         "last_modified": "Wed, 18 Feb 2026 10:01:00 GMT",
         "position": 1
@@ -13210,7 +13210,7 @@
         "sha256": "6d4d2cf5a56ab3e49cc4252d05a5f45edd3a361c638924a754297dd661612c0d",
         "byte_size": 179367,
         "content_length": "179367",
-        "_full_checked_ts": 1789192787.9536881,
+        "_full_checked_ts": 1789193106.5738404,
         "etag": "W/\"69958e3b-2bca7\"",
         "last_modified": "Wed, 18 Feb 2026 10:02:35 GMT",
         "position": 3
@@ -13584,7 +13584,7 @@
         "sha256": "379ca9646ef10c2f35e8e413a518f3c3d6d5f714cdd0e1c91aee117bc09f63a6",
         "byte_size": 182888,
         "content_length": "182888",
-        "_full_checked_ts": 1789192216.6929107,
+        "_full_checked_ts": 1789193138.042325,
         "etag": "W/\"6a3265bd-2ca68\"",
         "last_modified": "Wed, 17 Jun 2026 09:15:41 GMT",
         "position": 2
