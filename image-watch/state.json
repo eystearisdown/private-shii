@@ -579,7 +579,7 @@
         "sha256": "801a60ccfb26681c99b652f2b54ab17be404ef8e2be7f8ef1957028ae7dbfa58",
         "byte_size": 209819,
         "content_length": "209819",
-        "_full_checked_ts": 1789188847.3209765,
+        "_full_checked_ts": 1789189979.5116,
         "etag": "W/\"6a6851ef-3339b\"",
         "last_modified": "Tue, 28 Jul 2026 06:53:35 GMT",
         "position": 2
@@ -2453,11 +2453,11 @@
       "key": "220-3",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789189957.2120237,
-      "updated_at": 1789189978.117515,
+      "updated_at": 1789189984.3675816,
       "changed_at": "12/09/2026 12:12:37",
-      "status": "PROCESSING",
-      "retry_count": 1,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 2,
+      "next_retry_at": 1789189989.3673577,
       "ocr_image_index": 1,
       "previous_entry": {
         "scan_url": "https://linkhuongdan.online/220-3/?qq=complete",
@@ -7449,7 +7449,7 @@
         "sha256": "3cb229c4e484e688a1db7008614d33aabe821761ad5ec40cbe55123ed504bd2b",
         "byte_size": 14420,
         "content_length": "14420",
-        "_full_checked_ts": 1789189689.473695,
+        "_full_checked_ts": 1789189974.4990914,
         "etag": "W/\"69a6ae74-3854\"",
         "last_modified": "Tue, 03 Mar 2026 09:48:36 GMT",
         "position": 1
@@ -7469,7 +7469,7 @@
         "sha256": "2fd7ab1ba51935b00f75a84fd18df9e47d41890347040449dd881823188d0568",
         "byte_size": 195058,
         "content_length": "195058",
-        "_full_checked_ts": 1789189689.4812253,
+        "_full_checked_ts": 1789189974.502721,
         "etag": "W/\"69b6be47-2f9f2\"",
         "last_modified": "Sun, 15 Mar 2026 14:12:23 GMT",
         "position": 3
