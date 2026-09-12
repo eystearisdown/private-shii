@@ -3165,11 +3165,11 @@
       "key": "179-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789202602.0640693,
-      "updated_at": 1789202618.572147,
+      "updated_at": 1789202625.3828707,
       "changed_at": "12/09/2026 15:43:22",
-      "status": "PROCESSING",
-      "retry_count": 0,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 1,
+      "next_retry_at": 1789202627.3816082,
       "ocr_image_index": 1,
       "previous_entry": {
         "scan_url": "https://linkhuongdan.online/179-2/?qq=complete",
@@ -3302,7 +3302,8 @@
       "new_sha256": "4086937cc8aba20b854fef72320caa0f52c02f3a5a81b2fdb528923c3c5311ae",
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
-      "image_count": 3
+      "image_count": 3,
+      "last_retry_error": "A server error occurred. Please try again."
     }
   },
   "194-2": {
@@ -9942,7 +9943,7 @@
         "sha256": "682ecdc82470e1764ab0253a43182edb5977e2bb4fb5650847ce209ebe00e698",
         "byte_size": 222875,
         "content_length": "222875",
-        "_full_checked_ts": 1789201712.054947,
+        "_full_checked_ts": 1789202622.8205016,
         "etag": "W/\"6a6f7c5e-3669b\"",
         "last_modified": "Sun, 02 Aug 2026 17:20:30 GMT",
         "position": 2
@@ -12340,7 +12341,7 @@
         "sha256": "bc5af0f3cebbcd1d11f7f24b48407d20b33e5fc057640470ec176033f2a5e857",
         "byte_size": 169515,
         "content_length": "169515",
-        "_full_checked_ts": 1789201461.497928,
+        "_full_checked_ts": 1789202620.3746247,
         "etag": "W/\"6a7809ff-2962b\"",
         "last_modified": "Sun, 09 Aug 2026 05:02:55 GMT",
         "position": 2
@@ -16208,7 +16209,7 @@
         "sha256": "c21dba169ba15788d2badbfa4fb4e8230c621ee3a23bfece10f6b8d2661d9969",
         "byte_size": 217079,
         "content_length": "217079",
-        "_full_checked_ts": 1789201709.467712,
+        "_full_checked_ts": 1789202620.492837,
         "etag": "W/\"6a785abc-34ff7\"",
         "last_modified": "Sun, 09 Aug 2026 10:47:24 GMT",
         "position": 2
