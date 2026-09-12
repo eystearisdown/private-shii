@@ -146,7 +146,7 @@
         "sha256": "ca74e9e266b58667dff7443165588736a674f4087a9fba9570db4f03cebf16e8",
         "byte_size": 205722,
         "content_length": "205722",
-        "_full_checked_ts": 1789156777.8686075,
+        "_full_checked_ts": 1789179265.267786,
         "etag": "W/\"6a4d1d38-3239a\"",
         "last_modified": "Tue, 07 Jul 2026 15:37:28 GMT",
         "position": 2
@@ -3090,7 +3090,7 @@
         "sha256": "f256c58217b2e74d3d8bfef63a2ee44a872caa32ba560ea58112cfadf9775793",
         "byte_size": 195832,
         "content_length": "195832",
-        "_full_checked_ts": 1789156944.940019,
+        "_full_checked_ts": 1789179264.8505785,
         "etag": "W/\"6a4f4f71-2fcf8\"",
         "last_modified": "Thu, 09 Jul 2026 07:36:17 GMT",
         "position": 2
@@ -7698,7 +7698,7 @@
         "sha256": "2aaf3596ee127d8f4061fe1d0680141f9004372703165e9c59c436f20b7cf670",
         "byte_size": 156345,
         "content_length": "156345",
-        "_full_checked_ts": 1789156943.8070457,
+        "_full_checked_ts": 1789179262.1141844,
         "etag": "W/\"6a7b0002-262b9\"",
         "last_modified": "Tue, 11 Aug 2026 10:57:06 GMT",
         "position": 2
@@ -7826,7 +7826,7 @@
         "sha256": "238a0c2eae66ad4a234d9764cd5b175c3a0866da7786799c87535b8b6cee3d46",
         "byte_size": 201665,
         "content_length": "201665",
-        "_full_checked_ts": 1789156946.1613138,
+        "_full_checked_ts": 1789179268.2090967,
         "etag": "W/\"6a1e4f39-313c1\"",
         "last_modified": "Tue, 02 Jun 2026 03:34:17 GMT",
         "position": 2
@@ -10975,30 +10975,6 @@
     "source_present": true,
     "source_added_at": "14/08/2026 22:22:27",
     "baseline_ready": true
-  },
-  "214-2": {
-    "scan_url": "https://linkhuongdan.online/214-2/?qq=complete",
-    "resolved_url": "https://linkhuongdan.online/214-2/?qq=complete",
-    "images": [],
-    "image_count": 0,
-    "primary_image_index": 1,
-    "primary_image_number": 2,
-    "primary_image": {},
-    "primary_image_url": "",
-    "primary_sha256": "",
-    "image_url": "",
-    "sha256": "",
-    "added_at": "14/08/2026 22:22:27",
-    "status": "pending",
-    "source": "redirectMap.json",
-    "source_present": true,
-    "schema_version": 10,
-    "source_added_at": "14/08/2026 22:22:27",
-    "change_reason": "redirect_source_added",
-    "last_seen_has_at": "",
-    "missing_since": "",
-    "missing_valid_seconds": 0.0,
-    "has_confirmed_once": false
   },
   "214-3": {
     "scan_url": "https://linkhuongdan.online/214-3/?qq=complete",
