@@ -3864,7 +3864,7 @@
         "sha256": "8705f14ecc6f240276ae2b8f3a38f78f0fed5709f1961ff2e00ab17182db637f",
         "byte_size": 182133,
         "content_length": "182133",
-        "_full_checked_ts": 1789198386.4610155,
+        "_full_checked_ts": 1789199311.2099795,
         "etag": "W/\"6a4f91df-2c775\"",
         "last_modified": "Thu, 09 Jul 2026 12:19:43 GMT",
         "position": 2
@@ -3925,7 +3925,7 @@
         "sha256": "12b218255021da5c42a24e59ac5356aca61ca8a7fa5e85d470e15d2786f61088",
         "byte_size": 185685,
         "content_length": "185685",
-        "_full_checked_ts": 1789198397.972609,
+        "_full_checked_ts": 1789199308.7700224,
         "etag": "W/\"6a7d7864-2d555\"",
         "last_modified": "Thu, 13 Aug 2026 07:55:16 GMT",
         "position": 2
@@ -4300,7 +4300,7 @@
         "sha256": "34e9acc68be90b53df1f173fbbebff85f9ac6529538dfe739bbee9018a8ae6a4",
         "byte_size": 221669,
         "content_length": "221669",
-        "_full_checked_ts": 1789198386.8610456,
+        "_full_checked_ts": 1789199313.3548605,
         "etag": "W/\"6a549c4a-361e5\"",
         "last_modified": "Mon, 13 Jul 2026 08:05:30 GMT",
         "position": 2
@@ -7052,7 +7052,7 @@
         "sha256": "aa4faa2b80eafaaaf679117848dbc8730bcd6df809f00469730ede032aa04848",
         "byte_size": 223138,
         "content_length": "223138",
-        "_full_checked_ts": 1789198396.8637369,
+        "_full_checked_ts": 1789199306.6393504,
         "etag": "W/\"6a7d8526-367a2\"",
         "last_modified": "Thu, 13 Aug 2026 08:49:42 GMT",
         "position": 2
@@ -12419,9 +12419,9 @@
       "key": "218-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789199132.0721378,
-      "updated_at": 1789199304.1877377,
+      "updated_at": 1789199314.9639523,
       "changed_at": "12/09/2026 14:45:32",
-      "status": "PROCESSING",
+      "status": "MANUAL_REQUIRED",
       "retry_count": 5,
       "next_retry_at": 0,
       "ocr_image_index": 1,
@@ -12561,7 +12561,9 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "A server error occurred. Please try again."
+      "last_retry_error": "A server error occurred. Please try again.",
+      "ocr_error": "A server error occurred. Please try again.",
+      "manual_notified_at": "12/09/2026 14:48:34"
     }
   },
   "221-3": {
