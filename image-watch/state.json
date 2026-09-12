@@ -6588,7 +6588,7 @@
         "sha256": "e6750e95f4ac2ea719912de89a93404350c1bdd02aa9a91ad629be7b8a12dffd",
         "byte_size": 215305,
         "content_length": "215305",
-        "_full_checked_ts": 1789196684.7667575,
+        "_full_checked_ts": 1789197713.4853172,
         "etag": "W/\"6a7d48b9-34909\"",
         "last_modified": "Thu, 13 Aug 2026 04:31:53 GMT",
         "position": 2
@@ -7988,7 +7988,7 @@
         "sha256": "4948e23d4b47fb7c047a8d884a5aac2d0c236732bbc53a5159e5ce683493d51f",
         "byte_size": 191907,
         "content_length": "191907",
-        "_full_checked_ts": 1789196684.0176969,
+        "_full_checked_ts": 1789197718.5040066,
         "etag": "W/\"6a71ae2c-2eda3\"",
         "last_modified": "Tue, 04 Aug 2026 09:17:32 GMT",
         "position": 2
@@ -9203,7 +9203,7 @@
         "sha256": "cbebcd49d04e11849c8ee7e653512bc2b513ed5d6bd9af414d7c10bf87cd1c2b",
         "byte_size": 185189,
         "content_length": "185189",
-        "_full_checked_ts": 1789196682.3197973,
+        "_full_checked_ts": 1789197708.334711,
         "etag": "W/\"69e39433-2d365\"",
         "last_modified": "Sat, 18 Apr 2026 14:24:51 GMT",
         "position": 2
@@ -9849,7 +9849,7 @@
         "sha256": "c16de11bf43a54c9df6778a1e5117fec93bc83583879ee12c2d57e5491c0fb3f",
         "byte_size": 223569,
         "content_length": "223569",
-        "_full_checked_ts": 1789196687.9891207,
+        "_full_checked_ts": 1789197721.1619165,
         "etag": "W/\"6a743f5b-36951\"",
         "last_modified": "Thu, 06 Aug 2026 08:01:31 GMT",
         "position": 2
@@ -11245,11 +11245,11 @@
       "key": "205-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789197647.268623,
-      "updated_at": 1789197707.6642933,
+      "updated_at": 1789197724.630424,
       "changed_at": "12/09/2026 14:20:47",
-      "status": "RETRY_WAIT",
+      "status": "PROCESSING",
       "retry_count": 3,
-      "next_retry_at": 1789197719.6640635,
+      "next_retry_at": 0,
       "ocr_image_index": 1,
       "previous_entry": {
         "scan_url": "https://linkhuongdan.online/205-2/?qq=complete",
