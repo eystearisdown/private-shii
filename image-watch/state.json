@@ -7347,7 +7347,7 @@
         "sha256": "7122abf033c78a90ec8065c2ff9d6ed6e019ddaf4012c46047eb3d2a41835675",
         "byte_size": 61698,
         "content_length": "61698",
-        "_full_checked_ts": 1789195687.3849323,
+        "_full_checked_ts": 1789196915.583022,
         "etag": "W/\"6a1d4699-f102\"",
         "last_modified": "Mon, 01 Jun 2026 08:45:13 GMT",
         "position": 2
@@ -9331,7 +9331,7 @@
         "sha256": "f7f41225603f029e948987677a8259b63c44e8e000668e21f4983a883c7c0b15",
         "byte_size": 219015,
         "content_length": "219015",
-        "_full_checked_ts": 1789195737.565331,
+        "_full_checked_ts": 1789196913.1673508,
         "etag": "W/\"69f717ed-35787\"",
         "last_modified": "Sun, 03 May 2026 09:39:57 GMT",
         "position": 2
@@ -11310,11 +11310,11 @@
       "key": "206-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789196879.5791843,
-      "updated_at": 1789196909.2853613,
+      "updated_at": 1789196917.5145345,
       "changed_at": "12/09/2026 14:07:59",
-      "status": "RETRY_WAIT",
+      "status": "PROCESSING",
       "retry_count": 2,
-      "next_retry_at": 1789196914.2851453,
+      "next_retry_at": 0,
       "ocr_image_index": 1,
       "previous_entry": {
         "scan_url": "https://linkhuongdan.online/206-2/?qq=complete",
