@@ -8563,7 +8563,7 @@
         "sha256": "238a0c2eae66ad4a234d9764cd5b175c3a0866da7786799c87535b8b6cee3d46",
         "byte_size": 201665,
         "content_length": "201665",
-        "_full_checked_ts": 1789195713.7015085,
+        "_full_checked_ts": 1789196918.0660958,
         "etag": "W/\"6a1e4f39-313c1\"",
         "last_modified": "Tue, 02 Jun 2026 03:34:17 GMT",
         "position": 2
@@ -9075,7 +9075,7 @@
         "sha256": "6a350d5766542771e4568e2fbdd6743308f6456b97109c82a00810a55c8aa92c",
         "byte_size": 167971,
         "content_length": "167971",
-        "_full_checked_ts": 1789195717.2079105,
+        "_full_checked_ts": 1789196920.8081937,
         "etag": "W/\"6a0a6e8d-29023\"",
         "last_modified": "Mon, 18 May 2026 01:42:37 GMT",
         "position": 2
@@ -11310,11 +11310,11 @@
       "key": "206-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789196879.5791843,
-      "updated_at": 1789196917.5145345,
+      "updated_at": 1789196925.3712823,
       "changed_at": "12/09/2026 14:07:59",
-      "status": "PROCESSING",
-      "retry_count": 2,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 3,
+      "next_retry_at": 1789196937.3710446,
       "ocr_image_index": 1,
       "previous_entry": {
         "scan_url": "https://linkhuongdan.online/206-2/?qq=complete",
@@ -13180,7 +13180,7 @@
         "sha256": "bf39585e91614090a462ecbc5723a5fda7b5239e2c0374959199316c7ece58ad",
         "byte_size": 203355,
         "content_length": "203355",
-        "_full_checked_ts": 1789195686.9386837,
+        "_full_checked_ts": 1789196919.466444,
         "etag": "W/\"69f32564-31a5b\"",
         "last_modified": "Thu, 30 Apr 2026 09:48:20 GMT",
         "position": 2
@@ -15102,7 +15102,7 @@
         "sha256": "53a8311cb8ff5668b8fe014c28666dd8852db223e29469e278fa0b220fcd99c7",
         "byte_size": 207865,
         "content_length": "207865",
-        "_full_checked_ts": 1789195689.5688403,
+        "_full_checked_ts": 1789196922.1140878,
         "etag": "W/\"6a181197-32bf9\"",
         "last_modified": "Thu, 28 May 2026 09:57:43 GMT",
         "position": 2
