@@ -10040,11 +10040,11 @@
       "key": "157-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789202397.411733,
-      "updated_at": 1789202426.189073,
+      "updated_at": 1789202435.3944426,
       "changed_at": "12/09/2026 15:39:57",
-      "status": "RETRY_WAIT",
+      "status": "PROCESSING",
       "retry_count": 2,
-      "next_retry_at": 1789202431.188823,
+      "next_retry_at": 0,
       "ocr_image_index": 1,
       "previous_entry": {
         "scan_url": "https://linkhuongdan.online/157-2/?qq=complete",
@@ -12658,7 +12658,7 @@
             "sha256": "3ac1854af73a78dc17ef531f98e18e47524623876ef18d341eaa09915df4e41d",
             "byte_size": 195004,
             "content_length": "195004",
-            "_full_checked_ts": 1789201238.2517502,
+            "_full_checked_ts": 1789202429.972595,
             "etag": "W/\"6aa502ff-2f9bc\"",
             "last_modified": "Sat, 12 Sep 2026 07:45:03 GMT",
             "position": 2
