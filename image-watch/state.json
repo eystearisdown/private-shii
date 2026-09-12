@@ -11130,7 +11130,7 @@
         "sha256": "e05a6b10cb30172f78118e698227433d707a92cd335caf72d1d831e2ccc3622e",
         "byte_size": 189697,
         "content_length": "189697",
-        "_full_checked_ts": 1789195800.8672957,
+        "_full_checked_ts": 1789197053.966678,
         "etag": "W/\"6a70a553-2e501\"",
         "last_modified": "Mon, 03 Aug 2026 14:27:31 GMT",
         "position": 2
@@ -11310,9 +11310,9 @@
       "key": "206-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789196879.5791843,
-      "updated_at": 1789197038.280709,
+      "updated_at": 1789197055.9074156,
       "changed_at": "12/09/2026 14:07:59",
-      "status": "PROCESSING",
+      "status": "MANUAL_REQUIRED",
       "retry_count": 5,
       "next_retry_at": 0,
       "ocr_image_index": 1,
@@ -11452,7 +11452,9 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "A server error occurred. Please try again."
+      "last_retry_error": "A server error occurred. Please try again.",
+      "ocr_error": "A server error occurred. Please try again.",
+      "manual_notified_at": "12/09/2026 14:10:55"
     }
   },
   "21-2": {
@@ -12667,7 +12669,7 @@
         "sha256": "2aaf3596ee127d8f4061fe1d0680141f9004372703165e9c59c436f20b7cf670",
         "byte_size": 156345,
         "content_length": "156345",
-        "_full_checked_ts": 1789195816.475174,
+        "_full_checked_ts": 1789197044.8664372,
         "etag": "W/\"6a7b0002-262b9\"",
         "last_modified": "Tue, 11 Aug 2026 10:57:06 GMT",
         "position": 2
@@ -13106,7 +13108,7 @@
         "sha256": "fef011d49a2043333556625cd2a21c398bccb199d1a7b37c1615d68c8c9193d8",
         "byte_size": 15186,
         "content_length": "15186",
-        "_full_checked_ts": 1789196675.0859177,
+        "_full_checked_ts": 1789197029.0614166,
         "etag": "W/\"69d5b3f7-3b52\"",
         "last_modified": "Wed, 08 Apr 2026 01:48:39 GMT",
         "position": 1
@@ -13126,7 +13128,7 @@
         "sha256": "6996bec9c836212c452b5f500d462336e53fb60fc92a2ba55a56a40221503a9a",
         "byte_size": 186384,
         "content_length": "186384",
-        "_full_checked_ts": 1789196675.6084473,
+        "_full_checked_ts": 1789197029.0631533,
         "etag": "W/\"69d5b407-2d810\"",
         "last_modified": "Wed, 08 Apr 2026 01:48:55 GMT",
         "position": 3
