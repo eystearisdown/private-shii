@@ -2462,9 +2462,9 @@
       "key": "220-3",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789189957.2120237,
-      "updated_at": 1789203782.9954736,
+      "updated_at": 1789203825.3637543,
       "changed_at": "12/09/2026 12:12:37",
-      "status": "OCR_QUEUED",
+      "status": "PROCESSING",
       "retry_count": 0,
       "next_retry_at": 0,
       "ocr_image_index": 1,
@@ -12153,10 +12153,10 @@
       "key": "213-3",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789198733.173855,
-      "updated_at": 1789198894.5659015,
+      "updated_at": 1789203828.6738093,
       "changed_at": "12/09/2026 14:38:53",
-      "status": "MANUAL_REQUIRED",
-      "retry_count": 5,
+      "status": "OCR_QUEUED",
+      "retry_count": 0,
       "next_retry_at": 0,
       "ocr_image_index": 1,
       "previous_entry": {
@@ -12293,9 +12293,9 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "A server error occurred. Please try again.",
-      "ocr_error": "A server error occurred. Please try again.",
-      "manual_notified_at": "12/09/2026 14:41:34"
+      "last_retry_error": "",
+      "ocr_error": "",
+      "manual_notified_at": ""
     }
   },
   "215-2": {
