@@ -1171,7 +1171,7 @@
         "sha256": "fc1f934a496a77bf54babc9262fbae1ed1a39d41e71cbbec41903fc4cc80d77e",
         "byte_size": 213344,
         "content_length": "213344",
-        "_full_checked_ts": 1789453689.0374594,
+        "_full_checked_ts": 1789454600.1191032,
         "etag": "W/\"6aa44547-34160\"",
         "last_modified": "Fri, 11 Sep 2026 18:15:35 GMT",
         "position": 2
@@ -2419,9 +2419,9 @@
       "key": "225-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789454583.770598,
-      "updated_at": 1789454589.8893137,
+      "updated_at": 1789454601.3627827,
       "changed_at": "15/09/2026 13:43:03",
-      "status": "PROCESSING",
+      "status": "MANUAL_REQUIRED",
       "retry_count": 0,
       "next_retry_at": 0,
       "ocr_image_index": 1,
@@ -2558,7 +2558,9 @@
       "new_sha256": "0e9e82e797e07e89ce13190ac415afebac85712b93570514c0164b67f8111450",
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
-      "image_count": 3
+      "image_count": 3,
+      "ocr_error": "The model `qwen/qwen3.6-27b` does not exist or you do not have access to it.",
+      "manual_notified_at": "15/09/2026 13:43:21"
     }
   },
   "220-3": {
@@ -7503,7 +7505,7 @@
         "sha256": "3cb229c4e484e688a1db7008614d33aabe821761ad5ec40cbe55123ed504bd2b",
         "byte_size": 14420,
         "content_length": "14420",
-        "_full_checked_ts": 1789454289.157651,
+        "_full_checked_ts": 1789454595.462707,
         "etag": "W/\"69a6ae74-3854\"",
         "last_modified": "Tue, 03 Mar 2026 09:48:36 GMT",
         "position": 1
@@ -7523,7 +7525,7 @@
         "sha256": "2fd7ab1ba51935b00f75a84fd18df9e47d41890347040449dd881823188d0568",
         "byte_size": 195058,
         "content_length": "195058",
-        "_full_checked_ts": 1789454289.6800778,
+        "_full_checked_ts": 1789454595.4630346,
         "etag": "W/\"69b6be47-2f9f2\"",
         "last_modified": "Sun, 15 Mar 2026 14:12:23 GMT",
         "position": 3
@@ -7641,7 +7643,7 @@
         "sha256": "556b786295ff611edc75f7f7ecbe4db0f8342ac31e2e32d9aae43c76818625c2",
         "byte_size": 162493,
         "content_length": "162493",
-        "_full_checked_ts": 1789453677.5014296,
+        "_full_checked_ts": 1789454591.5135238,
         "etag": "W/\"6a1939d6-27abd\"",
         "last_modified": "Fri, 29 May 2026 07:01:42 GMT",
         "position": 2
@@ -8665,7 +8667,7 @@
         "sha256": "cbebcd49d04e11849c8ee7e653512bc2b513ed5d6bd9af414d7c10bf87cd1c2b",
         "byte_size": 185189,
         "content_length": "185189",
-        "_full_checked_ts": 1789453400.5807257,
+        "_full_checked_ts": 1789454589.8187368,
         "etag": "W/\"69e39433-2d365\"",
         "last_modified": "Sat, 18 Apr 2026 14:24:51 GMT",
         "position": 2
@@ -12507,7 +12509,7 @@
         "sha256": "6080e50321802001a2e468c1aa2840bee7e41a97a0c63d306d44bbc235a74ee0",
         "byte_size": 138708,
         "content_length": "138708",
-        "_full_checked_ts": 1789453411.2028553,
+        "_full_checked_ts": 1789454594.0080242,
         "etag": "W/\"6a1ee462-21dd4\"",
         "last_modified": "Tue, 02 Jun 2026 14:10:42 GMT",
         "position": 2
