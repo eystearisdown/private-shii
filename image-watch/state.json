@@ -2576,9 +2576,9 @@
       "key": "225-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789581392.9699488,
-      "updated_at": 1789581392.969949,
+      "updated_at": 1789581404.250592,
       "changed_at": "17/09/2026 00:56:32",
-      "status": "OCR_QUEUED",
+      "status": "PROCESSING",
       "retry_count": 0,
       "next_retry_at": 0,
       "ocr_image_index": 1,
@@ -6252,7 +6252,7 @@
         "sha256": "e2434f59cbed2b9832717b6f1f4f22ce557691d6fb4613b562ffa34804c6778b",
         "byte_size": 207732,
         "content_length": "207732",
-        "_full_checked_ts": 1789580245.9480476,
+        "_full_checked_ts": 1789581395.6407812,
         "etag": "W/\"6a7be31c-32b74\"",
         "last_modified": "Wed, 12 Aug 2026 03:06:04 GMT",
         "position": 2
@@ -9099,7 +9099,7 @@
         "sha256": "66d44c360145d70896efd38305b93aa017fc2b6a2da227cc7f97ab48b8d16283",
         "byte_size": 64943,
         "content_length": "64943",
-        "_full_checked_ts": 1789580244.8416677,
+        "_full_checked_ts": 1789581399.9661362,
         "etag": "W/\"6a27cc23-fdaf\"",
         "last_modified": "Tue, 09 Jun 2026 08:17:39 GMT",
         "position": 2
@@ -14102,7 +14102,7 @@
         "sha256": "7d6c3ff476be9ec2c5731ea35d3e03d901122a9186479e6489936523ac5ab504",
         "byte_size": 203619,
         "content_length": "203619",
-        "_full_checked_ts": 1789580238.9133933,
+        "_full_checked_ts": 1789581392.7419477,
         "etag": "W/\"6a796427-31b63\"",
         "last_modified": "Mon, 10 Aug 2026 05:39:51 GMT",
         "position": 2
