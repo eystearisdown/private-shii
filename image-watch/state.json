@@ -1240,7 +1240,7 @@
         "sha256": "fc2c661f5e1a0cfa9eefb82a5d2c62d1309758d376f967b89b84760e4a6a8642",
         "byte_size": 198900,
         "content_length": "198900",
-        "_full_checked_ts": 1789569709.3679333,
+        "_full_checked_ts": 1789570774.1078095,
         "etag": "W/\"6a608f89-308f4\"",
         "last_modified": "Wed, 22 Jul 2026 09:38:17 GMT",
         "position": 2
@@ -10116,9 +10116,9 @@
       "key": "17937-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789570765.7373745,
-      "updated_at": 1789570771.2468643,
+      "updated_at": 1789570792.3506227,
       "changed_at": "16/09/2026 21:59:25",
-      "status": "PROCESSING",
+      "status": "MANUAL_REQUIRED",
       "retry_count": 0,
       "next_retry_at": 0,
       "ocr_image_index": 1,
@@ -10255,7 +10255,9 @@
       "new_sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
-      "image_count": 3
+      "image_count": 3,
+      "ocr_error": "AI_DOMAIN_UNREADABLE",
+      "manual_notified_at": "16/09/2026 21:59:52"
     }
   },
   "180-2": {
@@ -13773,7 +13775,7 @@
         "sha256": "1c1cc4fc28a098ef9475ac94ee80b203719eeafed68e5f9d43519861433b76f8",
         "byte_size": 12965,
         "content_length": "12965",
-        "_full_checked_ts": 1789570455.164133,
+        "_full_checked_ts": 1789570777.8403971,
         "etag": "W/\"699deec1-32a5\"",
         "last_modified": "Tue, 24 Feb 2026 18:32:33 GMT",
         "position": 1
@@ -13793,7 +13795,7 @@
         "sha256": "80dd5edd24f918d9964eca1d74807af52e6e62f76d8705242c96c8da2d57fdbc",
         "byte_size": 183360,
         "content_length": "183360",
-        "_full_checked_ts": 1789570456.142465,
+        "_full_checked_ts": 1789570777.840732,
         "etag": "W/\"699deede-2cc40\"",
         "last_modified": "Tue, 24 Feb 2026 18:33:02 GMT",
         "position": 3
