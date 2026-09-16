@@ -6368,9 +6368,9 @@
       "key": "217-4",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789579356.8607228,
-      "updated_at": 1789579362.4619853,
+      "updated_at": 1789579372.4432077,
       "changed_at": "17/09/2026 00:22:36",
-      "status": "PROCESSING",
+      "status": "MANUAL_REQUIRED",
       "retry_count": 0,
       "next_retry_at": 0,
       "ocr_image_index": 1,
@@ -6511,7 +6511,9 @@
       "new_sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
-      "image_count": 3
+      "image_count": 3,
+      "ocr_error": "AI_DOMAIN_UNREADABLE",
+      "manual_notified_at": "17/09/2026 00:22:52"
     }
   },
   "184-2": {
