@@ -2252,7 +2252,7 @@
         "sha256": "62978035f9fd186b52c583d20da5afd9ef4d0be83763bb652d0d22ae723292c8",
         "byte_size": 212839,
         "content_length": "212839",
-        "_full_checked_ts": 1789569942.2936316,
+        "_full_checked_ts": 1789571017.6203713,
         "etag": "W/\"6a4a0039-33f67\"",
         "last_modified": "Sun, 05 Jul 2026 06:56:57 GMT",
         "position": 2
@@ -2849,7 +2849,7 @@
         "sha256": "a60121889d8f8224b4bc67a389cafb3361ce7a8b1cb1ca9afcb40caa9f9ab540",
         "byte_size": 204834,
         "content_length": "204834",
-        "_full_checked_ts": 1789569958.342911,
+        "_full_checked_ts": 1789571009.7460403,
         "etag": "W/\"6a7d2302-32022\"",
         "last_modified": "Thu, 13 Aug 2026 01:50:58 GMT",
         "position": 2
@@ -3788,7 +3788,7 @@
         "sha256": "08879d1fd29359de9037cf790058e05c5d92f43446040fdd593c1165e24763a8",
         "byte_size": 211909,
         "content_length": "211909",
-        "_full_checked_ts": 1789569938.550223,
+        "_full_checked_ts": 1789571013.4004521,
         "etag": "W/\"6a57346c-33bc5\"",
         "last_modified": "Wed, 15 Jul 2026 07:19:08 GMT",
         "position": 2
@@ -5340,9 +5340,9 @@
       "key": "216-3",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789571002.1028693,
-      "updated_at": 1789571009.7646427,
+      "updated_at": 1789571023.1581051,
       "changed_at": "16/09/2026 22:03:22",
-      "status": "PROCESSING",
+      "status": "MANUAL_REQUIRED",
       "retry_count": 0,
       "next_retry_at": 0,
       "ocr_image_index": 1,
@@ -5479,7 +5479,9 @@
       "new_sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
-      "image_count": 3
+      "image_count": 3,
+      "ocr_error": "AI_DOMAIN_UNREADABLE",
+      "manual_notified_at": "16/09/2026 22:03:43"
     }
   },
   "237-2": {
@@ -7034,7 +7036,7 @@
         "sha256": "482a2e4ed8e61024c14922693fe6efc63bd4434312dfc93a6674d77ddf5d05fb",
         "byte_size": 12288,
         "content_length": "12288",
-        "_full_checked_ts": 1789570671.5549104,
+        "_full_checked_ts": 1789571013.189503,
         "etag": "W/\"69ce2f9d-3000\"",
         "last_modified": "Thu, 02 Apr 2026 08:58:05 GMT",
         "position": 1
