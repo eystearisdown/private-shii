@@ -2272,11 +2272,11 @@
       "key": "224-3",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789606871.2622426,
-      "updated_at": 1789609311.788115,
+      "updated_at": 1789609315.5636826,
       "changed_at": "17/09/2026 08:01:11",
-      "status": "PROCESSING",
-      "retry_count": 1,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 2,
+      "next_retry_at": 1789609332.0631313,
       "ocr_image_index": 1,
       "previous_entry": {
         "scan_url": "https://linkhuongdan.online/224-3/?qq=complete",
@@ -2419,7 +2419,7 @@
       "image_count": 3,
       "ocr_error": "",
       "manual_notified_at": "",
-      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 5270, Requested 3122. Please try again in 11.931428571s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "last_retry_error": "Groq API key đang COOLDOWN; cooldown còn khoảng 16s. Lỗi trước: Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 667...",
       "semantic_selector_retry_build": "2026.09.17-groq-dynamic-image-role-r5.4"
     },
     "primary_match_reason": "sha_same_slot"
