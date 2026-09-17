@@ -942,7 +942,7 @@
         "sha256": "0383cba1999663c4ba4be17bd721cd6bb0f089a19057c378e470f967db97d6b1",
         "byte_size": 206921,
         "content_length": "206921",
-        "_full_checked_ts": 1789624518.666022,
+        "_full_checked_ts": 1789625429.1415694,
         "etag": "W/\"6aa4e81b-32849\"",
         "last_modified": "Sat, 12 Sep 2026 05:50:19 GMT",
         "position": 2,
@@ -7656,11 +7656,11 @@
       "key": "222-3",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789625395.267658,
-      "updated_at": 1789625426.8875937,
+      "updated_at": 1789625430.660756,
       "changed_at": "17/09/2026 13:09:55",
-      "status": "PROCESSING",
-      "retry_count": 1,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 2,
+      "next_retry_at": 1789625435.6604936,
       "ocr_image_index": 1,
       "ocr_image_number": 2,
       "previous_entry": {
@@ -7809,7 +7809,7 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 4080, Requested 3122. Please try again in 1.731428571s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
+      "last_retry_error": "Groq API key đang COOLDOWN; cooldown còn khoảng 0s. Lỗi trước: Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 408..."
     }
   },
   "100-2": {
@@ -15394,7 +15394,7 @@
         "sha256": "05c011d06e9c8b13faf5cbc0b43748e9e90b8832a58ec4b5a422dd05d59cb5a0",
         "byte_size": 14734,
         "content_length": "14734",
-        "_full_checked_ts": 1789625090.738739,
+        "_full_checked_ts": 1789625422.156388,
         "etag": "W/\"69958ddc-398e\"",
         "last_modified": "Wed, 18 Feb 2026 10:01:00 GMT",
         "position": 1,
@@ -15418,7 +15418,7 @@
         "sha256": "6d4d2cf5a56ab3e49cc4252d05a5f45edd3a361c638924a754297dd661612c0d",
         "byte_size": 179367,
         "content_length": "179367",
-        "_full_checked_ts": 1789625090.7468212,
+        "_full_checked_ts": 1789625422.1567059,
         "etag": "W/\"69958e3b-2bca7\"",
         "last_modified": "Wed, 18 Feb 2026 10:02:35 GMT",
         "position": 3,
