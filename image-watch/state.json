@@ -3577,7 +3577,7 @@
         "sha256": "3c124a07aa2333fe424b9c721e035c1b64216e09a508020e49957456ec51f230",
         "byte_size": 222415,
         "content_length": "222415",
-        "_full_checked_ts": 1789623290.3032987,
+        "_full_checked_ts": 1789624252.8443577,
         "etag": "W/\"6a5f314c-364cf\"",
         "last_modified": "Tue, 21 Jul 2026 08:43:56 GMT",
         "position": 2,
@@ -9027,7 +9027,7 @@
         "sha256": "f256c58217b2e74d3d8bfef63a2ee44a872caa32ba560ea58112cfadf9775793",
         "byte_size": 195832,
         "content_length": "195832",
-        "_full_checked_ts": 1789623296.0456374,
+        "_full_checked_ts": 1789624256.7800515,
         "etag": "W/\"6a4f4f71-2fcf8\"",
         "last_modified": "Thu, 09 Jul 2026 07:36:17 GMT",
         "position": 2,
@@ -9807,7 +9807,7 @@
         "sha256": "cbebcd49d04e11849c8ee7e653512bc2b513ed5d6bd9af414d7c10bf87cd1c2b",
         "byte_size": 185189,
         "content_length": "185189",
-        "_full_checked_ts": 1789623299.74861,
+        "_full_checked_ts": 1789624255.9802291,
         "etag": "W/\"69e39433-2d365\"",
         "last_modified": "Sat, 18 Apr 2026 14:24:51 GMT",
         "position": 2,
@@ -12645,11 +12645,11 @@
       "key": "204-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789624225.7090044,
-      "updated_at": 1789624251.9638615,
+      "updated_at": 1789624259.9607193,
       "changed_at": "17/09/2026 12:50:25",
-      "status": "PROCESSING",
-      "retry_count": 1,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 2,
+      "next_retry_at": 1789624284.9604788,
       "ocr_image_index": 1,
       "ocr_image_number": 2,
       "previous_entry": {
@@ -12802,7 +12802,7 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 3956, Requested 3122. Please try again in 668.571428ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
+      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 6704, Requested 3122. Please try again in 24.222857142s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
     }
   },
   "205-2": {
