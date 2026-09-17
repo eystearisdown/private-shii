@@ -13747,9 +13747,9 @@
       "key": "223-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789607283.645609,
-      "updated_at": 1789609196.2666695,
+      "updated_at": 1789609298.9408925,
       "changed_at": "17/09/2026 08:08:03",
-      "status": "OCR_QUEUED",
+      "status": "PROCESSING",
       "retry_count": 0,
       "next_retry_at": 0,
       "ocr_image_index": 1,
@@ -13832,7 +13832,9 @@
             "_full_checked_ts": 1789607278.7430837,
             "etag": "W/\"6aab3c92-cc3d\"",
             "last_modified": "Thu, 17 Sep 2026 01:04:18 GMT",
-            "position": 1
+            "position": 1,
+            "business_image": false,
+            "image_role": "aux"
           },
           {
             "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/step1.jpg",
@@ -13842,7 +13844,9 @@
             "_full_checked_ts": 1789607278.7442696,
             "etag": "W/\"69e47cad-14c2\"",
             "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
-            "position": 2
+            "position": 2,
+            "business_image": true,
+            "image_role": "business"
           },
           {
             "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/step2.jpg",
@@ -13852,7 +13856,9 @@
             "_full_checked_ts": 1789607279.8980637,
             "etag": "W/\"69e47cba-1477\"",
             "last_modified": "Sun, 19 Apr 2026 06:56:58 GMT",
-            "position": 3
+            "position": 3,
+            "business_image": false,
+            "image_role": "aux"
           }
         ],
         "changed_at": "17/09/2026 08:08:03",
@@ -13879,7 +13885,7 @@
         "has_confirmed_once": true,
         "status": "active",
         "migrated_at": "01/08/2026 17:12:07",
-        "schema_version": 10,
+        "schema_version": 11,
         "source_step": "4",
         "source": "redirectMap.json",
         "source_present": true,
@@ -13887,7 +13893,8 @@
         "baseline_ready": true,
         "baseline_at": "12/09/2026 16:06:30",
         "last_completed_event_id": "9afda86f9fda",
-        "last_ocr_domain": "vitalticks.in"
+        "last_ocr_domain": "vitalticks.in",
+        "primary_match_reason": "sha_same_slot"
       },
       "snapshot_signature": "57e0e5cb37d05829908e0a179d1dddbfc6758c8881dc6363477f99676113bea8",
       "old_sha256": "6be4d674617b7bc3a2c8f089e2e50f2b79ad7181b61f8cc203f7d3a4f04dbc59",
