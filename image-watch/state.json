@@ -7656,11 +7656,11 @@
       "key": "222-3",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789625395.267658,
-      "updated_at": 1789625508.1690202,
+      "updated_at": 1789625518.6512783,
       "changed_at": "17/09/2026 13:09:55",
-      "status": "PROCESSING",
-      "retry_count": 4,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 5,
+      "next_retry_at": 1789625535.6510546,
       "ocr_image_index": 1,
       "ocr_image_number": 2,
       "previous_entry": {
@@ -7809,7 +7809,7 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 6795, Requested 3122. Please try again in 25.002857142s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
+      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 5836, Requested 3122. Please try again in 16.782857142s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
     }
   },
   "100-2": {
@@ -8047,7 +8047,7 @@
         "sha256": "a2b2141ca837d3c80febc2a1f311b8b15eebf0a2b2b62f730864fdf2eeff8e44",
         "byte_size": 179370,
         "content_length": "179370",
-        "_full_checked_ts": 1789624575.1377175,
+        "_full_checked_ts": 1789625515.1647062,
         "etag": "W/\"6a797bbd-2bcaa\"",
         "last_modified": "Mon, 10 Aug 2026 07:20:29 GMT",
         "position": 2,
@@ -12905,7 +12905,7 @@
             "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
             "byte_size": 5314,
             "content_length": "5314",
-            "_full_checked_ts": 1789624583.999833,
+            "_full_checked_ts": 1789625513.017668,
             "etag": "W/\"69e47cad-14c2\"",
             "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
             "position": 2,
@@ -16829,7 +16829,7 @@
         "sha256": "db08ee578e363a274d1e33cd6e7c01e811fba5b0af95687650b1d4235ff7f6dc",
         "byte_size": 183551,
         "content_length": "183551",
-        "_full_checked_ts": 1789624571.8424146,
+        "_full_checked_ts": 1789625512.2178874,
         "etag": "W/\"6a65c12f-2ccff\"",
         "last_modified": "Sun, 26 Jul 2026 08:11:27 GMT",
         "position": 2,
