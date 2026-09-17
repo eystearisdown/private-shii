@@ -13138,9 +13138,9 @@
       "key": "213-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789607286.6789465,
-      "updated_at": 1789609188.9683073,
+      "updated_at": 1789609283.9568458,
       "changed_at": "17/09/2026 08:08:06",
-      "status": "OCR_QUEUED",
+      "status": "PROCESSING",
       "retry_count": 0,
       "next_retry_at": 0,
       "ocr_image_index": 1,
@@ -13222,7 +13222,9 @@
             "_full_checked_ts": 1789607282.1584833,
             "etag": "W/\"6aab3d29-e582\"",
             "last_modified": "Thu, 17 Sep 2026 01:06:49 GMT",
-            "position": 1
+            "position": 1,
+            "business_image": false,
+            "image_role": "aux"
           },
           {
             "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/step1.jpg",
@@ -13232,7 +13234,9 @@
             "_full_checked_ts": 1789607282.1649566,
             "etag": "W/\"69e47cad-14c2\"",
             "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
-            "position": 2
+            "position": 2,
+            "business_image": true,
+            "image_role": "business"
           },
           {
             "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/step2.jpg",
@@ -13242,7 +13246,9 @@
             "_full_checked_ts": 1789607283.5257454,
             "etag": "W/\"69e47cba-1477\"",
             "last_modified": "Sun, 19 Apr 2026 06:56:58 GMT",
-            "position": 3
+            "position": 3,
+            "business_image": false,
+            "image_role": "aux"
           }
         ],
         "image_count": 3,
@@ -13262,7 +13268,7 @@
         "status": "active",
         "source": "redirectMap.json",
         "source_present": true,
-        "schema_version": 10,
+        "schema_version": 11,
         "source_added_at": "14/08/2026 22:22:27",
         "change_reason": "primary_changed",
         "changed_at": "17/09/2026 08:08:06",
@@ -13274,7 +13280,8 @@
         "has_confirmed_once": false,
         "baseline_at": "16/09/2026 01:01:42",
         "last_completed_event_id": "eac79a8d7fd1",
-        "last_ocr_domain": "kinoger-to.me"
+        "last_ocr_domain": "kinoger-to.me",
+        "primary_match_reason": "sha_same_slot"
       },
       "snapshot_signature": "eba001fd7bf6822b59220eaefe31836e63d7ef2c90513ff43313bfe0c7b14086",
       "old_sha256": "616a5369f3da29c416cf4f5294494dc137b6a2a8d0336f9895c9ea25f9eda23a",
