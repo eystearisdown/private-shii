@@ -12182,9 +12182,9 @@
       "key": "195-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789580923.3093228,
-      "updated_at": 1789609181.9440742,
+      "updated_at": 1789609269.7622209,
       "changed_at": "17/09/2026 00:48:43",
-      "status": "OCR_QUEUED",
+      "status": "PROCESSING",
       "retry_count": 0,
       "next_retry_at": 0,
       "ocr_image_index": 1,
@@ -12263,7 +12263,9 @@
             "_full_checked_ts": 1789580915.8643703,
             "etag": "W/\"6aaad5ba-2efec\"",
             "last_modified": "Wed, 16 Sep 2026 17:45:30 GMT",
-            "position": 1
+            "position": 1,
+            "business_image": false,
+            "image_role": "aux"
           },
           {
             "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/step1.jpg",
@@ -12273,7 +12275,9 @@
             "_full_checked_ts": 1789606448.5800881,
             "etag": "W/\"69e47cad-14c2\"",
             "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
-            "position": 2
+            "position": 2,
+            "business_image": true,
+            "image_role": "business"
           },
           {
             "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/step2.jpg",
@@ -12283,7 +12287,9 @@
             "_full_checked_ts": 1789580916.6213071,
             "etag": "W/\"69e47cba-1477\"",
             "last_modified": "Sun, 19 Apr 2026 06:56:58 GMT",
-            "position": 3
+            "position": 3,
+            "business_image": false,
+            "image_role": "aux"
           }
         ],
         "changed_at": "17/09/2026 00:48:43",
@@ -12308,14 +12314,15 @@
         "has_confirmed_once": true,
         "status": "active",
         "migrated_at": "01/08/2026 17:12:07",
-        "schema_version": 10,
+        "schema_version": 11,
         "source_step": "4",
         "source": "redirectMap.json",
         "source_present": true,
         "source_added_at": "14/08/2026 22:22:27",
         "change_reason": "primary_changed",
         "baseline_ready": true,
-        "confirmed_rounds": 2
+        "confirmed_rounds": 2,
+        "primary_match_reason": "sha_same_slot"
       },
       "snapshot_signature": "dfefa9f67bc4d637324e82174edf687082bb4b795d51a985ac66c30fcaaf65b0",
       "old_sha256": "0a691a0966e7da23f34d79fed25fbc75c4e5418b826f29b416412462f236dcb1",
