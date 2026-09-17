@@ -8244,7 +8244,7 @@
         "sha256": "dc90117effc9e0bee5822b6f1ab2ba10b36172e704ad5ac02eb41c4e793ebb67",
         "byte_size": 215963,
         "content_length": "215963",
-        "_full_checked_ts": 1789606929.0459776,
+        "_full_checked_ts": 1789609480.069047,
         "etag": "W/\"6a2bbfac-34b9b\"",
         "last_modified": "Fri, 12 Jun 2026 08:13:32 GMT",
         "position": 2,
@@ -11373,11 +11373,11 @@
       "key": "17937-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789570765.7373745,
-      "updated_at": 1789609479.750093,
+      "updated_at": 1789609484.3433192,
       "changed_at": "16/09/2026 21:59:25",
-      "status": "PROCESSING",
-      "retry_count": 3,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 4,
+      "next_retry_at": 1789609501.8431087,
       "ocr_image_index": 1,
       "previous_entry": {
         "scan_url": "https://linkhuongdan.online/17937-2/?qq=complete",
@@ -11522,7 +11522,7 @@
       "image_count": 3,
       "ocr_error": "",
       "manual_notified_at": "",
-      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 6546, Requested 3122. Please try again in 22.868571428s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "last_retry_error": "Groq API key đang COOLDOWN; cooldown còn khoảng 17s. Lỗi trước: Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 684...",
       "semantic_selector_retry_build": "2026.09.17-groq-dynamic-image-role-r5.4"
     },
     "primary_match_reason": "sha_same_slot"
