@@ -11804,9 +11804,9 @@
       "key": "17937-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789570765.7373745,
-      "updated_at": 1789570792.3506227,
+      "updated_at": 1789609175.261674,
       "changed_at": "16/09/2026 21:59:25",
-      "status": "MANUAL_REQUIRED",
+      "status": "OCR_QUEUED",
       "retry_count": 0,
       "next_retry_at": 0,
       "ocr_image_index": 1,
@@ -11944,8 +11944,10 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "ocr_error": "AI_DOMAIN_UNREADABLE",
-      "manual_notified_at": "16/09/2026 21:59:52"
+      "ocr_error": "",
+      "manual_notified_at": "",
+      "last_retry_error": "",
+      "semantic_selector_retry_build": "2026.09.17-groq-dynamic-image-role-r5.4"
     },
     "primary_match_reason": "sha_same_slot"
   },
