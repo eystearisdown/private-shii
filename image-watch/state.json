@@ -11068,7 +11068,9 @@
             "_full_checked_ts": 1789456251.3985136,
             "etag": "W/\"6aa8eea3-3704\"",
             "last_modified": "Tue, 15 Sep 2026 07:07:15 GMT",
-            "position": 1
+            "position": 1,
+            "business_image": false,
+            "image_role": "aux"
           },
           {
             "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/step1.jpg",
@@ -11078,7 +11080,9 @@
             "_full_checked_ts": 1789607100.2675834,
             "etag": "W/\"69e47cad-14c2\"",
             "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
-            "position": 2
+            "position": 2,
+            "business_image": true,
+            "image_role": "business"
           },
           {
             "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/step2.jpg",
@@ -11088,7 +11092,9 @@
             "_full_checked_ts": 1789456251.7774303,
             "etag": "W/\"69e47cba-1477\"",
             "last_modified": "Sun, 19 Apr 2026 06:56:58 GMT",
-            "position": 3
+            "position": 3,
+            "business_image": false,
+            "image_role": "aux"
           }
         ],
         "image_count": 3,
@@ -11108,7 +11114,7 @@
         "status": "active",
         "source": "redirectMap.json",
         "source_present": true,
-        "schema_version": 10,
+        "schema_version": 11,
         "source_added_at": "14/08/2026 22:22:26",
         "change_reason": "primary_changed",
         "changed_at": "15/09/2026 14:10:54",
@@ -11117,7 +11123,8 @@
         "last_seen_has_at": "",
         "missing_since": "",
         "missing_valid_seconds": 0.0,
-        "has_confirmed_once": false
+        "has_confirmed_once": false,
+        "primary_match_reason": "sha_same_slot"
       },
       "snapshot_signature": "f07844fbbd33f1addb472871248826c6334ea3f6c8b939311deff872ca5a9404",
       "old_sha256": "1b25abaaf8d6f83520ad8ce69e5e99ee6c05358e6bb0288e69a0f56ab2a07e81",
@@ -11352,9 +11359,9 @@
       "key": "17937-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789570765.7373745,
-      "updated_at": 1789609175.261674,
+      "updated_at": 1789609250.2598426,
       "changed_at": "16/09/2026 21:59:25",
-      "status": "OCR_QUEUED",
+      "status": "PROCESSING",
       "retry_count": 0,
       "next_retry_at": 0,
       "ocr_image_index": 1,
