@@ -12182,11 +12182,11 @@
       "key": "195-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789580923.3093228,
-      "updated_at": 1789609269.7622209,
+      "updated_at": 1789609279.0733242,
       "changed_at": "17/09/2026 00:48:43",
-      "status": "PROCESSING",
-      "retry_count": 0,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 1,
+      "next_retry_at": 1789609302.073082,
       "ocr_image_index": 1,
       "previous_entry": {
         "scan_url": "https://linkhuongdan.online/195-2/?qq=complete",
@@ -12332,7 +12332,7 @@
       "image_count": 3,
       "ocr_error": "",
       "manual_notified_at": "",
-      "last_retry_error": "",
+      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 6552, Requested 3122. Please try again in 22.92s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
       "semantic_selector_retry_build": "2026.09.17-groq-dynamic-image-role-r5.4"
     },
     "primary_match_reason": "sha_same_slot"
