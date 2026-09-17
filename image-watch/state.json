@@ -2352,7 +2352,9 @@
             "_full_checked_ts": 1789606867.1488988,
             "etag": "W/\"6aab3bb2-ce5d\"",
             "last_modified": "Thu, 17 Sep 2026 01:00:34 GMT",
-            "position": 1
+            "position": 1,
+            "business_image": false,
+            "image_role": "aux"
           },
           {
             "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/step1.jpg",
@@ -2362,7 +2364,9 @@
             "_full_checked_ts": 1789606867.1501014,
             "etag": "W/\"69e47cad-14c2\"",
             "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
-            "position": 2
+            "position": 2,
+            "business_image": true,
+            "image_role": "business"
           },
           {
             "url": "https://linkhuongdan.online/wp-content/uploads/2026/04/step2.jpg",
@@ -2372,7 +2376,9 @@
             "_full_checked_ts": 1789606868.349054,
             "etag": "W/\"69e47cba-1477\"",
             "last_modified": "Sun, 19 Apr 2026 06:56:58 GMT",
-            "position": 3
+            "position": 3,
+            "business_image": false,
+            "image_role": "aux"
           }
         ],
         "changed_at": "17/09/2026 08:01:11",
@@ -2397,12 +2403,13 @@
         "has_confirmed_once": false,
         "status": "active",
         "migrated_at": "01/08/2026 17:12:07",
-        "schema_version": 10,
+        "schema_version": 11,
         "source": "redirectMap.json",
         "source_present": true,
         "baseline_ready": true,
         "confirmed_rounds": 2,
-        "change_reason": "primary_changed"
+        "change_reason": "primary_changed",
+        "primary_match_reason": "sha_same_slot"
       },
       "snapshot_signature": "e583729cda830ddbb70ce471828f53fa13cec204d439d48696120c6eaf540db3",
       "old_sha256": "724bd4dee2eef282fdbc4f58d7e2599230accbc9fd909490bebc3235654ee605",
@@ -13747,11 +13754,11 @@
       "key": "223-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789607283.645609,
-      "updated_at": 1789609298.9408925,
+      "updated_at": 1789609307.3664799,
       "changed_at": "17/09/2026 08:08:03",
-      "status": "PROCESSING",
-      "retry_count": 0,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 1,
+      "next_retry_at": 1789609331.3662362,
       "ocr_image_index": 1,
       "previous_entry": {
         "scan_url": "https://linkhuongdan.online/223-2/?qq=complete",
@@ -13904,7 +13911,7 @@
       "image_count": 3,
       "ocr_error": "",
       "manual_notified_at": "",
-      "last_retry_error": "",
+      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 6677, Requested 3122. Please try again in 23.991428571s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
       "semantic_selector_retry_build": "2026.09.17-groq-dynamic-image-role-r5.4"
     },
     "primary_match_reason": "sha_same_slot"
