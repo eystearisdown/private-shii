@@ -7319,7 +7319,7 @@
         "sha256": "690bd388a4beec11a0a4b03b98a8f0fa967b079c4fd7ebeb962395b80ed4bc3b",
         "byte_size": 201839,
         "content_length": "201839",
-        "_full_checked_ts": 1789623384.6979759,
+        "_full_checked_ts": 1789624370.9611115,
         "etag": "W/\"6aa44977-3146f\"",
         "last_modified": "Fri, 11 Sep 2026 18:33:27 GMT",
         "position": 2,
@@ -12645,11 +12645,11 @@
       "key": "204-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789624225.7090044,
-      "updated_at": 1789624364.998344,
+      "updated_at": 1789624374.8683796,
       "changed_at": "17/09/2026 12:50:25",
-      "status": "PROCESSING",
-      "retry_count": 4,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 5,
+      "next_retry_at": 1789624397.8681605,
       "ocr_image_index": 1,
       "ocr_image_number": 2,
       "previous_entry": {
@@ -12802,7 +12802,7 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 6259, Requested 3122. Please try again in 20.408571428s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
+      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 6507, Requested 3122. Please try again in 22.534285714s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
     }
   },
   "205-2": {
@@ -16453,7 +16453,7 @@
         "sha256": "213dd11db47ab0890e803605797ecb49c3c4d9bb4c85959e3d85d6f7fc667a3e",
         "byte_size": 211669,
         "content_length": "211669",
-        "_full_checked_ts": 1789623366.1423554,
+        "_full_checked_ts": 1789624370.8497157,
         "etag": "W/\"6a191a90-33ad5\"",
         "last_modified": "Fri, 29 May 2026 04:48:16 GMT",
         "position": 2,
