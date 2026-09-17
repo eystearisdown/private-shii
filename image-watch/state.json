@@ -6220,9 +6220,9 @@
       "key": "216-3",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789571002.1028693,
-      "updated_at": 1789571023.1581051,
+      "updated_at": 1789609162.657958,
       "changed_at": "16/09/2026 22:03:22",
-      "status": "MANUAL_REQUIRED",
+      "status": "OCR_QUEUED",
       "retry_count": 0,
       "next_retry_at": 0,
       "ocr_image_index": 1,
@@ -6360,8 +6360,10 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "ocr_error": "AI_DOMAIN_UNREADABLE",
-      "manual_notified_at": "16/09/2026 22:03:43"
+      "ocr_error": "",
+      "manual_notified_at": "",
+      "last_retry_error": "",
+      "semantic_selector_retry_build": "2026.09.17-groq-dynamic-image-role-r5.4"
     },
     "primary_match_reason": "sha_same_slot"
   },
@@ -8237,7 +8239,7 @@
         "sha256": "482a2e4ed8e61024c14922693fe6efc63bd4434312dfc93a6674d77ddf5d05fb",
         "byte_size": 12288,
         "content_length": "12288",
-        "_full_checked_ts": 1789607071.1745758,
+        "_full_checked_ts": 1789609159.9480526,
         "etag": "W/\"69ce2f9d-3000\"",
         "last_modified": "Thu, 02 Apr 2026 08:58:05 GMT",
         "position": 1,
