@@ -8119,11 +8119,11 @@
       "key": "141-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789808856.6864183,
-      "updated_at": 1789809825.9006073,
+      "updated_at": 1789809838.1640122,
       "changed_at": "19/09/2026 16:07:36",
-      "status": "PROCESSING",
-      "retry_count": 3,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 4,
+      "next_retry_at": 1789809863.1637788,
       "ocr_image_index": 1,
       "ocr_image_number": 2,
       "previous_entry": {
@@ -8274,7 +8274,7 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 6389, Requested 3122. Please try again in 21.522857142s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
+      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 6723, Requested 3122. Please try again in 24.385714285s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
     }
   },
   "217-4": {
@@ -10201,7 +10201,7 @@
         "sha256": "f9006788e1430dedc0028a2680c98a25b032067498a167c7e041fff9a1410ece",
         "byte_size": 170331,
         "content_length": "170331",
-        "_full_checked_ts": 1789808745.79305,
+        "_full_checked_ts": 1789809823.065111,
         "etag": "W/\"6aacb464-2995b\"",
         "last_modified": "Fri, 18 Sep 2026 03:47:48 GMT",
         "position": 1,
