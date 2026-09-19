@@ -4863,7 +4863,7 @@
         "sha256": "d5787bc7ba5589cfc75b8ffa024f66b80a44f78f23b372f5c72e4a30daee7919",
         "byte_size": 215927,
         "content_length": "215927",
-        "_full_checked_ts": 1789629439.0866559,
+        "_full_checked_ts": 1789809271.1717432,
         "etag": "W/\"6aa748a4-34b77\"",
         "last_modified": "Mon, 14 Sep 2026 01:06:44 GMT",
         "position": 2,
@@ -15178,11 +15178,11 @@
       "key": "198-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789809021.6819139,
-      "updated_at": 1789809264.4878445,
+      "updated_at": 1789809282.5648608,
       "changed_at": "19/09/2026 16:10:21",
-      "status": "PROCESSING",
-      "retry_count": 0,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 1,
+      "next_retry_at": 1789809303.564627,
       "ocr_image_index": 1,
       "ocr_image_number": 2,
       "previous_entry": {
@@ -15336,7 +15336,8 @@
       "new_sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
-      "image_count": 3
+      "image_count": 3,
+      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 6306, Requested 3122. Please try again in 20.811428571s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
     }
   },
   "201-2": {
@@ -19164,7 +19165,7 @@
         "sha256": "7d6c3ff476be9ec2c5731ea35d3e03d901122a9186479e6489936523ac5ab504",
         "byte_size": 203619,
         "content_length": "203619",
-        "_full_checked_ts": 1789628590.5403316,
+        "_full_checked_ts": 1789809269.9217687,
         "etag": "W/\"6a796427-31b63\"",
         "last_modified": "Mon, 10 Aug 2026 05:39:51 GMT",
         "position": 2,
@@ -19237,7 +19238,7 @@
         "sha256": "379ca9646ef10c2f35e8e413a518f3c3d6d5f714cdd0e1c91aee117bc09f63a6",
         "byte_size": 182888,
         "content_length": "182888",
-        "_full_checked_ts": 1789629208.9454305,
+        "_full_checked_ts": 1789809273.377836,
         "etag": "W/\"6a3265bd-2ca68\"",
         "last_modified": "Wed, 17 Jun 2026 09:15:41 GMT",
         "position": 2,
