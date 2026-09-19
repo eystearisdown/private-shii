@@ -7762,11 +7762,11 @@
       "key": "190-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789821872.265991,
-      "updated_at": 1789822016.9082658,
+      "updated_at": 1789822024.5704386,
       "changed_at": "19/09/2026 19:44:32",
-      "status": "PROCESSING",
-      "retry_count": 4,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 5,
+      "next_retry_at": 1789822089.570049,
       "ocr_image_index": 1,
       "ocr_image_number": 2,
       "previous_entry": {
@@ -7923,7 +7923,7 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 6633, Requested 3122. Please try again in 23.614285714s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
+      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199996, Requested 3922. Please try again in 28m12.576s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
     }
   },
   "147-2": {
@@ -10766,7 +10766,7 @@
         "sha256": "4948e23d4b47fb7c047a8d884a5aac2d0c236732bbc53a5159e5ce683493d51f",
         "byte_size": 191907,
         "content_length": "191907",
-        "_full_checked_ts": 1789820794.7459908,
+        "_full_checked_ts": 1789822020.3507848,
         "etag": "W/\"6a71ae2c-2eda3\"",
         "last_modified": "Tue, 04 Aug 2026 09:17:32 GMT",
         "position": 2,
@@ -20358,7 +20358,7 @@
         "sha256": "6a4a68d662ec8b67152f613cc546b8d29e57a1f528b21e17ac1f70175c1193cc",
         "byte_size": 226511,
         "content_length": "226511",
-        "_full_checked_ts": 1789820765.8663366,
+        "_full_checked_ts": 1789822021.6749957,
         "etag": "W/\"6a5a4fc9-374cf\"",
         "last_modified": "Fri, 17 Jul 2026 15:52:41 GMT",
         "position": 2,
