@@ -8731,7 +8731,7 @@
         "sha256": "7c2bef1806e3bb58e4029bc955fa757b3da1143852c6e2b0a3e23a3f87cede89",
         "byte_size": 191846,
         "content_length": "191846",
-        "_full_checked_ts": 1789628668.5402071,
+        "_full_checked_ts": 1789809169.8831112,
         "etag": "W/\"6aa898fc-2ed66\"",
         "last_modified": "Tue, 15 Sep 2026 01:01:48 GMT",
         "position": 2,
@@ -9280,11 +9280,11 @@
       "key": "188-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789808979.166845,
-      "updated_at": 1789809169.061425,
+      "updated_at": 1789809174.668829,
       "changed_at": "19/09/2026 16:09:39",
-      "status": "PROCESSING",
-      "retry_count": 0,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 1,
+      "next_retry_at": 1789809176.6664205,
       "ocr_image_index": 1,
       "ocr_image_number": 2,
       "previous_entry": {
@@ -9434,7 +9434,8 @@
       "new_sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
-      "image_count": 3
+      "image_count": 3,
+      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 3940, Requested 3122. Please try again in 531.428571ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
     }
   },
   "118-2": {
