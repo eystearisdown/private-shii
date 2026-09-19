@@ -1019,11 +1019,11 @@
       "key": "103-click-3-trang",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789808743.3464491,
-      "updated_at": 1789809079.7657137,
+      "updated_at": 1789809091.086164,
       "changed_at": "19/09/2026 16:05:43",
-      "status": "PROCESSING",
-      "retry_count": 3,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 4,
+      "next_retry_at": 1789809107.0859473,
       "ocr_image_index": 1,
       "ocr_image_number": 2,
       "previous_entry": {
@@ -1172,7 +1172,7 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "Groq API key đang COOLDOWN; cooldown còn khoảng 12s. Lỗi trước: Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 677..."
+      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 5638, Requested 3122. Please try again in 15.085714285s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
     }
   },
   "217-2": {
@@ -16652,7 +16652,7 @@
             "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
             "byte_size": 5314,
             "content_length": "5314",
-            "_full_checked_ts": 1789628993.0788765,
+            "_full_checked_ts": 1789809086.3967178,
             "etag": "W/\"69e47cad-14c2\"",
             "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
             "position": 2,
@@ -16743,7 +16743,7 @@
         "sha256": "2123f92196e5d821c595c941d119126c714f725d244a054175fe0f380aec00bc",
         "byte_size": 198777,
         "content_length": "198777",
-        "_full_checked_ts": 1789628807.2567527,
+        "_full_checked_ts": 1789809088.6900628,
         "etag": "W/\"6aaa6519-30879\"",
         "last_modified": "Wed, 16 Sep 2026 09:44:57 GMT",
         "position": 2,
