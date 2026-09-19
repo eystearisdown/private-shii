@@ -11766,9 +11766,9 @@
       "key": "130-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789836165.8699172,
-      "updated_at": 1789836340.8938487,
+      "updated_at": 1789836350.8619118,
       "changed_at": "19/09/2026 23:42:45",
-      "status": "PROCESSING",
+      "status": "MANUAL_REQUIRED",
       "retry_count": 5,
       "next_retry_at": 0,
       "ocr_image_index": 1,
@@ -11921,7 +11921,9 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 197709, Requested 3674. Please try again in 9m57.456s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
+      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 197709, Requested 3674. Please try again in 9m57.456s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "ocr_error": "Groq API key đang COOLDOWN; cooldown còn khoảng 521s. Lỗi trước: Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 197709, Req...",
+      "manual_notified_at": "19/09/2026 23:45:50"
     }
   },
   "131-2": {
