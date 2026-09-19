@@ -11588,11 +11588,11 @@
       "key": "138-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789808839.3663363,
-      "updated_at": 1789808976.694707,
+      "updated_at": 1789808982.777131,
       "changed_at": "19/09/2026 16:07:19",
-      "status": "PROCESSING",
-      "retry_count": 1,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 2,
+      "next_retry_at": 1789808994.2700632,
       "ocr_image_index": 1,
       "ocr_image_number": 2,
       "previous_entry": {
@@ -11743,7 +11743,7 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "Groq API key đang COOLDOWN; cooldown còn khoảng 16s. Lỗi trước: Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 670..."
+      "last_retry_error": "Groq API key đang COOLDOWN; cooldown còn khoảng 11s. Lỗi trước: Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 652..."
     }
   },
   "140-2": {
