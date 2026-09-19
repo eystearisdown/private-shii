@@ -3668,7 +3668,7 @@
         "sha256": "4086937cc8aba20b854fef72320caa0f52c02f3a5a81b2fdb528923c3c5311ae",
         "byte_size": 211188,
         "content_length": "211188",
-        "_full_checked_ts": 1789808955.4785168,
+        "_full_checked_ts": 1789809989.1871607,
         "etag": "W/\"6aa50faf-338f4\"",
         "last_modified": "Sat, 12 Sep 2026 08:39:11 GMT",
         "position": 2,
@@ -6288,7 +6288,7 @@
         "sha256": "436607bc62dd80c268407ea9d3c743b71187c080ef52420904bfef5bfb09ae3a",
         "byte_size": 211992,
         "content_length": "211992",
-        "_full_checked_ts": 1789808969.6614406,
+        "_full_checked_ts": 1789809983.8011982,
         "etag": "W/\"6aab7d24-33c18\"",
         "last_modified": "Thu, 17 Sep 2026 05:39:48 GMT",
         "position": 2,
@@ -13904,7 +13904,7 @@
             "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
             "byte_size": 5314,
             "content_length": "5314",
-            "_full_checked_ts": 1789808959.4836555,
+            "_full_checked_ts": 1789809984.6688673,
             "etag": "W/\"69e47cad-14c2\"",
             "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
             "position": 2,
@@ -20755,11 +20755,11 @@
       "key": "167-click-3-trang",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789808912.0050752,
-      "updated_at": 1789809973.462449,
+      "updated_at": 1789809991.3813925,
       "changed_at": "19/09/2026 16:08:32",
-      "status": "PROCESSING",
-      "retry_count": 3,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 4,
+      "next_retry_at": 1789810006.3811276,
       "ocr_image_index": 1,
       "ocr_image_number": 2,
       "previous_entry": {
@@ -20910,7 +20910,7 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "Groq API key đang COOLDOWN; cooldown còn khoảng 0s. Lỗi trước: Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 663..."
+      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 5601, Requested 3122. Please try again in 14.768571428s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
     }
   }
 }
