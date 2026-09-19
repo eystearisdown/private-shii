@@ -410,7 +410,7 @@
         "sha256": "6a4a68d662ec8b67152f613cc546b8d29e57a1f528b21e17ac1f70175c1193cc",
         "byte_size": 226511,
         "content_length": "226511",
-        "_full_checked_ts": 1789826864.5711186,
+        "_full_checked_ts": 1789828112.1712337,
         "etag": "W/\"6a5a4fc9-374cf\"",
         "last_modified": "Fri, 17 Jul 2026 15:52:41 GMT",
         "position": 2,
@@ -4238,7 +4238,7 @@
         "sha256": "3c124a07aa2333fe424b9c721e035c1b64216e09a508020e49957456ec51f230",
         "byte_size": 222415,
         "content_length": "222415",
-        "_full_checked_ts": 1789826909.5699658,
+        "_full_checked_ts": 1789828118.2149358,
         "etag": "W/\"6a5f314c-364cf\"",
         "last_modified": "Tue, 21 Jul 2026 08:43:56 GMT",
         "position": 2,
@@ -12661,11 +12661,11 @@
       "key": "142-click-3-trang",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789828105.7708583,
-      "updated_at": 1789828113.0640802,
+      "updated_at": 1789828123.6633813,
       "changed_at": "19/09/2026 21:28:25",
-      "status": "PROCESSING",
-      "retry_count": 0,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 1,
+      "next_retry_at": 1789828193.663162,
       "ocr_image_index": 1,
       "ocr_image_number": 2,
       "previous_entry": {
@@ -12815,7 +12815,8 @@
       "new_sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
-      "image_count": 3
+      "image_count": 3,
+      "last_retry_error": "Groq API key đang COOLDOWN; cooldown còn khoảng 994s. Lỗi trước: Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198761, Req..."
     }
   },
   "143-2": {
@@ -13697,7 +13698,7 @@
         "sha256": "2a30d03c94ea0d97361eba806f0e114a6b4697d410f770b563d5db32b778c19d",
         "byte_size": 188257,
         "content_length": "188257",
-        "_full_checked_ts": 1789826922.0197375,
+        "_full_checked_ts": 1789828117.817343,
         "etag": "W/\"6a7085b9-2df61\"",
         "last_modified": "Mon, 03 Aug 2026 12:12:41 GMT",
         "position": 2,
