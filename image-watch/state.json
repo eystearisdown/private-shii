@@ -7509,11 +7509,11 @@
       "key": "12238-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789808801.8930166,
-      "updated_at": 1789809546.7606444,
+      "updated_at": 1789809555.6693394,
       "changed_at": "19/09/2026 16:06:41",
-      "status": "PROCESSING",
-      "retry_count": 3,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 4,
+      "next_retry_at": 1789809580.6691186,
       "ocr_image_index": 1,
       "ocr_image_number": 2,
       "previous_entry": {
@@ -7664,7 +7664,7 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 5401, Requested 3122. Please try again in 13.054285714s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
+      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 6690, Requested 3122. Please try again in 24.102857142s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
     }
   },
   "190-2": {
@@ -21009,7 +21009,7 @@
             "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
             "byte_size": 5314,
             "content_length": "5314",
-            "_full_checked_ts": 1789156974.7874005,
+            "_full_checked_ts": 1789809551.8816962,
             "etag": "W/\"69e47cad-14c2\"",
             "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
             "position": 2,
@@ -21057,7 +21057,7 @@
         "missing_since": "",
         "missing_valid_seconds": 0.0,
         "has_confirmed_once": false,
-        "primary_match_reason": "slot_fallback"
+        "primary_match_reason": "sha_same_slot"
       },
       "snapshot_signature": "2e741d318345fa78da437c8cf2730b2be9df78a2a82ee7822eda81861ef3ae93",
       "old_sha256": "2bcbb154ddca6a623cb1dd20e6b1c6fed389e6c8a963c5dac90bd7966ad9dc63",
