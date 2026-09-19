@@ -4308,7 +4308,7 @@
         "sha256": "f256c58217b2e74d3d8bfef63a2ee44a872caa32ba560ea58112cfadf9775793",
         "byte_size": 195832,
         "content_length": "195832",
-        "_full_checked_ts": 1789834994.1639216,
+        "_full_checked_ts": 1789836232.2584465,
         "etag": "W/\"6a4f4f71-2fcf8\"",
         "last_modified": "Thu, 09 Jul 2026 07:36:17 GMT",
         "position": 2,
@@ -5647,7 +5647,7 @@
         "sha256": "360bb28fa27677caba203ffdd0418cb7a53f9f4d5ca0f0ec797e47ed5dff9ab9",
         "byte_size": 207839,
         "content_length": "207839",
-        "_full_checked_ts": 1789835028.8187664,
+        "_full_checked_ts": 1789836227.1419897,
         "etag": "W/\"6a5b05dd-32bdf\"",
         "last_modified": "Sat, 18 Jul 2026 04:49:33 GMT",
         "position": 2,
@@ -11766,11 +11766,11 @@
       "key": "130-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789836165.8699172,
-      "updated_at": 1789836228.183328,
+      "updated_at": 1789836235.474589,
       "changed_at": "19/09/2026 23:42:45",
-      "status": "PROCESSING",
-      "retry_count": 3,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 4,
+      "next_retry_at": 1789836260.4741852,
       "ocr_image_index": 1,
       "ocr_image_number": 2,
       "previous_entry": {
@@ -11921,7 +11921,7 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 5805, Requested 3122. Please try again in 16.517142857s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
+      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 6769, Requested 3122. Please try again in 24.779999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
     }
   },
   "131-2": {
@@ -18818,7 +18818,7 @@
         "sha256": "2e3668b9b06c3852dbc3ae60be58d463d71c332f3e2db071dfb7a053ca0650cb",
         "byte_size": 186817,
         "content_length": "186817",
-        "_full_checked_ts": 1789835026.460889,
+        "_full_checked_ts": 1789836229.49471,
         "etag": "W/\"6a072303-2d9c1\"",
         "last_modified": "Fri, 15 May 2026 13:43:31 GMT",
         "position": 2,
