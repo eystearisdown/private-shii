@@ -882,11 +882,11 @@
       "key": "400-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789809261.8828175,
-      "updated_at": 1789809580.6694453,
+      "updated_at": 1789809593.5808876,
       "changed_at": "19/09/2026 16:14:21",
-      "status": "PROCESSING",
-      "retry_count": 0,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 1,
+      "next_retry_at": 1789809617.580649,
       "ocr_image_index": 1,
       "ocr_image_number": 2,
       "previous_entry": {
@@ -1034,7 +1034,8 @@
       "new_sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
-      "image_count": 3
+      "image_count": 3,
+      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 6566, Requested 3122. Please try again in 23.04s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
     }
   },
   "182-2": {
@@ -9235,7 +9236,7 @@
             "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
             "byte_size": 5314,
             "content_length": "5314",
-            "_full_checked_ts": 1789156817.7072551,
+            "_full_checked_ts": 1789809579.4319327,
             "etag": "W/\"69e47cad-14c2\"",
             "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
             "position": 2,
@@ -9281,7 +9282,7 @@
         "source": "redirectMap.json",
         "source_present": true,
         "baseline_ready": true,
-        "primary_match_reason": "slot_fallback"
+        "primary_match_reason": "sha_same_slot"
       },
       "snapshot_signature": "824070805f6c18915e579f20bfc165f91b56dc01ed4587119613453ec912e7e6",
       "old_sha256": "3581ca4ebd8913aad211a1c7ace042530f8ba86caf4ca166ca8d9d322715e126",
@@ -14519,7 +14520,7 @@
             "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
             "byte_size": 5314,
             "content_length": "5314",
-            "_full_checked_ts": 1789156818.3614268,
+            "_full_checked_ts": 1789809589.778596,
             "etag": "W/\"69e47cad-14c2\"",
             "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
             "position": 2,
@@ -14569,7 +14570,7 @@
         "change_reason": "primary_changed",
         "baseline_ready": true,
         "confirmed_rounds": 2,
-        "primary_match_reason": "slot_fallback"
+        "primary_match_reason": "sha_same_slot"
       },
       "snapshot_signature": "2d4067debe9a96ac7e186019718450f9bd58c27fe77006f6fe6260f7ec6ce995",
       "old_sha256": "0a691a0966e7da23f34d79fed25fbc75c4e5418b826f29b416412462f236dcb1",
