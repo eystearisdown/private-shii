@@ -1968,7 +1968,7 @@
         "sha256": "94580bb38581bd281d5a2eb61a0d8ad939504c4ad33f2b915017b0d69ceb88ea",
         "byte_size": 204442,
         "content_length": "204442",
-        "_full_checked_ts": 1789628664.2856083,
+        "_full_checked_ts": 1789809127.674978,
         "etag": "W/\"6aaacf61-31e9a\"",
         "last_modified": "Wed, 16 Sep 2026 17:18:25 GMT",
         "position": 1,
@@ -3346,7 +3346,7 @@
         "sha256": "5abf539d17ad6d684ec03c709db985a84ee8b65e996520b9121cfa278cc8c94c",
         "byte_size": 211458,
         "content_length": "211458",
-        "_full_checked_ts": 1789628955.968849,
+        "_full_checked_ts": 1789809129.084015,
         "etag": "W/\"6aaa66c6-33a02\"",
         "last_modified": "Wed, 16 Sep 2026 09:52:06 GMT",
         "position": 1,
@@ -8105,11 +8105,11 @@
       "key": "141-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789808856.6864183,
-      "updated_at": 1789809128.5813506,
+      "updated_at": 1789809132.389465,
       "changed_at": "19/09/2026 16:07:36",
-      "status": "PROCESSING",
-      "retry_count": 1,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 2,
+      "next_retry_at": 1789809142.7943308,
       "ocr_image_index": 1,
       "ocr_image_number": 2,
       "previous_entry": {
@@ -8260,7 +8260,7 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 6685, Requested 3122. Please try again in 24.06s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
+      "last_retry_error": "Groq API key đang COOLDOWN; cooldown còn khoảng 10s. Lỗi trước: Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 675..."
     }
   },
   "217-4": {
