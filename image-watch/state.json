@@ -5557,7 +5557,7 @@
             "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
             "byte_size": 5314,
             "content_length": "5314",
-            "_full_checked_ts": 1789156995.0068629,
+            "_full_checked_ts": 1789809619.78078,
             "etag": "W/\"69e47cad-14c2\"",
             "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
             "position": 2,
@@ -5602,7 +5602,7 @@
         "source": "redirectMap.json",
         "source_present": true,
         "baseline_ready": true,
-        "primary_match_reason": "slot_fallback",
+        "primary_match_reason": "sha_same_slot",
         "confirmed_rounds": 2,
         "change_reason": "primary_changed"
       },
@@ -15031,11 +15031,11 @@
       "key": "198-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789809021.6819139,
-      "updated_at": 1789809620.1123352,
+      "updated_at": 1789809635.692114,
       "changed_at": "19/09/2026 16:10:21",
-      "status": "PROCESSING",
-      "retry_count": 1,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 2,
+      "next_retry_at": 1789809654.6913772,
       "ocr_image_index": 1,
       "ocr_image_number": 2,
       "previous_entry": {
@@ -15190,7 +15190,7 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 6306, Requested 3122. Please try again in 20.811428571s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
+      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 6080, Requested 3122. Please try again in 18.874285714s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
     }
   },
   "201-2": {
