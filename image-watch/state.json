@@ -6839,11 +6839,11 @@
       "key": "177-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789808940.5613449,
-      "updated_at": 1789810276.064582,
+      "updated_at": 1789810281.664503,
       "changed_at": "19/09/2026 16:09:00",
-      "status": "PROCESSING",
-      "retry_count": 4,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 5,
+      "next_retry_at": 1789810351.6642737,
       "ocr_image_index": 1,
       "ocr_image_number": 2,
       "previous_entry": {
@@ -6992,7 +6992,7 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "Groq API key đang COOLDOWN; cooldown còn khoảng 16s. Lỗi trước: Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 661..."
+      "last_retry_error": "Groq API key đang COOLDOWN; cooldown còn khoảng 312s. Lỗi trước: Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 197082, Req..."
     }
   },
   "216-3": {
@@ -19660,7 +19660,7 @@
         "sha256": "dfdf18a528301b8f1763ca0821c0ba668d1ec8422f67bfaf11e7e2c9c2cbdbf5",
         "byte_size": 161525,
         "content_length": "161525",
-        "_full_checked_ts": 1789809354.5825899,
+        "_full_checked_ts": 1789810279.2254162,
         "etag": "W/\"6a17b7d6-276f5\"",
         "last_modified": "Thu, 28 May 2026 03:34:46 GMT",
         "position": 2,
@@ -19731,7 +19731,7 @@
         "sha256": "213dd11db47ab0890e803605797ecb49c3c4d9bb4c85959e3d85d6f7fc667a3e",
         "byte_size": 211669,
         "content_length": "211669",
-        "_full_checked_ts": 1789809356.176048,
+        "_full_checked_ts": 1789810274.228718,
         "etag": "W/\"6a191a90-33ad5\"",
         "last_modified": "Fri, 29 May 2026 04:48:16 GMT",
         "position": 2,
@@ -19802,7 +19802,7 @@
         "sha256": "0993bb3c74b1bfd3c72a18953716f310614b5d51f3a33c091fd605599421a7f8",
         "byte_size": 219637,
         "content_length": "219637",
-        "_full_checked_ts": 1789809359.4703908,
+        "_full_checked_ts": 1789810277.9850445,
         "etag": "W/\"6a749f43-359f5\"",
         "last_modified": "Thu, 06 Aug 2026 14:50:43 GMT",
         "position": 2,
