@@ -1436,7 +1436,7 @@
         "sha256": "0383cba1999663c4ba4be17bd721cd6bb0f089a19057c378e470f967db97d6b1",
         "byte_size": 206921,
         "content_length": "206921",
-        "_full_checked_ts": 1789809122.6824465,
+        "_full_checked_ts": 1789810103.9520595,
         "etag": "W/\"6aa4e81b-32849\"",
         "last_modified": "Sat, 12 Sep 2026 05:50:19 GMT",
         "position": 2,
@@ -6645,7 +6645,7 @@
         "sha256": "ef62c21d5f89bf4b8cdfedc8fbd115a3eb798c313af56eba2350c72351f05deb",
         "byte_size": 210888,
         "content_length": "210888",
-        "_full_checked_ts": 1789809095.790688,
+        "_full_checked_ts": 1789810102.4742107,
         "etag": "W/\"6aa442b7-337c8\"",
         "last_modified": "Fri, 11 Sep 2026 18:04:39 GMT",
         "position": 2,
@@ -7512,9 +7512,9 @@
       "key": "12238-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789808801.8930166,
-      "updated_at": 1789810100.6593738,
+      "updated_at": 1789810106.4606547,
       "changed_at": "19/09/2026 16:06:41",
-      "status": "PROCESSING",
+      "status": "MANUAL_REQUIRED",
       "retry_count": 5,
       "next_retry_at": 0,
       "ocr_image_index": 1,
@@ -7667,7 +7667,9 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 4503, Requested 3122. Please try again in 5.357142857s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
+      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 4503, Requested 3122. Please try again in 5.357142857s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "ocr_error": "Groq API key đang COOLDOWN; cooldown còn khoảng 4s. Lỗi trước: Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 664...",
+      "manual_notified_at": "19/09/2026 16:28:26"
     }
   },
   "190-2": {
