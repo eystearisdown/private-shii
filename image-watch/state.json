@@ -17929,7 +17929,7 @@
         "missing_since": "",
         "missing_valid_seconds": 0.0,
         "has_confirmed_once": false,
-        "primary_match_reason": "slot_fallback"
+        "primary_match_reason": "sha_same_slot"
       },
       "snapshot_signature": "b50ab865c830f3103928ae5f42d3f0a06e52e01c4a87264f85cb94c6c4772a2e",
       "old_sha256": "b8782c1aece2410b0426bfa998342461ecbe60082042a2516a702051f12aa9eb",
@@ -20911,11 +20911,11 @@
       "key": "167-click-3-trang",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789808912.0050752,
-      "updated_at": 1789809364.4830873,
+      "updated_at": 1789809713.9733095,
       "changed_at": "19/09/2026 16:08:32",
-      "status": "RETRY_WAIT",
+      "status": "PROCESSING",
       "retry_count": 2,
-      "next_retry_at": 1789809377.982862,
+      "next_retry_at": 0,
       "ocr_image_index": 1,
       "ocr_image_number": 2,
       "previous_entry": {
