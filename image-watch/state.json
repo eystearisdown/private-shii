@@ -853,11 +853,11 @@
       "key": "103-click-3-trang",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789808743.3464491,
-      "updated_at": 1789808756.2130945,
+      "updated_at": 1789808767.781561,
       "changed_at": "19/09/2026 16:05:43",
-      "status": "PROCESSING",
-      "retry_count": 0,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 1,
+      "next_retry_at": 1789808788.760985,
       "ocr_image_index": 1,
       "ocr_image_number": 2,
       "previous_entry": {
@@ -1005,7 +1005,8 @@
       "new_sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
-      "image_count": 3
+      "image_count": 3,
+      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 6313, Requested 3122. Please try again in 20.871428571s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
     }
   },
   "217-2": {
