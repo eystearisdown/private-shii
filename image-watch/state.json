@@ -979,7 +979,7 @@
             "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
             "byte_size": 5314,
             "content_length": "5314",
-            "_full_checked_ts": 1789157043.5873997,
+            "_full_checked_ts": 1789809759.441372,
             "etag": "W/\"69e47cad-14c2\"",
             "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
             "position": 2,
@@ -1027,7 +1027,7 @@
         "baseline_ready": true,
         "confirmed_rounds": 2,
         "change_reason": "primary_changed",
-        "primary_match_reason": "slot_fallback"
+        "primary_match_reason": "sha_same_slot"
       },
       "snapshot_signature": "c101f4bba221f531626dd1ef2da3f3917888460712b467137fe7471dff0336c6",
       "old_sha256": "801a60ccfb26681c99b652f2b54ab17be404ef8e2be7f8ef1957028ae7dbfa58",
@@ -1185,9 +1185,9 @@
       "key": "103-click-3-trang",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789808743.3464491,
-      "updated_at": 1789809761.785981,
+      "updated_at": 1789809774.6727836,
       "changed_at": "19/09/2026 16:05:43",
-      "status": "PROCESSING",
+      "status": "MANUAL_REQUIRED",
       "retry_count": 5,
       "next_retry_at": 0,
       "ocr_image_index": 1,
@@ -1338,7 +1338,9 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "Groq API key đang COOLDOWN; cooldown còn khoảng 9s. Lỗi trước: Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 656..."
+      "last_retry_error": "Groq API key đang COOLDOWN; cooldown còn khoảng 9s. Lỗi trước: Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 656...",
+      "ocr_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 6392, Requested 3122. Please try again in 21.548571428s. Need more tokens? Upgrade to Dev Tier today at...",
+      "manual_notified_at": "19/09/2026 16:22:54"
     }
   },
   "217-2": {
