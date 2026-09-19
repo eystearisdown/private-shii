@@ -6932,7 +6932,7 @@
             "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
             "byte_size": 5314,
             "content_length": "5314",
-            "_full_checked_ts": 1789156977.1435258,
+            "_full_checked_ts": 1789809568.3619123,
             "etag": "W/\"69e47cad-14c2\"",
             "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
             "position": 2,
@@ -6979,7 +6979,7 @@
         "baseline_ready": true,
         "confirmed_rounds": 2,
         "change_reason": "primary_changed",
-        "primary_match_reason": "slot_fallback"
+        "primary_match_reason": "sha_same_slot"
       },
       "snapshot_signature": "824070805f6c18915e579f20bfc165f91b56dc01ed4587119613453ec912e7e6",
       "old_sha256": "8b305619f9e30e4c05416b98af90cacc9e5cb4a05e6392ba65c9d8120885c764",
@@ -14420,11 +14420,11 @@
       "key": "189-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789808996.257066,
-      "updated_at": 1789809567.9664626,
+      "updated_at": 1789809571.8816948,
       "changed_at": "19/09/2026 16:09:56",
-      "status": "PROCESSING",
-      "retry_count": 1,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 2,
+      "next_retry_at": 1789809581.3776748,
       "ocr_image_index": 1,
       "ocr_image_number": 2,
       "previous_entry": {
@@ -14577,7 +14577,7 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 6304, Requested 3122. Please try again in 20.794285714s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
+      "last_retry_error": "Groq API key đang COOLDOWN; cooldown còn khoảng 9s. Lỗi trước: Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 669..."
     }
   },
   "191-2": {
