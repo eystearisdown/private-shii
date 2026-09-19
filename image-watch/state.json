@@ -9137,11 +9137,11 @@
       "key": "188-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789808979.166845,
-      "updated_at": 1789810090.9790494,
+      "updated_at": 1789810096.059055,
       "changed_at": "19/09/2026 16:09:39",
-      "status": "PROCESSING",
-      "retry_count": 3,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 4,
+      "next_retry_at": 1789810109.4661968,
       "ocr_image_index": 1,
       "ocr_image_number": 2,
       "previous_entry": {
@@ -9292,7 +9292,7 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "Groq API key đang COOLDOWN; cooldown còn khoảng 3s. Lỗi trước: Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 672..."
+      "last_retry_error": "Groq API key đang COOLDOWN; cooldown còn khoảng 13s. Lỗi trước: Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 664..."
     }
   },
   "118-2": {
@@ -15915,7 +15915,7 @@
         "sha256": "7fa0d786f2773eae81c492da75c564ecc17c1bf18a3793ed0deb5062d265c857",
         "byte_size": 213416,
         "content_length": "213416",
-        "_full_checked_ts": 1789809070.4156513,
+        "_full_checked_ts": 1789810091.0810783,
         "etag": "W/\"6a37895f-341a8\"",
         "last_modified": "Sun, 21 Jun 2026 06:49:03 GMT",
         "position": 2,
@@ -16511,7 +16511,7 @@
             "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
             "byte_size": 5314,
             "content_length": "5314",
-            "_full_checked_ts": 1789809086.3967178,
+            "_full_checked_ts": 1789810094.8990426,
             "etag": "W/\"69e47cad-14c2\"",
             "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
             "position": 2,
@@ -16602,7 +16602,7 @@
         "sha256": "2123f92196e5d821c595c941d119126c714f725d244a054175fe0f380aec00bc",
         "byte_size": 198777,
         "content_length": "198777",
-        "_full_checked_ts": 1789809088.6900628,
+        "_full_checked_ts": 1789810091.4825985,
         "etag": "W/\"6aaa6519-30879\"",
         "last_modified": "Wed, 16 Sep 2026 09:44:57 GMT",
         "position": 2,
