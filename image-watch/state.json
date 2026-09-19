@@ -15341,11 +15341,11 @@
       "key": "202-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789809042.8973954,
-      "updated_at": 1789809649.904571,
+      "updated_at": 1789809665.0650349,
       "changed_at": "19/09/2026 16:10:42",
-      "status": "PROCESSING",
-      "retry_count": 1,
-      "next_retry_at": 0,
+      "status": "RETRY_WAIT",
+      "retry_count": 2,
+      "next_retry_at": 1789809688.0647645,
       "ocr_image_index": 1,
       "ocr_image_number": 2,
       "previous_entry": {
@@ -15498,7 +15498,7 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "Groq API key đang COOLDOWN; cooldown còn khoảng 2s. Lỗi trước: Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 630..."
+      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 6524, Requested 3122. Please try again in 22.68s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
     }
   },
   "204-2": {
@@ -16824,7 +16824,7 @@
             "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
             "byte_size": 5314,
             "content_length": "5314",
-            "_full_checked_ts": 1789156837.3951535,
+            "_full_checked_ts": 1789809660.3968513,
             "etag": "W/\"69e47cad-14c2\"",
             "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
             "position": 2,
@@ -16874,7 +16874,7 @@
         "baseline_at": "16/09/2026 22:43:00",
         "last_completed_event_id": "7c81bc087b8d",
         "last_ocr_domain": "soicau6688.com",
-        "primary_match_reason": "slot_fallback"
+        "primary_match_reason": "sha_same_slot"
       },
       "snapshot_signature": "d1093957675340a585604a75c3b8486354c02ba95ef2c4a2718758fb915a94cf",
       "old_sha256": "d9ed0a79a38fcf751bb3efe23e469f8678c6732f48d5c19320204caf9135b87c",
