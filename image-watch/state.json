@@ -6837,11 +6837,11 @@
       "key": "177-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789808940.5613449,
-      "updated_at": 1789809437.286223,
+      "updated_at": 1789809815.166318,
       "changed_at": "19/09/2026 16:09:00",
-      "status": "RETRY_WAIT",
+      "status": "PROCESSING",
       "retry_count": 2,
-      "next_retry_at": 1789809440.7859182,
+      "next_retry_at": 0,
       "ocr_image_index": 1,
       "ocr_image_number": 2,
       "previous_entry": {
@@ -20661,7 +20661,7 @@
         "baseline_at": "15/09/2026 15:21:51",
         "last_completed_event_id": "1484639ba906",
         "last_ocr_domain": "ro88.cn.com",
-        "primary_match_reason": "slot_fallback"
+        "primary_match_reason": "sha_same_slot"
       },
       "snapshot_signature": "9d8b36c05b48612acee8eb0fb4f6410eeb0916efc15c512b80aa47436d9c0a9d",
       "old_sha256": "9298be6e7dc6a7f66d960a2b723eff25c14be66d062f44f14edbdcd28e2b396c",
