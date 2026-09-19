@@ -15341,11 +15341,11 @@
       "key": "202-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789809042.8973954,
-      "updated_at": 1789809301.5725267,
+      "updated_at": 1789809649.904571,
       "changed_at": "19/09/2026 16:10:42",
-      "status": "RETRY_WAIT",
+      "status": "PROCESSING",
       "retry_count": 1,
-      "next_retry_at": 1789809304.0722778,
+      "next_retry_at": 0,
       "ocr_image_index": 1,
       "ocr_image_number": 2,
       "previous_entry": {
@@ -16206,7 +16206,7 @@
             "sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
             "byte_size": 5314,
             "content_length": "5314",
-            "_full_checked_ts": 1789156999.026264,
+            "_full_checked_ts": 1789809634.8249469,
             "etag": "W/\"69e47cad-14c2\"",
             "last_modified": "Sun, 19 Apr 2026 06:56:45 GMT",
             "position": 2,
@@ -16254,7 +16254,7 @@
         "missing_since": "",
         "missing_valid_seconds": 0.0,
         "has_confirmed_once": false,
-        "primary_match_reason": "slot_fallback"
+        "primary_match_reason": "sha_same_slot"
       },
       "snapshot_signature": "cb6d46b5211f6ed20aba5a0c4358e9fad373effcb980396ca6469860b4d4e7c9",
       "old_sha256": "bc5af0f3cebbcd1d11f7f24b48407d20b33e5fc057640470ec176033f2a5e857",
