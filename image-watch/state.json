@@ -12510,9 +12510,9 @@
       "key": "210-3",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789809081.6085827,
-      "updated_at": 1789869621.2577214,
+      "updated_at": 1789869647.346318,
       "changed_at": "19/09/2026 16:11:21",
-      "status": "PROCESSING",
+      "status": "MANUAL_REQUIRED",
       "retry_count": 0,
       "next_retry_at": 0,
       "ocr_image_index": 1,
@@ -12666,8 +12666,8 @@
       "confirmed_rounds": 2,
       "image_count": 3,
       "last_retry_error": "",
-      "ocr_error": "",
-      "manual_notified_at": "",
+      "ocr_error": "HTTPSConnectionPool(host='linkhuongdan.online', port=443): Read timed out. (read timeout=4.0)",
+      "manual_notified_at": "20/09/2026 09:00:47",
       "semantic_selector_retry_build": "",
       "provider_retry_build": "2026.09.20-xkiro-primary-groq-fallback-r5.5"
     }
