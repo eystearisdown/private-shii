@@ -9332,10 +9332,10 @@
       "key": "222-3",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1789625395.267658,
-      "updated_at": 1789625549.6618104,
+      "updated_at": 1789868775.8378437,
       "changed_at": "17/09/2026 13:09:55",
-      "status": "MANUAL_REQUIRED",
-      "retry_count": 5,
+      "status": "OCR_QUEUED",
+      "retry_count": 0,
       "next_retry_at": 0,
       "ocr_image_index": 1,
       "ocr_image_number": 2,
@@ -9485,9 +9485,11 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "last_retry_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 5836, Requested 3122. Please try again in 16.782857142s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
-      "ocr_error": "Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0w3m5wfexbbqmfvfq4ytpkr` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Used 6776, Requested 3122. Please try again in 24.84s. Need more tokens? Upgrade to Dev Tier today at https:...",
-      "manual_notified_at": "17/09/2026 13:12:29"
+      "last_retry_error": "",
+      "ocr_error": "",
+      "manual_notified_at": "",
+      "semantic_selector_retry_build": "",
+      "provider_retry_build": "2026.09.20-xkiro-primary-groq-fallback-r5.5"
     }
   },
   "100-2": {
