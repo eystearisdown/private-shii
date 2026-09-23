@@ -10217,9 +10217,9 @@
       "key": "143-click-3-trang",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1790129153.0288434,
-      "updated_at": 1790129162.8312814,
+      "updated_at": 1790129173.4431574,
       "changed_at": "23/09/2026 09:05:53",
-      "status": "PROCESSING",
+      "status": "MANUAL_REQUIRED",
       "retry_count": 0,
       "next_retry_at": 0,
       "ocr_image_index": 1,
@@ -10369,7 +10369,9 @@
       "new_sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
-      "image_count": 3
+      "image_count": 3,
+      "ocr_error": "AI_DOMAIN_UNREADABLE_ALL_IMAGES:#2:AI_DOMAIN_UNREADABLE | #1:AI_DOMAIN_UNREADABLE | #3:AI_DOMAIN_UNREADABLE",
+      "manual_notified_at": "23/09/2026 09:06:13"
     }
   },
   "148-2": {
