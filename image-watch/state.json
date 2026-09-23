@@ -3031,7 +3031,7 @@
         "sha256": "550c5b9ae724ff24e9efd1279061cacbefe6870a417e8d801ee5633f388649f9",
         "byte_size": 208745,
         "content_length": "208745",
-        "_full_checked_ts": 1790127923.7748363,
+        "_full_checked_ts": 1790129118.7370183,
         "etag": "W/\"6a4f497b-32f69\"",
         "last_modified": "Thu, 09 Jul 2026 07:10:51 GMT",
         "position": 2,
@@ -9984,9 +9984,9 @@
       "key": "143-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1790129110.4042997,
-      "updated_at": 1790129116.6402433,
+      "updated_at": 1790129152.7328656,
       "changed_at": "23/09/2026 09:05:10",
-      "status": "PROCESSING",
+      "status": "MANUAL_REQUIRED",
       "retry_count": 0,
       "next_retry_at": 0,
       "ocr_image_index": 1,
@@ -10138,7 +10138,9 @@
       "new_sha256": "df2fb0b826d2a756e48fd442e849d089e606d519bdddac34ab5990a6d33cb54e",
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
-      "image_count": 3
+      "image_count": 3,
+      "ocr_error": "AI_DOMAIN_UNREADABLE_ALL_IMAGES:#2:AI_DOMAIN_UNREADABLE | #1:AI_DOMAIN_UNREADABLE | #3:AI_DOMAIN_UNREADABLE",
+      "manual_notified_at": "23/09/2026 09:05:52"
     }
   },
   "143-click-3-trang": {
