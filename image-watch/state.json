@@ -10048,9 +10048,9 @@
       "key": "143-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1790129110.4042997,
-      "updated_at": 1790773606.602221,
+      "updated_at": 1790773613.1012876,
       "changed_at": "23/09/2026 09:05:10",
-      "status": "OCR_QUEUED",
+      "status": "PROCESSING",
       "retry_count": 0,
       "next_retry_at": 0,
       "ocr_image_index": 1,
@@ -10896,9 +10896,9 @@
       "key": "153-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1790345756.5247607,
-      "updated_at": 1790345829.7401235,
+      "updated_at": 1790773618.4021294,
       "changed_at": "25/09/2026 21:15:56",
-      "status": "MANUAL_REQUIRED",
+      "status": "OCR_QUEUED",
       "retry_count": 0,
       "next_retry_at": 0,
       "ocr_image_index": 1,
@@ -11057,8 +11057,11 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "ocr_error": "AI_DOMAIN_UNREADABLE_ALL_IMAGES:#2:AI_DOMAIN_UNREADABLE | #1:AI_DOMAIN_UNREADABLE | #3:AI_DOMAIN_UNREADABLE",
-      "manual_notified_at": "25/09/2026 21:17:09"
+      "ocr_error": "",
+      "manual_notified_at": "",
+      "last_retry_error": "",
+      "semantic_selector_retry_build": "2026.09.20-xkiro-primary-groq-fallback-r5.5",
+      "provider_retry_build": ""
     }
   },
   "155-2": {
