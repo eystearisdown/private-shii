@@ -14871,9 +14871,9 @@
       "key": "228-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1790774292.140994,
-      "updated_at": 1790774292.1409943,
+      "updated_at": 1790775025.7007313,
       "changed_at": "30/09/2026 20:18:12",
-      "status": "OCR_QUEUED",
+      "status": "PROCESSING",
       "retry_count": 0,
       "next_retry_at": 0,
       "ocr_image_index": 0,
@@ -18017,7 +18017,7 @@
         "has_confirmed_once": false,
         "last_completed_event_id": "da8b6340b48e",
         "last_ocr_domain": "gratiscasinotogeed.nl",
-        "primary_match_reason": "slot_fallback"
+        "primary_match_reason": "sha_same_slot"
       },
       "snapshot_signature": "160f3e35523e2a55be6d1c31f58594554eb812b8dab1eb1d4a0929b662376582",
       "old_sha256": "a828df2f6610294c5725b6f99fb19bfee0103dd99b9686ccd69c053afde4eaee",
