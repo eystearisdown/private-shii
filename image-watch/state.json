@@ -2532,7 +2532,7 @@
         "baseline_ready": true,
         "confirmed_rounds": 2,
         "change_reason": "primary_changed",
-        "primary_match_reason": "slot_fallback"
+        "primary_match_reason": "sha_same_slot"
       },
       "snapshot_signature": "ae4e9aa71950bd03e6d29fa64defe2ec801e10314da8db2c6d2e0217f5f252a3",
       "old_sha256": "b0b8eb45c672a353dbdbd9e050b4c39f3fabf43dd35c1fb407b915ba2d0b25ae",
@@ -14170,9 +14170,9 @@
       "key": "204-2",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1790774144.525905,
-      "updated_at": 1790774144.5259051,
+      "updated_at": 1790774873.6052978,
       "changed_at": "30/09/2026 20:15:44",
-      "status": "OCR_QUEUED",
+      "status": "PROCESSING",
       "retry_count": 0,
       "next_retry_at": 0,
       "ocr_image_index": 0,
