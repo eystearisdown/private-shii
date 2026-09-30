@@ -10284,9 +10284,9 @@
       "key": "143-click-3-trang",
       "event_type": "DOMAIN_CHANGED",
       "created_at": 1790129153.0288434,
-      "updated_at": 1790129173.4431574,
+      "updated_at": 1790773613.0101469,
       "changed_at": "23/09/2026 09:05:53",
-      "status": "MANUAL_REQUIRED",
+      "status": "OCR_QUEUED",
       "retry_count": 0,
       "next_retry_at": 0,
       "ocr_image_index": 1,
@@ -10437,8 +10437,11 @@
       "change_reason": "primary_changed",
       "confirmed_rounds": 2,
       "image_count": 3,
-      "ocr_error": "AI_DOMAIN_UNREADABLE_ALL_IMAGES:#2:AI_DOMAIN_UNREADABLE | #1:AI_DOMAIN_UNREADABLE | #3:AI_DOMAIN_UNREADABLE",
-      "manual_notified_at": "23/09/2026 09:06:13"
+      "ocr_error": "",
+      "manual_notified_at": "",
+      "last_retry_error": "",
+      "semantic_selector_retry_build": "2026.09.20-xkiro-primary-groq-fallback-r5.5",
+      "provider_retry_build": ""
     }
   },
   "148-2": {
